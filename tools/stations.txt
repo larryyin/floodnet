@@ -1,0 +1,1682 @@
+{ title: 'Portland ME',  mid: 'S025t', did: 'N067', mdiff: 0, 
+			diff: -4.208, lat: 43.656667, lon: -70.246667, map_visible: 1, map_list: 1 ,
+			blowout_level: -2.15, near_flood_level: 1.752, minor_flood_level: 2.057,
+			moderate_flood_level: 2.453, major_flood_level: 2.592, alert_level: 1, 
+			min_dt_model: '2018-01-20  7:15 PM', max_dt_model: '2018-01-23  3:15 PM',
+			min_model: -1.619, max_model: 1.421, 
+			navd88_offset: 0, ngvd29_offset: -0.219, mlw_offset: -1.496, 
+			mtl_offset: -0.105, dtl_offset: -0.0910000000000002, mhw_offset: 1.285, 
+			mhhw_offset: 1.418, mllw_offset: -1.601, msl_offset: -0.0949999999999998,
+			observed_dt: '2018-01-19  5:48 PM', observed_val: -1.418, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -4.208,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'ENS02'
+
+		} ,
+ 
+{ title: 'Hudson River at Fort Edward NY',  mid: 'HFFTEN6', did: 'U002', mdiff: 0, 
+			diff: 30.30504383, lat: 43.26944, lon: -73.59639, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 37.62024383, minor_flood_level: 38.22984383,
+			moderate_flood_level: 38.53464383, major_flood_level: 39.14424383, alert_level: 1, 
+			min_dt_model: '2018-01-21 11:00 PM', max_dt_model: '2018-01-23  6:00 PM',
+			min_model: 37.1, max_model: 37.21, 
+			navd88_offset: 0, ngvd29_offset: -0.174956170000002, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  4:45 PM', observed_val: 37.14174383, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 30.30504383,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Fort Point NH',  mid: 'S024t', did: 'N066', mdiff: 0, 
+			diff: -2.35, lat: 43.071667, lon: -70.711667, map_visible: 1, map_list: 1 ,
+			blowout_level: -2.07, near_flood_level: 1.649, minor_flood_level: 1.954,
+			moderate_flood_level: 2.258, major_flood_level: 2.563, alert_level: 1, 
+			min_dt_model: '2018-01-20  7:25 PM', max_dt_model: '2018-01-23  3:25 PM',
+			min_model: -1.485, max_model: 1.373, 
+			navd88_offset: 0, ngvd29_offset: -0.234, mlw_offset: -1.418, 
+			mtl_offset: -0.102, dtl_offset: -0.089, mhw_offset: 1.214, 
+			mhhw_offset: 1.344, mllw_offset: -1.521, msl_offset: -0.0910000000000002,
+			observed_dt: '2018-01-19  5:30 PM', observed_val: -1.187, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -2.35,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'ENS02'
+
+		} ,
+ 
+{ title: 'Hoosic River near Eagle Bridge NY',  mid: 'HFEAGN6', did: 'U032', mdiff: 0, 
+			diff: 108.172, lat: 42.93861, lon: -73.3775, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 110.9152, minor_flood_level: 111.5248,
+			moderate_flood_level: 112.1344, major_flood_level: 113.0488, alert_level: 1, 
+			min_dt_model: '2018-01-22  4:00 AM', max_dt_model: '2018-01-23  5:00 PM',
+			min_model: 109.4, max_model: 109.44, 
+			navd88_offset: 0, ngvd29_offset: -0.156999999999996, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  5:30 PM', observed_val: 109.4613, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 108.172,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Mohawk River at Cohoes NY',  mid: 'HFCOHN6', did: 'U001', mdiff: 0, 
+			diff: 14.76085393, lat: 42.78528, lon: -73.70806, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 19.94245393, minor_flood_level: 20.85685393,
+			moderate_flood_level: 21.16165393, major_flood_level: 21.46645393, alert_level: 1, 
+			min_dt_model: '2018-01-22  2:00 AM', max_dt_model: '2018-01-23  6:00 PM',
+			min_model: 18.08, max_model: 18.32, 
+			navd88_offset: 0, ngvd29_offset: -0.21397007, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  5:00 PM', observed_val: 18.09535393, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 14.76085393,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Hudson River at Albany NY',  mid: 'M051t', did: 'U200', mdiff: -0.000299999999999995, 
+			diff: -0.2316, lat: 42.64611, lon: -73.74806, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.0972, near_flood_level: 2.5114, minor_flood_level: 3.1214,
+			moderate_flood_level: 3.7304, major_flood_level: 4.3404, alert_level: 1, 
+			min_dt_model: '2018-01-21  3:25 AM', max_dt_model: '2018-01-19  7:05 PM',
+			min_model: -0.3503, max_model: 1.1757, 
+			navd88_offset: 0, ngvd29_offset: -0.2316, mlw_offset: -0.4815, 
+			mtl_offset: 0.2774, dtl_offset: 0.2774, mhw_offset: 1.0364, 
+			mhhw_offset: 1.1522, mllw_offset: -0.5486, msl_offset: 0.3201,
+			observed_dt: '2018-01-19  5:30 PM', observed_val: 1.0455, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 0.3297,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Schodack Island NY',  mid: 'M121t', did: 'HRSCHDH', mdiff: 0, 
+			diff: 0, lat: 42.4996, lon: -73.7768, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.067639982, near_flood_level: 2.5108, minor_flood_level: 3.1204,
+			moderate_flood_level: 3.73, major_flood_level: 4.3396, alert_level: 1, 
+			min_dt_model: '2018-01-21  2:35 AM', max_dt_model: '2018-01-23  8:55 AM',
+			min_model: -0.321, max_model: 1.033, 
+			navd88_offset: 0, ngvd29_offset: -0.2324, mlw_offset: -0.467, 
+			mtl_offset: 0.252, dtl_offset: 0.286, mhw_offset: 0.972, 
+			mhhw_offset: 1.09, mllw_offset: -0.519, msl_offset: 0.266,
+			observed_dt: '2018-01-19  6:00 PM', observed_val: 1.01435, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -1.797,
+			advisory: 1, agency: ' (HRECOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Boston MA',  mid: 'S023t', did: 'N065', mdiff: 0, 
+			diff: -2.752, lat: 42.353333, lon: -71.053333, map_visible: 1, map_list: 1 ,
+			blowout_level: -2.227, near_flood_level: 1.827, minor_flood_level: 2.132,
+			moderate_flood_level: 2.894, major_flood_level: 3.199, alert_level: 1, 
+			min_dt_model: '2018-01-20  7:35 PM', max_dt_model: '2018-01-23  3:35 PM',
+			min_model: -1.732, max_model: 1.445, 
+			navd88_offset: 0, ngvd29_offset: -0.246, mlw_offset: -1.574, 
+			mtl_offset: -0.128, dtl_offset: -0.112, mhw_offset: 1.319, 
+			mhhw_offset: 1.453, mllw_offset: -1.678, msl_offset: -0.0919999999999996,
+			observed_dt: '2018-01-19  5:48 PM', observed_val: -1.313, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -2.752,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'ENS02'
+
+		} ,
+ 
+{ title: 'Esopus Creek at Mount Marion NY',  mid: 'HFMRNN6', did: 'U008', mdiff: 0, 
+			diff: 11.99662282, lat: 42.03778, lon: -73.9725, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 17.48302282, minor_flood_level: 18.09262282,
+			moderate_flood_level: 18.70222282, major_flood_level: 19.31182282, alert_level: 1, 
+			min_dt_model: '2018-01-19  7:00 PM', max_dt_model: '2018-01-23  6:00 PM',
+			min_model: 16.23, max_model: 16.34, 
+			navd88_offset: 0, ngvd29_offset: -0.241097179999999, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  5:30 PM', observed_val: 16.23032282, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 11.99662282,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Tivoli Bays South NY',  mid: 'M122t', did: 'HRTVBSH', mdiff: 0, 
+			diff: 0, lat: 42.026944, lon: -73.925833, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.086639982, near_flood_level: 1.051, minor_flood_level: 1.356,
+			moderate_flood_level: 1.66, major_flood_level: 1.965, alert_level: 1, 
+			min_dt_model: '2018-01-20 11:55 PM', max_dt_model: '2018-01-23  5:55 PM',
+			min_model: -0.485, max_model: 0.902, 
+			navd88_offset: 0, ngvd29_offset: -0.2324, mlw_offset: -0.489, 
+			mtl_offset: 0.0790000000000001, dtl_offset: 0.104, mhw_offset: 0.647, 
+			mhhw_offset: 0.746, mllw_offset: -0.538, msl_offset: 0.102,
+			observed_dt: '1', observed_val: 0, model_alert: 0,
+			observed_found: 0, flag_model_alert: 1, ext_tide_shift: -0.777,
+			advisory: 1, agency: ' (HRECOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Rondout Creek at Rosendale NY',  mid: 'HFROSN6', did: 'U009', mdiff: 0, 
+			diff: 9.766706087, lat: 41.84306, lon: -74.08639, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 14.643506087, minor_flood_level: 15.253106087,
+			moderate_flood_level: 16.167506087, major_flood_level: 16.777106087, alert_level: 1, 
+			min_dt_model: '2018-01-19  7:00 PM', max_dt_model: '2018-01-19  7:00 PM',
+			min_model: 12.8, max_model: 12.8, 
+			navd88_offset: 0, ngvd29_offset: -0.239877913000001, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  5:30 PM', observed_val: 12.784206087, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 9.766706087,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Norrie Point NY',  mid: 'M123t', did: 'HRNOPTH', mdiff: 0, 
+			diff: 0, lat: 41.831611, lon: -73.94209, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.075639982, near_flood_level: 0.839, minor_flood_level: 1.144,
+			moderate_flood_level: 1.601, major_flood_level: 2.516, alert_level: 1, 
+			min_dt_model: '2018-01-21 10:15 AM', max_dt_model: '2018-01-23  5:15 PM',
+			min_model: -0.675, max_model: 0.773, 
+			navd88_offset: 0, ngvd29_offset: -0.245, mlw_offset: -0.485, 
+			mtl_offset: 0.0489999999999999, dtl_offset: 0.0799999999999996, mhw_offset: 0.583, 
+			mhhw_offset: 0.687, mllw_offset: -0.527, msl_offset: 0.0569999999999999,
+			observed_dt: '2018-01-19  5:45 PM', observed_val: 0.126384, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -2.322,
+			advisory: 1, agency: ' (HRECOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Providence RI',  mid: 'M043t', did: 'N003', mdiff: 0, 
+			diff: -1.818, lat: 41.806667, lon: -71.401665, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.3026, near_flood_level: 1.075, minor_flood_level: 1.38,
+			moderate_flood_level: 1.989, major_flood_level: 2.599, alert_level: 1, 
+			min_dt_model: '2018-01-20  3:25 PM', max_dt_model: '2018-01-23 12:15 PM',
+			min_model: -0.95, max_model: 0.812, 
+			navd88_offset: 0, ngvd29_offset: -0.24, mlw_offset: -0.699, 
+			mtl_offset: -0.0270000000000001, dtl_offset: -0.016, mhw_offset: 0.646, 
+			mhhw_offset: 0.721, mllw_offset: -0.754, msl_offset: -0.069,
+			observed_dt: '2018-01-19  5:42 PM', observed_val: -0.232, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -1.818,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Wallkill River at Gardiner NY',  mid: 'HFGRDN6', did: 'U010', mdiff: 0, 
+			diff: 56.356299, lat: 41.68611, lon: -74.16556, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 58.581339, minor_flood_level: 60.318699,
+			moderate_flood_level: 61.233099, major_flood_level: 62.147499, alert_level: 1, 
+			min_dt_model: '2018-01-19  7:00 PM', max_dt_model: '2018-01-19  7:00 PM',
+			min_model: 57.79, max_model: 57.79, 
+			navd88_offset: 0, ngvd29_offset: -0.245061, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  5:00 PM', observed_val: 57.788899, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 56.356299,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Wappinger Creek near Wappingers Falls NY',  mid: 'HFWAPN6', did: 'U011', mdiff: 0, 
+			diff: 34.60089489, lat: 41.65306, lon: -73.87306, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 36.73449489, minor_flood_level: 37.03929489,
+			moderate_flood_level: 37.64889489, major_flood_level: 38.86809489, alert_level: 1, 
+			min_dt_model: '2018-01-21  8:00 PM', max_dt_model: '2018-01-23  6:00 PM',
+			min_model: 35.71, max_model: 35.8, 
+			navd88_offset: 0, ngvd29_offset: -0.259081110000004, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  5:30 PM', observed_val: 35.75609489, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 34.60089489,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Hudson River below Poughkeepsie NY',  mid: 'M052t', did: 'U201', mdiff: 0, 
+			diff: -0.2677, lat: 41.65083, lon: -73.945, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.000639982, near_flood_level: 0.9513, minor_flood_level: 1.2563,
+			moderate_flood_level: 1.8663, major_flood_level: 2.4753, alert_level: 1, 
+			min_dt_model: '2018-01-21  9:25 AM', max_dt_model: '2018-01-23  4:45 PM',
+			min_model: -0.685, max_model: 0.759, 
+			navd88_offset: 0, ngvd29_offset: -0.2677, mlw_offset: -0.417, 
+			mtl_offset: 0.068, dtl_offset: 0.098, mhw_offset: 0.553, 
+			mhhw_offset: 0.649, mllw_offset: -0.452, msl_offset: 0.077,
+			observed_dt: '2018-01-19  5:45 PM', observed_val: -0.0543, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 0.028,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Woods Hole MA',  mid: 'S022t', did: 'N064', mdiff: 0, 
+			diff: -1.212, lat: 41.523333, lon: -70.671667, map_visible: 1, map_list: 1 ,
+			blowout_level: -0.964, near_flood_level: 1.109, minor_flood_level: 1.627,
+			moderate_flood_level: 2.023, major_flood_level: 2.633, alert_level: 1, 
+			min_dt_model: '2018-01-20  5:35 PM', max_dt_model: '2018-01-23 12:35 PM',
+			min_model: -0.47, max_model: 0.362, 
+			navd88_offset: 0, ngvd29_offset: -0.262, mlw_offset: -0.373, 
+			mtl_offset: -0.0999999999999999, dtl_offset: -0.079, mhw_offset: 0.173, 
+			mhhw_offset: 0.257, mllw_offset: -0.415, msl_offset: -0.116,
+			observed_dt: '2018-01-19  5:48 PM', observed_val: -0.152, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -1.212,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'ENS02'
+
+		} ,
+ 
+{ title: 'Newport RI',  mid: 'M039t', did: 'N001', mdiff: 0, 
+			diff: -1.199, lat: 41.505001, lon: -71.326668, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.17064, near_flood_level: 1.207, minor_flood_level: 1.39,
+			moderate_flood_level: 1.816, major_flood_level: 2.426, alert_level: 1, 
+			min_dt_model: '2018-01-20  3:15 PM', max_dt_model: '2018-01-23 11:55 AM',
+			min_model: -0.751, max_model: 0.624, 
+			navd88_offset: 0, ngvd29_offset: -0.262, mlw_offset: -0.58, 
+			mtl_offset: -0.0510000000000002, dtl_offset: -0.0350000000000001, mhw_offset: 0.477, 
+			mhhw_offset: 0.552, mllw_offset: -0.622, msl_offset: -0.093,
+			observed_dt: '2018-01-19  5:54 PM', observed_val: -0.0880000000000001, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -1.199,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Hudson River at South Dock at West Point NY',  mid: 'M053t', did: 'U202', mdiff: 0, 
+			diff: -0.2952, lat: 41.38611, lon: -73.95556, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.060639982, near_flood_level: 0.87, minor_flood_level: 1.1746,
+			moderate_flood_level: 1.7842, major_flood_level: 2.3938, alert_level: 1, 
+			min_dt_model: '2018-01-21  8:35 AM', max_dt_model: '2018-01-23  3:45 PM',
+			min_model: -0.712, max_model: 0.781, 
+			navd88_offset: 0, ngvd29_offset: -0.2952, mlw_offset: -0.478, 
+			mtl_offset: 0, dtl_offset: 0.027, mhw_offset: 0.478, 
+			mhhw_offset: 0.565, mllw_offset: -0.512, msl_offset: 0.014,
+			observed_dt: '1', observed_val: 0, model_alert: 0,
+			observed_found: 0, flag_model_alert: 1, ext_tide_shift: -0.036,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'New London CT',  mid: 'M001t', did: 'N008', mdiff: 0, 
+			diff: -1.634, lat: 41.355, lon: -72.08667, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.109, near_flood_level: 9999, minor_flood_level: 0.964,
+			moderate_flood_level: 1.2688, major_flood_level: 9999, alert_level: 1, 
+			min_dt_model: '2018-01-20  5:55 PM', max_dt_model: '2018-01-23  1:35 PM',
+			min_model: -0.659, max_model: 0.451, 
+			navd88_offset: 0, ngvd29_offset: -0.292, mlw_offset: -0.502, 
+			mtl_offset: -0.111, dtl_offset: -0.0959999999999999, mhw_offset: 0.279, 
+			mhhw_offset: 0.369, mllw_offset: -0.56, msl_offset: -0.0919999999999999,
+			observed_dt: '2018-01-19  5:48 PM', observed_val: -0.416, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -1.634,
+			advisory: 0, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 0
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Nantucket MA',  mid: 'S015t', did: 'N032', mdiff: 0, 
+			diff: -1.537, lat: 41.285, lon: -70.096667, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.171, near_flood_level: 1.817, minor_flood_level: 2.122,
+			moderate_flood_level: 2.427, major_flood_level: 3.036, alert_level: 1, 
+			min_dt_model: '2018-01-20  8:15 PM', max_dt_model: '2018-01-23  4:35 PM',
+			min_model: -0.65, max_model: 0.436, 
+			navd88_offset: 0, ngvd29_offset: -0.28, mlw_offset: -0.561, 
+			mtl_offset: -0.099, dtl_offset: -0.0779999999999998, mhw_offset: 0.363, 
+			mhhw_offset: 0.467, mllw_offset: -0.622, msl_offset: -0.083,
+			observed_dt: '2018-01-19  5:48 PM', observed_val: -0.219, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -1.537,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'ENS02'
+
+		} ,
+ 
+{ title: 'New Haven CT',  mid: 'M035t', did: 'N010', mdiff: 0, 
+			diff: -6.6965, lat: 41.283333, lon: -72.908333, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.62714, near_flood_level: 9999, minor_flood_level: 1.54278,
+			moderate_flood_level: 1.72566, major_flood_level: 9999, alert_level: 1, 
+			min_dt_model: '2018-01-20  7:25 PM', max_dt_model: '2018-01-23  3:05 AM',
+			min_model: -1.312, max_model: 0.945, 
+			navd88_offset: 0, ngvd29_offset: -0.317900000000001, mlw_offset: -1.0045, 
+			mtl_offset: -0.0665000000000004, dtl_offset: -0.0565000000000007, mhw_offset: 0.8675, 
+			mhhw_offset: 0.9655, mllw_offset: -1.0785, msl_offset: -0.0685000000000002,
+			observed_dt: '2018-01-19  5:48 PM', observed_val: -0.9455, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -6.6965,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Bridgeport CT',  mid: 'M002t', did: 'N011', mdiff: 0, 
+			diff: -1.775, lat: 41.173332, lon: -73.181664, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.72, near_flood_level: 9999, minor_flood_level: 1.542,
+			moderate_flood_level: 1.999, major_flood_level: 9999, alert_level: 1, 
+			min_dt_model: '2018-01-20  7:35 PM', max_dt_model: '2018-01-23  3:05 AM',
+			min_model: -1.413, max_model: 1.109, 
+			navd88_offset: 0, ngvd29_offset: -0.281, mlw_offset: -1.097, 
+			mtl_offset: -0.0699999999999998, dtl_offset: -0.0559999999999998, mhw_offset: 0.958, 
+			mhhw_offset: 1.06, mllw_offset: -1.171, msl_offset: -0.0669999999999999,
+			observed_dt: '2018-01-19  5:42 PM', observed_val: -0.945, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -1.775,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Montauk NY',  mid: 'M006t', did: 'N009', mdiff: 0, 
+			diff: -1.574, lat: 41.048332, lon: -71.959999, map_visible: 1, map_list: 1 ,
+			blowout_level: -0.946, near_flood_level: 9999, minor_flood_level: 0.9746,
+			moderate_flood_level: 1.21844, major_flood_level: 1.7366, alert_level: 1, 
+			min_dt_model: '2018-01-20  5:25 PM', max_dt_model: '2018-01-23  1:25 PM',
+			min_model: -0.488, max_model: 0.414, 
+			navd88_offset: 0, ngvd29_offset: -0.089, mlw_offset: -0.345, 
+			mtl_offset: -0.0290000000000001, dtl_offset: -0.012, mhw_offset: 0.286, 
+			mhhw_offset: 0.373, mllw_offset: -0.397, msl_offset: -0.02,
+			observed_dt: '2018-01-19  5:54 PM', observed_val: -0.197, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -1.574,
+			advisory: 0, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 0
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Hudson River at Piermont NY',  mid: 'M124t', did: 'U246', mdiff: 0, 
+			diff: -0.3048, lat: 41.043194, lon: -73.890156, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.1278, near_flood_level: 1.115, minor_flood_level: 1.42,
+			moderate_flood_level: 1.725, major_flood_level: 2.03, alert_level: 1, 
+			min_dt_model: '2018-01-20  6:55 PM', max_dt_model: '2018-01-23  2:45 PM',
+			min_model: -0.8, max_model: 0.681, 
+			navd88_offset: 0, ngvd29_offset: -0.3048, mlw_offset: -0.5212, 
+			mtl_offset: 0.0152, dtl_offset: 0.0152, mhw_offset: 0.5517, 
+			mhhw_offset: 0.6309, mllw_offset: -0.5791, msl_offset: 0.0335,
+			observed_dt: '2018-01-19  5:30 PM', observed_val: -0.5852, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -0.426,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 0
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Hudson Rv South of Hastings-on-Hudson NY',  mid: 'M054t', did: 'U203', mdiff: 0, 
+			diff: -0.305, lat: 40.98778, lon: -73.8875, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.109639982, near_flood_level: 1.089, minor_flood_level: 1.394,
+			moderate_flood_level: 1.699, major_flood_level: 2.004, alert_level: 1, 
+			min_dt_model: '2018-01-20  6:25 PM', max_dt_model: '2018-01-23  2:05 PM',
+			min_model: -0.75, max_model: 0.682, 
+			navd88_offset: 0, ngvd29_offset: -0.305, mlw_offset: -0.532, 
+			mtl_offset: 0.01, dtl_offset: 0.035, mhw_offset: 0.552, 
+			mhhw_offset: 0.632, mllw_offset: -0.561, msl_offset: 0.025,
+			observed_dt: '1', observed_val: 0, model_alert: 0,
+			observed_found: 0, flag_model_alert: 1, ext_tide_shift: 0.004,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Pompton River at Pompton Plains NJ',  mid: 'HFPPPN4', did: 'U077', mdiff: 0, 
+			diff: 48.48910645, lat: 40.9697222, lon: -74.281944, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 52.45150645, minor_flood_level: 53.36590645,
+			moderate_flood_level: 53.97550645, major_flood_level: 54.28030645, alert_level: 1, 
+			min_dt_model: '2018-01-21  4:00 AM', max_dt_model: '2018-01-23  6:00 PM',
+			min_model: 51.07, max_model: 51.29, 
+			navd88_offset: 0, ngvd29_offset: -0.278893549999999, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  5:15 PM', observed_val: 51.06470645, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 48.48910645,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Hackensack River at New Milford NJ',  mid: 'HFNMLN4', did: 'U003', mdiff: 0, 
+			diff: 1.6011, lat: 40.94833, lon: -74.02667, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 3.2775, minor_flood_level: 3.4299,
+			moderate_flood_level: 4.0395, major_flood_level: 4.6491, alert_level: 1, 
+			min_dt_model: '2018-01-21 12:00 PM', max_dt_model: '2018-01-23  3:00 PM',
+			min_model: 2, max_model: 2.32, 
+			navd88_offset: 0, ngvd29_offset: -0.3039, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  5:15 PM', observed_val: 2.0705, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 1.6011,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'FDU Bridge at Hackensack NJ',  mid: 'M130t', did: 'MEEMS_1', mdiff: 0, 
+			diff: 0, lat: 40.89869653, lon: -74.0318379, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.538, near_flood_level: 1.192, minor_flood_level: 1.6524,
+			moderate_flood_level: 1.9572, major_flood_level: 2.262, alert_level: 1, 
+			min_dt_model: '2018-01-20  6:45 PM', max_dt_model: '2018-01-23  2:05 AM',
+			min_model: -1.366, max_model: 1.009, 
+			navd88_offset: 0, ngvd29_offset: -0.307, mlw_offset: -0.948, 
+			mtl_offset: -0.149, dtl_offset: -0.126, mhw_offset: 0.651, 
+			mhhw_offset: 0.738, mllw_offset: -0.99, msl_offset: -0.089,
+			observed_dt: '1', observed_val: 0, model_alert: 0,
+			observed_found: 0, flag_model_alert: 1, ext_tide_shift: -0.0772,
+			advisory: 1, agency: ' (MERI)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Saddle River at Lodi NJ',  mid: 'HFLODN4', did: 'U005', mdiff: 0, 
+			diff: 7.312151766, lat: 40.89028, lon: -74.08056, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 8.988551766, minor_flood_level: 9.140951766,
+			moderate_flood_level: 9.445751766, major_flood_level: 9.750551766, alert_level: 1, 
+			min_dt_model: '2018-01-21  9:00 AM', max_dt_model: '2018-01-23  2:00 PM',
+			min_model: 7.89, max_model: 8.29, 
+			navd88_offset: 0, ngvd29_offset: -0.307848234, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  5:30 PM', observed_val: 7.924751766, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 7.312151766,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Passaic River at Dundee Dam at Clifton NJ',  mid: 'HFDDCN4', did: 'U258', mdiff: 0, 
+			diff: 7.140216, lat: 40.885556, lon: -74.128056, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 8.207016, minor_flood_level: 8.511816,
+			moderate_flood_level: 8.969016, major_flood_level: 9.273816, alert_level: 1, 
+			min_dt_model: '2018-01-19 11:00 PM', max_dt_model: '2018-01-23  3:00 PM',
+			min_model: 7.57, max_model: 7.73, 
+			navd88_offset: 0, ngvd29_offset: -0.303, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  5:15 PM', observed_val: 7.634016, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 7.140216,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Passaic River at Little Falls NJ',  mid: 'HFLTFN4', did: 'U004', mdiff: 0, 
+			diff: 36.28186684, lat: 40.88472, lon: -74.22611, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 38.26306684, minor_flood_level: 38.41546684,
+			moderate_flood_level: 38.72026684, major_flood_level: 39.02506684, alert_level: 1, 
+			min_dt_model: '2018-01-22  4:00 AM', max_dt_model: '2018-01-19  7:00 PM',
+			min_model: 36.99, max_model: 37.02, 
+			navd88_offset: 0, ngvd29_offset: -0.294133160000001, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  5:30 PM', observed_val: 37.00426684, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 36.28186684,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Hackensack River at Hackensack NJ',  mid: 'M073t', did: 'U215', mdiff: 0, 
+			diff: 0, lat: 40.879444, lon: -74.039722, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.495, near_flood_level: 1.353, minor_flood_level: 1.4324,
+			moderate_flood_level: 1.8134, major_flood_level: 2.2706, alert_level: 1, 
+			min_dt_model: '2018-01-20  6:05 PM', max_dt_model: '2018-01-23  1:45 AM',
+			min_model: -1.413, max_model: 1.038, 
+			navd88_offset: 0, ngvd29_offset: -0.307, mlw_offset: -0.9, 
+			mtl_offset: -0.041, dtl_offset: -0.024, mhw_offset: 0.817, 
+			mhhw_offset: 0.899, mllw_offset: -0.946, msl_offset: 0.025,
+			observed_dt: '2018-01-19  4:54 PM', observed_val: -1.1186, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -0.023,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Passaic River at Pine Brook NJ',  mid: 'HFPINN4', did: 'U241', mdiff: 0, 
+			diff: 45.20458175, lat: 40.8625, lon: -74.321667, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 50.69098175, minor_flood_level: 50.99578175,
+			moderate_flood_level: 51.30058175, major_flood_level: 51.60538175, alert_level: 1, 
+			min_dt_model: '2018-01-22  5:00 PM', max_dt_model: '2018-01-23  6:00 PM',
+			min_model: 49.93, max_model: 50, 
+			navd88_offset: 0, ngvd29_offset: -0.289866249999996, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  5:15 PM', observed_val: 49.97778175, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 45.20458175,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Kings Point NY',  mid: 'M033t', did: 'N016', mdiff: 0, 
+			diff: -5.17, lat: 40.810001, lon: -73.764999, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.78964, near_flood_level: 1.5022, minor_flood_level: 1.807,
+			moderate_flood_level: 1.9594, major_flood_level: 2.8738, alert_level: 1, 
+			min_dt_model: '2018-01-20  7:15 PM', max_dt_model: '2018-01-23  2:35 AM',
+			min_model: -1.492, max_model: 1.152, 
+			navd88_offset: 0, ngvd29_offset: -0.33, mlw_offset: -1.158, 
+			mtl_offset: -0.0659999999999998, dtl_offset: -0.0529999999999999, mhw_offset: 1.026, 
+			mhhw_offset: 1.135, mllw_offset: -1.241, msl_offset: -0.0569999999999995,
+			observed_dt: '2018-01-19  5:54 PM', observed_val: -1.151, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -5.17,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Barge Marina at Carlstadt NJ',  mid: 'M133t', did: 'MEEMS_4', mdiff: 0, 
+			diff: 0, lat: 40.80686532, lon: -74.05801689, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.402, near_flood_level: 1.296, minor_flood_level: 1.3754,
+			moderate_flood_level: 1.7564, major_flood_level: 2.2136, alert_level: 1, 
+			min_dt_model: '2018-01-20  5:45 PM', max_dt_model: '2018-01-23  1:35 AM',
+			min_model: -1.315, max_model: 0.887, 
+			navd88_offset: 0, ngvd29_offset: -0.322, mlw_offset: -0.811, 
+			mtl_offset: -0.026, dtl_offset: -0.006, mhw_offset: 0.758, 
+			mhhw_offset: 0.842, mllw_offset: -0.853, msl_offset: 0.032,
+			observed_dt: '1', observed_val: 0, model_alert: 0,
+			observed_found: 0, flag_model_alert: 1, ext_tide_shift: -0.0882,
+			advisory: 1, agency: ' (MERI)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Bowery Bay at East Elmhurst NY',  mid: 'M135t', did: 'SPLGAAP1', mdiff: 0, 
+			diff: 0, lat: 40.77432, lon: -73.885722, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.651, near_flood_level: 1.6386, minor_flood_level: 1.791,
+			moderate_flood_level: 2.0958, major_flood_level: 2.553, alert_level: 1, 
+			min_dt_model: '2018-01-20  8:25 PM', max_dt_model: '2018-01-23  2:15 AM',
+			min_model: -1.452, max_model: 1.041, 
+			navd88_offset: 0, ngvd29_offset: -0.33, mlw_offset: -1.017, 
+			mtl_offset: -0.048, dtl_offset: -0.037, mhw_offset: 0.921, 
+			mhhw_offset: 1.029, mllw_offset: -1.103, msl_offset: -0.056,
+			observed_dt: '2018-01-19  6:00 PM', observed_val: -1.039, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 0,
+			advisory: 1, agency: ' (SPANYNJ)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Hudson River at 39th St NY',  mid: 'M146t', did: 'SPLINTP1', mdiff: 0, 
+			diff: 0, lat: 40.76100833, lon: -74.00357333, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.337, near_flood_level: 1.6486, minor_flood_level: 1.7096,
+			moderate_flood_level: 1.9382, major_flood_level: 2.243, alert_level: 1, 
+			min_dt_model: '2018-01-20  4:55 PM', max_dt_model: '2018-01-23 11:45 AM',
+			min_model: -1.146, max_model: 0.462, 
+			navd88_offset: 0, ngvd29_offset: -0.326, mlw_offset: -0.719, 
+			mtl_offset: -0.046, dtl_offset: -0.035, mhw_offset: 0.626, 
+			mhhw_offset: 0.719, mllw_offset: -0.789, msl_offset: -0.045,
+			observed_dt: '1', observed_val: 0, model_alert: 0,
+			observed_found: 0, flag_model_alert: 1, ext_tide_shift: 0,
+			advisory: 1, agency: ' (SPANYNJ)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Saw Mill Creek at Kearny NJ',  mid: 'M131t', did: 'MEEMS_2', mdiff: 0, 
+			diff: 0, lat: 40.76074749, lon: -74.0929175, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.483, near_flood_level: 1.154, minor_flood_level: 1.2334,
+			moderate_flood_level: 1.6144, major_flood_level: 2.0716, alert_level: 1, 
+			min_dt_model: '2018-01-20  5:45 PM', max_dt_model: '2018-01-23  1:05 AM',
+			min_model: -1.261, max_model: 0.775, 
+			navd88_offset: 0, ngvd29_offset: -0.322, mlw_offset: -0.891, 
+			mtl_offset: -0.139, dtl_offset: -0.117, mhw_offset: 0.612, 
+			mhhw_offset: 0.7, mllw_offset: -0.935, msl_offset: -0.086,
+			observed_dt: '1', observed_val: 0, model_alert: 0,
+			observed_found: 0, flag_model_alert: 1, ext_tide_shift: -0.0752,
+			advisory: 1, agency: ' (MERI)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Kearny Point at Kearny NJ',  mid: 'M132t', did: 'MEEMS_3', mdiff: 0, 
+			diff: 0, lat: 40.74383769, lon: -74.0775107, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.39, near_flood_level: 1.238, minor_flood_level: 1.3174,
+			moderate_flood_level: 1.6984, major_flood_level: 2.1556, alert_level: 1, 
+			min_dt_model: '2018-01-20  5:25 PM', max_dt_model: '2018-01-23 12:45 AM',
+			min_model: -1.185, max_model: 0.794, 
+			navd88_offset: 0, ngvd29_offset: -0.338, mlw_offset: -0.796, 
+			mtl_offset: -0.051, dtl_offset: -0.028, mhw_offset: 0.694, 
+			mhhw_offset: 0.784, mllw_offset: -0.841, msl_offset: -0.013,
+			observed_dt: '1', observed_val: 0, model_alert: 0,
+			observed_found: 0, flag_model_alert: 1, ext_tide_shift: -0.0691,
+			advisory: 1, agency: ' (MERI)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Hudson River near Hoboken NJ',  mid: 'M139t', did: 'SPPATHP3', mdiff: 0, 
+			diff: 0, lat: 40.734386, lon: -74.026186, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.372, near_flood_level: 1.2496, minor_flood_level: 1.3106,
+			moderate_flood_level: 1.7678, major_flood_level: 2.225, alert_level: 1, 
+			min_dt_model: '2018-01-20  4:55 PM', max_dt_model: '2018-01-23 11:45 AM',
+			min_model: -1.131, max_model: 0.509, 
+			navd88_offset: 0, ngvd29_offset: -0.332, mlw_offset: -0.756, 
+			mtl_offset: -0.075, dtl_offset: -0.061, mhw_offset: 0.606, 
+			mhhw_offset: 0.701, mllw_offset: -0.823, msl_offset: -0.058,
+			observed_dt: '2018-01-19  6:00 PM', observed_val: -0.375, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 0,
+			advisory: 1, agency: ' (SPANYNJ)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Passaic River near Harrison NJ',  mid: 'M143t', did: 'SPPATHP2', mdiff: 0, 
+			diff: 0, lat: 40.73356, lon: -74.15479, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.464, near_flood_level: 1.547, minor_flood_level: 1.608,
+			moderate_flood_level: 1.9128, major_flood_level: 2.2176, alert_level: 1, 
+			min_dt_model: '2018-01-20  4:45 PM', max_dt_model: '2018-01-23 11:35 AM',
+			min_model: -0.862, max_model: 0.878, 
+			navd88_offset: 0, ngvd29_offset: -0.336, mlw_offset: -0.847, 
+			mtl_offset: -0.048, dtl_offset: -0.035, mhw_offset: 0.751, 
+			mhhw_offset: 0.846, mllw_offset: -0.915, msl_offset: -0.023,
+			observed_dt: '2018-01-19  6:00 PM', observed_val: -0.271, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 0,
+			advisory: 1, agency: ' (SPANYNJ)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Hudson River near Hudson Square NY',  mid: 'M138t', did: 'SPHOLTP1', mdiff: 0, 
+			diff: 0, lat: 40.726428, lon: -74.0152, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.383, near_flood_level: 1.6366, minor_flood_level: 1.6976,
+			moderate_flood_level: 1.9262, major_flood_level: 2.231, alert_level: 1, 
+			min_dt_model: '2018-01-20  4:55 PM', max_dt_model: '2018-01-23 11:45 AM',
+			min_model: -1.147, max_model: 0.51, 
+			navd88_offset: 0, ngvd29_offset: -0.334, mlw_offset: -0.767, 
+			mtl_offset: -0.078, dtl_offset: -0.063, mhw_offset: 0.611, 
+			mhhw_offset: 0.707, mllw_offset: -0.834, msl_offset: -0.062,
+			observed_dt: '2018-01-19  6:00 PM', observed_val: -0.376, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 0,
+			advisory: 1, agency: ' (SPANYNJ)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Passaic River near Chatham NJ',  mid: 'HFCAMN4', did: 'U262', mdiff: 0, 
+			diff: 58.688848, lat: 40.726111, lon: -74.389722, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 60.365248, minor_flood_level: 60.517648,
+			moderate_flood_level: 61.127248, major_flood_level: 61.736848, alert_level: 1, 
+			min_dt_model: '2018-01-19  7:00 PM', max_dt_model: '2018-01-23  2:00 PM',
+			min_model: 59.95, max_model: 60.15, 
+			navd88_offset: 0, ngvd29_offset: -0.292999999999999, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  5:15 PM', observed_val: 59.950748, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 58.688848,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Passaic River at PVSC at Newark NJ',  mid: 'M024t', did: 'U216', mdiff: 0, 
+			diff: 0, lat: 40.713167, lon: -74.123056, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.433, near_flood_level: 9999, minor_flood_level: 1.327,
+			moderate_flood_level: 1.708, major_flood_level: 2.165, alert_level: 1, 
+			min_dt_model: '2018-01-20  4:45 PM', max_dt_model: '2018-01-23 12:25 AM',
+			min_model: -1.137, max_model: 0.761, 
+			navd88_offset: 0, ngvd29_offset: -0.338, mlw_offset: -0.814, 
+			mtl_offset: -0.065, dtl_offset: -0.044, mhw_offset: 0.684, 
+			mhhw_offset: 0.794, mllw_offset: -0.884, msl_offset: -0.04,
+			observed_dt: '1', observed_val: 0, model_alert: 0,
+			observed_found: 0, flag_model_alert: 1, ext_tide_shift: -0.035,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'North Branch Raritan River near Far Hills NJ',  mid: 'HFFARN4', did: 'U256', mdiff: 0, 
+			diff: 68.169552, lat: 40.708333, lon: -74.636111, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 69.693552, minor_flood_level: 69.998352,
+			moderate_flood_level: 70.303152, major_flood_level: 70.607952, alert_level: 1, 
+			min_dt_model: '2018-01-19  7:00 PM', max_dt_model: '2018-01-23 10:00 AM',
+			min_model: 68.74, max_model: 69.01, 
+			navd88_offset: 0, ngvd29_offset: -0.25500000000001, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  4:45 PM', observed_val: 68.803552, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 68.169552,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'The Battery NY',  mid: 'M007t', did: 'N017', mdiff: 0, 
+			diff: -1.849, lat: 40.700001, lon: -74.014999, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.396, near_flood_level: 1.2866, minor_flood_level: 1.34756,
+			moderate_flood_level: 1.7438, major_flood_level: 2.201, alert_level: 1, 
+			min_dt_model: '2018-01-20  4:45 PM', max_dt_model: '2018-01-23 11:55 AM',
+			min_model: -1.067, max_model: 0.649, 
+			navd88_offset: 0, ngvd29_offset: -0.274, mlw_offset: -0.784, 
+			mtl_offset: -0.0940000000000001, dtl_offset: -0.0760000000000001, mhw_offset: 0.596, 
+			mhhw_offset: 0.694, mllw_offset: -0.847, msl_offset: -0.0640000000000001,
+			observed_dt: '2018-01-19  5:54 PM', observed_val: -0.354, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -1.849,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Elizabeth Channel near Newark NJ',  mid: 'M144t', did: 'SPEWRAP2', mdiff: 0, 
+			diff: 0, lat: 40.6898, lon: -74.16403, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.447, near_flood_level: 1.517, minor_flood_level: 1.578,
+			moderate_flood_level: 1.7304, major_flood_level: 2.1876, alert_level: 1, 
+			min_dt_model: '2018-01-20  4:45 PM', max_dt_model: '2018-01-22 11:55 PM',
+			min_model: -1.235, max_model: 0.636, 
+			navd88_offset: 0, ngvd29_offset: -0.34, mlw_offset: -0.834, 
+			mtl_offset: -0.06, dtl_offset: -0.041, mhw_offset: 0.713, 
+			mhhw_offset: 0.816, mllw_offset: -0.898, msl_offset: -0.033,
+			observed_dt: '2018-01-19  4:24 PM', observed_val: 0.738, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 0,
+			advisory: 1, agency: ' (SPANYNJ)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'New York Harbor near Red Hook NY',  mid: 'M137t', did: 'SPBRMTP1', mdiff: 0, 
+			diff: 0, lat: 40.681747, lon: -74.014071, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.428, near_flood_level: 1.2506, minor_flood_level: 1.3116,
+			moderate_flood_level: 1.7688, major_flood_level: 2.226, alert_level: 1, 
+			min_dt_model: '2018-01-20  4:45 PM', max_dt_model: '2018-01-23 11:45 AM',
+			min_model: -1.107, max_model: 0.522, 
+			navd88_offset: 0, ngvd29_offset: -0.339, mlw_offset: -0.815, 
+			mtl_offset: -0.107, dtl_offset: -0.089, mhw_offset: 0.601, 
+			mhhw_offset: 0.702, mllw_offset: -0.879, msl_offset: -0.074,
+			observed_dt: '2018-01-19  6:00 PM', observed_val: -0.348, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 0,
+			advisory: 1, agency: ' (SPANYNJ)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Passaic River near Millington NJ',  mid: 'HFMILN4', did: 'U261', mdiff: 0, 
+			diff: 65.44088, lat: 40.68, lon: -74.528889, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 67.57448, minor_flood_level: 67.87928,
+			moderate_flood_level: 68.18408, major_flood_level: 68.42788, alert_level: 1, 
+			min_dt_model: '2018-01-21  7:00 AM', max_dt_model: '2018-01-23  6:00 PM',
+			min_model: 66.98, max_model: 67.1, 
+			navd88_offset: 0, ngvd29_offset: -0.273999999999987, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  5:30 PM', observed_val: 67.00448, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 65.44088,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Elizabeth River at Ursino Lake, Elizabeth, NJ',  mid: 'HF00001', did: 'U076', mdiff: 0, 
+			diff: -0.332, lat: 40.675, lon: -74.22194444, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 9999, minor_flood_level: 5.764,
+			moderate_flood_level: 6.3736, major_flood_level: 9999, alert_level: 1, 
+			min_dt_model: '2018-01-21  1:00 PM', max_dt_model: '2018-01-23  9:00 AM',
+			min_model: 3.63, max_model: 4.9, 
+			navd88_offset: 0, ngvd29_offset: -0.332, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  5:35 PM', observed_val: 3.7218, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -0.332,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Great South Bay at Lindenhurst NY',  mid: 'M097t', did: 'U204', mdiff: -0.00280000000000002, 
+			diff: -0.3658, lat: 40.669167, lon: -73.356111, map_visible: 1, map_list: 1 ,
+			blowout_level: -0.7986, near_flood_level: 0.5486, minor_flood_level: 0.701,
+			moderate_flood_level: 0.8534, major_flood_level: 1.0058, alert_level: 1, 
+			min_dt_model: '2018-01-20  7:05 PM', max_dt_model: '2018-01-23  2:15 AM',
+			min_model: -0.5748, max_model: 0.3232, 
+			navd88_offset: 0, ngvd29_offset: -0.3658, mlw_offset: -0.2225, 
+			mtl_offset: -0.0366, dtl_offset: -0.0351, mhw_offset: 0.1524, 
+			mhhw_offset: 0.2042, mllw_offset: -0.25, msl_offset: -0.0275,
+			observed_dt: '2018-01-19  5:00 PM', observed_val: -0.1646, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -0.3658,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'New York Harbor near Bayonne NJ',  mid: 'M140t', did: 'SPGLMTP1', mdiff: 0, 
+			diff: 0, lat: 40.668358, lon: -74.072522, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.391, near_flood_level: 1.429, minor_flood_level: 1.49,
+			moderate_flood_level: 1.9472, major_flood_level: 2.4044, alert_level: 1, 
+			min_dt_model: '2018-01-20  4:25 PM', max_dt_model: '2018-01-23 11:35 AM',
+			min_model: -1.108, max_model: 0.556, 
+			navd88_offset: 0, ngvd29_offset: -0.34, mlw_offset: -0.776, 
+			mtl_offset: -0.075, dtl_offset: -0.057, mhw_offset: 0.626, 
+			mhhw_offset: 0.728, mllw_offset: -0.843, msl_offset: -0.063,
+			observed_dt: '2018-01-19  6:00 PM', observed_val: -0.28, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 0,
+			advisory: 1, agency: ' (SPANYNJ)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Newark Bay near Elizabeth NJ',  mid: 'M142t', did: 'SPPNPEP1', mdiff: 0, 
+			diff: 0, lat: 40.662539, lon: -74.156939, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.444, near_flood_level: 1.512, minor_flood_level: 1.573,
+			moderate_flood_level: 1.7254, major_flood_level: 2.1826, alert_level: 1, 
+			min_dt_model: '2018-01-20  4:45 PM', max_dt_model: '2018-01-22 11:45 PM',
+			min_model: -1.186, max_model: 0.673, 
+			navd88_offset: 0, ngvd29_offset: -0.339, mlw_offset: -0.833, 
+			mtl_offset: -0.063, dtl_offset: -0.042, mhw_offset: 0.708, 
+			mhhw_offset: 0.811, mllw_offset: -0.896, msl_offset: -0.035,
+			observed_dt: '2018-01-19  6:00 PM', observed_val: -0.37, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 0,
+			advisory: 1, agency: ' (SPANYNJ)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Bergen Basin at Jamaica Bay NY',  mid: 'M134t', did: 'SPJFKAP1', mdiff: 0, 
+			diff: 0, lat: 40.660142, lon: -73.821636, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.501, near_flood_level: 1.226, minor_flood_level: 1.3784,
+			moderate_flood_level: 1.6832, major_flood_level: 1.988, alert_level: 1, 
+			min_dt_model: '2018-01-20  4:25 PM', max_dt_model: '2018-01-23 11:55 AM',
+			min_model: -1.157, max_model: 0.667, 
+			navd88_offset: 0, ngvd29_offset: -0.329, mlw_offset: -0.889, 
+			mtl_offset: -0.075, dtl_offset: -0.053, mhw_offset: 0.738, 
+			mhhw_offset: 0.845, mllw_offset: -0.952, msl_offset: -0.069,
+			observed_dt: '2018-01-19  6:00 PM', observed_val: -0.391, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 0,
+			advisory: 1, agency: ' (SPANYNJ)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'New York Harbor near Bay Ridge NY',  mid: 'M136t', did: 'SP65STP1', mdiff: 0, 
+			diff: 0, lat: 40.643919, lon: -74.031962, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.406, near_flood_level: 1.6646, minor_flood_level: 1.7256,
+			moderate_flood_level: 2.1066, major_flood_level: 2.5638, alert_level: 1, 
+			min_dt_model: '2018-01-20  4:25 PM', max_dt_model: '2018-01-23 11:35 AM',
+			min_model: -1.106, max_model: 0.546, 
+			navd88_offset: 0, ngvd29_offset: -0.34, mlw_offset: -0.792, 
+			mtl_offset: -0.08, dtl_offset: -0.061, mhw_offset: 0.633, 
+			mhhw_offset: 0.735, mllw_offset: -0.858, msl_offset: -0.07,
+			observed_dt: '2018-01-19  6:00 PM', observed_val: -0.284, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 0,
+			advisory: 1, agency: ' (SPANYNJ)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Bergen Point West Reach NY',  mid: 'M008t', did: 'N019', mdiff: 0, 
+			diff: -2.191, lat: 40.639999, lon: -74.146667, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.449, near_flood_level: 1.2336, minor_flood_level: 1.29456,
+			moderate_flood_level: 1.6908, major_flood_level: 2.148, alert_level: 1, 
+			min_dt_model: '2018-01-20  4:45 PM', max_dt_model: '2018-01-23 11:55 AM',
+			min_model: -1.073, max_model: 0.725, 
+			navd88_offset: 0, ngvd29_offset: -0.3355, mlw_offset: -0.836, 
+			mtl_offset: -0.0759999999999996, dtl_offset: -0.0600000000000001, mhw_offset: 0.682, 
+			mhhw_offset: 0.78, mllw_offset: -0.9, msl_offset: -0.0539999999999998,
+			observed_dt: '2018-01-19  5:42 PM', observed_val: -0.458, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -2.191,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Arthur Kill near Bloomfield NY',  mid: 'M141t', did: 'SPHHPIP1', mdiff: 0, 
+			diff: 0, lat: 40.637176, lon: -74.194743, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.464, near_flood_level: 1.2894, minor_flood_level: 1.3504,
+			moderate_flood_level: 1.7314, major_flood_level: 2.1886, alert_level: 1, 
+			min_dt_model: '2018-01-20  4:25 PM', max_dt_model: '2018-01-22 11:15 PM',
+			min_model: -1.136, max_model: 0.68, 
+			navd88_offset: 0, ngvd29_offset: -0.332, mlw_offset: -0.842, 
+			mtl_offset: -0.064, dtl_offset: -0.049, mhw_offset: 0.715, 
+			mhhw_offset: 0.817, mllw_offset: -0.915, msl_offset: -0.037,
+			observed_dt: '2018-01-19  6:00 PM', observed_val: -0.316, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 0,
+			advisory: 1, agency: ' (SPANYNJ)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Hudson Bay at Freeport NY',  mid: 'M098t', did: 'U205', mdiff: 0.00259999999999999, 
+			diff: -0.3444, lat: 40.6275, lon: -73.575833, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.2588, near_flood_level: 0.8839, minor_flood_level: 1.0363,
+			moderate_flood_level: 1.1887, major_flood_level: 1.4021, alert_level: 1, 
+			min_dt_model: '2018-01-20  4:15 PM', max_dt_model: '2018-01-23 11:55 AM',
+			min_model: -0.9284, max_model: 0.6636, 
+			navd88_offset: 0, ngvd29_offset: -0.3444, mlw_offset: -0.6675, 
+			mtl_offset: -0.0518, dtl_offset: -0.0503, mhw_offset: 0.567, 
+			mhhw_offset: 0.6614, mllw_offset: -0.7102, msl_offset: -0.0487,
+			observed_dt: '2018-01-19  5:30 PM', observed_val: -0.2895, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -0.3444,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Rahway River at Rahway NJ',  mid: 'HFRWYN4', did: 'U027', mdiff: 0, 
+			diff: 2.35, lat: 40.61889, lon: -74.28333, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 4.0264, minor_flood_level: 4.1788,
+			moderate_flood_level: 4.7884, major_flood_level: 5.2456, alert_level: 1, 
+			min_dt_model: '2018-01-21  4:00 PM', max_dt_model: '2018-01-23  5:00 PM',
+			min_model: 2.78, max_model: 3.18, 
+			navd88_offset: 0, ngvd29_offset: -0.32309591446093, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  5:15 PM', observed_val: 2.795, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 2.35,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Jamaica Bay at Inwood NY',  mid: 'M101t', did: 'U208', mdiff: -0.000299999999999967, 
+			diff: -0.3353, lat: 40.617222, lon: -73.758333, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.5027, near_flood_level: 1.1887, minor_flood_level: 1.3411,
+			moderate_flood_level: 1.5545, major_flood_level: 1.7983, alert_level: 1, 
+			min_dt_model: '2018-01-20  4:45 PM', max_dt_model: '2018-01-23 12:15 PM',
+			min_model: -1.2033, max_model: 0.8527, 
+			navd88_offset: 0, ngvd29_offset: -0.3353, mlw_offset: -0.8931, 
+			mtl_offset: -0.0762, dtl_offset: -0.0777, mhw_offset: 0.7376, 
+			mhhw_offset: 0.8443, mllw_offset: -0.954, msl_offset: -0.0701,
+			observed_dt: '2018-01-19  5:48 PM', observed_val: -0.4633, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -0.3353,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Reynolds Channel at Point Lookout NY',  mid: 'M099t', did: 'U206', mdiff: -0.000400000000000011, 
+			diff: -0.3444, lat: 40.593333, lon: -73.584167, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.2801, near_flood_level: 0.8839, minor_flood_level: 1.0363,
+			moderate_flood_level: 1.3411, major_flood_level: 1.6459, alert_level: 1, 
+			min_dt_model: '2018-01-20  3:45 PM', max_dt_model: '2018-01-23 11:45 AM',
+			min_model: -0.9654, max_model: 0.6616, 
+			navd88_offset: 0, ngvd29_offset: -0.3444, mlw_offset: -0.6858, 
+			mtl_offset: -0.0518, dtl_offset: -0.0518, mhw_offset: 0.5822, 
+			mhhw_offset: 0.6767, mllw_offset: -0.7315, msl_offset: -0.0548,
+			observed_dt: '2018-01-19  5:48 PM', observed_val: -0.2072, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -0.3444,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'East Rockaway Inlet at Atlantic Beach NY',  mid: 'M100t', did: 'U207', mdiff: -0.000299999999999967, 
+			diff: -0.3353, lat: 40.593056, lon: -73.737778, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.3472, near_flood_level: 0.8839, minor_flood_level: 1.0363,
+			moderate_flood_level: 1.3411, major_flood_level: 1.6459, alert_level: 1, 
+			min_dt_model: '2018-01-20  3:45 PM', max_dt_model: '2018-01-23 11:35 AM',
+			min_model: -1.0343, max_model: 0.6437, 
+			navd88_offset: 0, ngvd29_offset: -0.3353, mlw_offset: -0.7437, 
+			mtl_offset: -0.0579, dtl_offset: -0.0595, mhw_offset: 0.6248, 
+			mhhw_offset: 0.7254, mllw_offset: -0.7986, msl_offset: -0.0579,
+			observed_dt: '2018-01-19  5:00 PM', observed_val: -0.4816, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -0.3353,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Bound Brook at Middlesex NJ',  mid: 'HF00002', did: 'U257', mdiff: 0, 
+			diff: 7.801296, lat: 40.585, lon: -74.507778, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 9999, minor_flood_level: 10.544496,
+			moderate_flood_level: 11.154096, major_flood_level: 9999, alert_level: 1, 
+			min_dt_model: '2018-01-20  9:00 PM', max_dt_model: '2018-01-23 11:00 AM',
+			min_model: 8.28, max_model: 8.82, 
+			navd88_offset: 0, ngvd29_offset: -0.282000000000001, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  5:00 PM', observed_val: 8.295096, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 7.801296,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Rockaway Inlet near Floyd Bennett Field NY',  mid: 'M102t', did: 'U209', mdiff: -0.000299999999999967, 
+			diff: -0.3353, lat: 40.573611, lon: -73.885556, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.4448, near_flood_level: 1.1887, minor_flood_level: 1.3411,
+			moderate_flood_level: 1.6459, major_flood_level: 1.9507, alert_level: 1, 
+			min_dt_model: '2018-01-20  4:05 PM', max_dt_model: '2018-01-23 11:55 AM',
+			min_model: -1.1223, max_model: 0.7647, 
+			navd88_offset: 0, ngvd29_offset: -0.3353, mlw_offset: -0.8352, 
+			mtl_offset: -0.0671, dtl_offset: -0.0671, mhw_offset: 0.701, 
+			mhhw_offset: 0.8077, mllw_offset: -0.8961, msl_offset: -0.0671,
+			observed_dt: '2018-01-19  5:48 PM', observed_val: -0.3048, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -0.3353,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'South Branch Raritan River at Stanton NJ',  mid: 'HFSTTN4', did: 'U260', mdiff: 0, 
+			diff: 37.858048, lat: 40.572222, lon: -74.868056, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 39.991648, minor_flood_level: 40.296448,
+			moderate_flood_level: 40.906048, major_flood_level: 41.515648, alert_level: 1, 
+			min_dt_model: '2018-01-21 11:00 AM', max_dt_model: '2018-01-23 11:00 AM',
+			min_model: 38.55, max_model: 39.19, 
+			navd88_offset: 0, ngvd29_offset: -0.245000000000005, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  5:15 PM', observed_val: 38.626148, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 37.858048,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'North Branch Raritan River near Raritan NJ',  mid: 'HFRRTN4', did: 'U263', mdiff: 0, 
+			diff: 15.106064, lat: 40.570556, lon: -74.679167, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 17.544464, minor_flood_level: 18.154064,
+			moderate_flood_level: 18.763664, major_flood_level: 19.678064, alert_level: 1, 
+			min_dt_model: '2018-01-20  6:00 PM', max_dt_model: '2018-01-23 12:00 PM',
+			min_model: 16, max_model: 16.4, 
+			navd88_offset: 0, ngvd29_offset: -0.265000000000001, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  5:15 PM', observed_val: 16.014364, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 15.106064,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Raritan River at Manville NJ',  mid: 'HFMNVN4', did: 'U243', mdiff: 0, 
+			diff: 6.001816608, lat: 40.555556, lon: -74.582778, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 9.659416608, minor_flood_level: 10.269016608,
+			moderate_flood_level: 11.183416608, major_flood_level: 12.097816608, alert_level: 1, 
+			min_dt_model: '2018-01-21  4:00 PM', max_dt_model: '2018-01-23  6:00 PM',
+			min_model: 7.31, max_model: 8.36, 
+			navd88_offset: 0, ngvd29_offset: -0.280111391999999, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  5:15 PM', observed_val: 7.346016608, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 6.001816608,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Raritan River below Calco Dam at Bound Brook NJ',  mid: 'HFBDKN4', did: 'U006', mdiff: 0, 
+			diff: -0.283921191, lat: 40.55111, lon: -74.54833, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 7.640878809, minor_flood_level: 8.250478809,
+			moderate_flood_level: 8.860078809, major_flood_level: 9.774478809, alert_level: 1, 
+			min_dt_model: '2018-01-21 12:00 PM', max_dt_model: '2018-01-23  6:00 PM',
+			min_model: 4.97, max_model: 5.81, 
+			navd88_offset: 0, ngvd29_offset: -0.283921191, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '1', observed_val: 0, model_alert: 0,
+			observed_found: 0, flag_model_alert: 1, ext_tide_shift: -0.283921191,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Great Kills Harbor at Great Kills NY',  mid: 'M148t', did: 'U266', mdiff: 0, 
+			diff: -0.3292, lat: 40.538889, lon: -74.129889, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.396, near_flood_level: 1.1887, minor_flood_level: 1.3411,
+			moderate_flood_level: 1.6459, major_flood_level: 1.9507, alert_level: 1, 
+			min_dt_model: '2018-01-20  4:15 PM', max_dt_model: '2018-01-22 11:45 PM',
+			min_model: -1.112, max_model: 0.819, 
+			navd88_offset: 0, ngvd29_offset: -0.3292, mlw_offset: -0.7894, 
+			mtl_offset: -0.0579, dtl_offset: -0.0579, mhw_offset: 0.6736, 
+			mhhw_offset: 0.7772, mllw_offset: -0.8473, msl_offset: -0.0488,
+			observed_dt: '2018-01-19  5:00 PM', observed_val: -0.5548, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -7.14,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Arthur Kill at Perth Amboy NJ',  mid: 'M025t', did: 'U273', mdiff: 0, 
+			diff: 0, lat: 40.503889, lon: -74.262222, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.5013, near_flood_level: 1.059420001, minor_flood_level: 1.211820001,
+			moderate_flood_level: 1.516620001, major_flood_level: 1.821420001, alert_level: 1, 
+			min_dt_model: '2018-01-20  4:25 PM', max_dt_model: '2018-01-22 11:55 PM',
+			min_model: -1.108, max_model: 0.788, 
+			navd88_offset: 0, ngvd29_offset: -0.302, mlw_offset: -0.8833, 
+			mtl_offset: -0.1243, dtl_offset: -0.1013, mhw_offset: 0.6347, 
+			mhhw_offset: 0.7497, mllw_offset: -0.9523, msl_offset: -0.1043,
+			observed_dt: '2018-01-19  5:30 PM', observed_val: -0.4237, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -0.2743,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Millstone River at Blackwells Mills NJ',  mid: 'HFBKWN4', did: 'U259', mdiff: 0, 
+			diff: 7.925456, lat: 40.475, lon: -74.575833, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 10.059056, minor_flood_level: 10.668656,
+			moderate_flood_level: 10.973456, major_flood_level: 12.497456, alert_level: 1, 
+			min_dt_model: '2018-01-21  5:00 PM', max_dt_model: '2018-01-23  6:00 PM',
+			min_model: 8.52, max_model: 9.04, 
+			navd88_offset: 0, ngvd29_offset: -0.295000000000001, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  5:15 PM', observed_val: 8.544156, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 7.925456,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Sandy Hook NJ',  mid: 'M003t', did: 'N021', mdiff: 0, 
+			diff: -1.624, lat: 40.466667, lon: -74.010002, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.407, near_flood_level: 1.032, minor_flood_level: 1.184,
+			moderate_flood_level: 1.489, major_flood_level: 1.794, alert_level: 1, 
+			min_dt_model: '2018-01-20  4:05 PM', max_dt_model: '2018-01-22 11:35 PM',
+			min_model: -1.075, max_model: 0.721, 
+			navd88_offset: 0, ngvd29_offset: -0.334, mlw_offset: -0.799, 
+			mtl_offset: -0.0830000000000002, dtl_offset: -0.0620000000000001, mhw_offset: 0.634, 
+			mhhw_offset: 0.735, mllw_offset: -0.858, msl_offset: -0.0730000000000002,
+			observed_dt: '2018-01-19  5:48 PM', observed_val: -0.191, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -1.624,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Raritan Bay at Keansburg NJ',  mid: 'M057t', did: 'U218', mdiff: 0, 
+			diff: 0, lat: 40.44917, lon: -74.1475, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.3472, near_flood_level: 1.0912, minor_flood_level: 1.2436,
+			moderate_flood_level: 1.5484, major_flood_level: 1.8532, alert_level: 1, 
+			min_dt_model: '2018-01-20  4:25 PM', max_dt_model: '2018-01-22 11:45 PM',
+			min_model: -1.141, max_model: 0.712, 
+			navd88_offset: 0, ngvd29_offset: -0.36, mlw_offset: -0.7498, 
+			mtl_offset: -0.0427, dtl_offset: -0.0183, mhw_offset: 0.6614, 
+			mhhw_offset: 0.762, mllw_offset: -0.7986, msl_offset: -0.0427,
+			observed_dt: '1', observed_val: 0, model_alert: 0,
+			observed_found: 0, flag_model_alert: 1, ext_tide_shift: -0.33,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Manalapan Brook at Spotswood NJ',  mid: 'HFSPTN4', did: 'U007', mdiff: 0, 
+			diff: -0.342, lat: 40.38944, lon: -74.39056, map_visible: 1, map_list: 1 ,
+			blowout_level: 9999, near_flood_level: 5.2968, minor_flood_level: 5.4492,
+			moderate_flood_level: 6.0588, major_flood_level: 6.3636, alert_level: 1, 
+			min_dt_model: '2018-01-19  7:00 PM', max_dt_model: '2018-01-19  7:00 PM',
+			min_model: 5.32, max_model: 5.32, 
+			navd88_offset: 0, ngvd29_offset: -0.342, mlw_offset: 9999, 
+			mtl_offset: 9999, dtl_offset: 9999, mhw_offset: 9999, 
+			mhhw_offset: 9999, mllw_offset: 9999, msl_offset: 9999,
+			observed_dt: '2018-01-19  5:15 PM', observed_val: 5.0834, model_alert: 1,
+			observed_found: 1, flag_model_alert: 2, ext_tide_shift: -0.342,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'C',station_type: 'H', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Shrewsbury River at Sea Bright NJ',  mid: 'M076t', did: 'U219', mdiff: 0, 
+			diff: 0, lat: 40.365556, lon: -73.974722, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.3929, near_flood_level: 0.7711, minor_flood_level: 0.9235,
+			moderate_flood_level: 1.2283, major_flood_level: 1.5331, alert_level: 1, 
+			min_dt_model: '2018-01-20  5:35 PM', max_dt_model: '2018-01-23 12:45 AM',
+			min_model: -0.796, max_model: 0.51, 
+			navd88_offset: 0, ngvd29_offset: -0.366, mlw_offset: -0.7864, 
+			mtl_offset: -0.0762, dtl_offset: -0.0549, mhw_offset: 0.634, 
+			mhhw_offset: 0.7346, mllw_offset: -0.8443, msl_offset: -0.0701,
+			observed_dt: '2018-01-19  5:48 PM', observed_val: -0.3932, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -0.058,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Watson Creek at Manasquan NJ',  mid: 'M078t', did: 'U249', mdiff: 0, 
+			diff: 0, lat: 40.111667, lon: -74.044722, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.235, near_flood_level: 0.8382, minor_flood_level: 0.9906,
+			moderate_flood_level: 1.2954, major_flood_level: 1.6002, alert_level: 1, 
+			min_dt_model: '2018-01-20  3:55 PM', max_dt_model: '2018-01-22 11:35 PM',
+			min_model: -0.958, max_model: 0.521, 
+			navd88_offset: 0, ngvd29_offset: -0.329, mlw_offset: -0.717, 
+			mtl_offset: -0.166, dtl_offset: -0.133, mhw_offset: 0.384, 
+			mhhw_offset: 0.482, mllw_offset: -0.747, msl_offset: -0.165,
+			observed_dt: '2018-01-19  5:30 PM', observed_val: -0.2621, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -0.173,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Barnegat Bay at Mantoloking NJ',  mid: 'M079t', did: 'U222', mdiff: 0, 
+			diff: 0, lat: 40.04, lon: -74.052222, map_visible: 1, map_list: 1 ,
+			blowout_level: -0.6706, near_flood_level: 0.2743, minor_flood_level: 0.4267,
+			moderate_flood_level: 0.7315, major_flood_level: 1.0363, alert_level: 1, 
+			min_dt_model: '2018-01-21  8:55 PM', max_dt_model: '2018-01-23  1:25 PM',
+			min_model: -0.193, max_model: 0.427, 
+			navd88_offset: 0, ngvd29_offset: -0.341, mlw_offset: -0.0975, 
+			mtl_offset: -0.0488, dtl_offset: -0.0396, mhw_offset: 0, 
+			mhhw_offset: 0.0427, mllw_offset: -0.1219, msl_offset: -0.0457,
+			observed_dt: '2018-01-19  4:54 PM', observed_val: -0.0152, model_alert: 1,
+			observed_found: 1, flag_model_alert: 3, ext_tide_shift: 0.037,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Barnegat Bay at Barnegat Light NJ',  mid: 'M082t', did: 'U225', mdiff: 0, 
+			diff: 0, lat: 39.761111, lon: -74.108056, map_visible: 1, map_list: 1 ,
+			blowout_level: -0.9053, near_flood_level: 0.5578, minor_flood_level: 0.7102,
+			moderate_flood_level: 1.015, major_flood_level: 1.3198, alert_level: 1, 
+			min_dt_model: '2018-01-20  4:55 PM', max_dt_model: '2018-01-23 12:05 AM',
+			min_model: -0.677, max_model: 0.396, 
+			navd88_offset: 0, ngvd29_offset: -0.384, mlw_offset: -0.32, 
+			mtl_offset: 0.0061, dtl_offset: 0.0213, mhw_offset: 0.3292, 
+			mhhw_offset: 0.3993, mllw_offset: -0.3566, msl_offset: -0.0061,
+			observed_dt: '2018-01-19  5:30 PM', observed_val: -0.1707, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -0.252,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'East Thorofare at Ship Bottom NJ',  mid: 'M083t', did: 'U226', mdiff: 0, 
+			diff: 0, lat: 39.653889, lon: -74.185833, map_visible: 1, map_list: 1 ,
+			blowout_level: -0.762, near_flood_level: 0.4877, minor_flood_level: 0.6401,
+			moderate_flood_level: 0.9449, major_flood_level: 1.2497, alert_level: 1, 
+			min_dt_model: '2018-01-21  7:55 PM', max_dt_model: '2018-01-23  2:15 PM',
+			min_model: -0.346, max_model: 0.283, 
+			navd88_offset: 0, ngvd29_offset: -0.381, mlw_offset: -0.1951, 
+			mtl_offset: 0, dtl_offset: 0.0183, mhw_offset: 0.192, 
+			mhhw_offset: 0.2499, mllw_offset: -0.2134, msl_offset: -0.0152,
+			observed_dt: '2018-01-19  4:48 PM', observed_val: -0.128, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -0.035,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Little Egg Inlet near Tuckerton NJ',  mid: 'M084t', did: 'U227', mdiff: 0, 
+			diff: 0, lat: 39.508889, lon: -74.324722, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.1613, near_flood_level: 0.637, minor_flood_level: 0.7894,
+			moderate_flood_level: 1.0942, major_flood_level: 1.399, alert_level: 1, 
+			min_dt_model: '2018-01-21  4:35 AM', max_dt_model: '2018-01-22 12:05 PM',
+			min_model: -0.556, max_model: 0.477, 
+			navd88_offset: 0, ngvd29_offset: -0.384, mlw_offset: -0.57, 
+			mtl_offset: -0.061, dtl_offset: -0.0274, mhw_offset: 0.445, 
+			mhhw_offset: 0.5578, mllw_offset: -0.6126, msl_offset: -0.0762,
+			observed_dt: '1', observed_val: 0, model_alert: 0,
+			observed_found: 0, flag_model_alert: 1, ext_tide_shift: -0.3624,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Absecon Creek  Rte 30 at Absecon NJ',  mid: 'M085t', did: 'U228', mdiff: 0, 
+			diff: 0, lat: 39.4225, lon: -74.499722, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.2162, near_flood_level: 0.826, minor_flood_level: 0.9784,
+			moderate_flood_level: 1.2832, major_flood_level: 1.588, alert_level: 1, 
+			min_dt_model: '2018-01-21  5:25 AM', max_dt_model: '2018-01-22 12:25 PM',
+			min_model: -0.774, max_model: 0.47, 
+			navd88_offset: 0, ngvd29_offset: -0.387, mlw_offset: -0.6309, 
+			mtl_offset: -0.0792, dtl_offset: -0.0579, mhw_offset: 0.4694, 
+			mhhw_offset: 0.5547, mllw_offset: -0.6675, msl_offset: -0.0579,
+			observed_dt: '2018-01-19  4:54 PM', observed_val: -0.7315, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 0.001,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Cohancey River at Greenwich NJ',  mid: 'M096t', did: 'U239', mdiff: 0, 
+			diff: 0, lat: 39.379167, lon: -75.355278, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.5362, near_flood_level: 1.0546, minor_flood_level: 1.207,
+			moderate_flood_level: 1.5118, major_flood_level: 1.8166, alert_level: 1, 
+			min_dt_model: '2018-01-21  7:45 AM', max_dt_model: '2018-01-23  2:25 AM',
+			min_model: -1.042, max_model: 0.764, 
+			navd88_offset: 0, ngvd29_offset: -0.408, mlw_offset: -0.9357, 
+			mtl_offset: -0.0488, dtl_offset: -0.0091, mhw_offset: 0.8412, 
+			mhhw_offset: 0.9662, mllw_offset: -0.9876, msl_offset: -0.0366,
+			observed_dt: '1', observed_val: 0, model_alert: 0,
+			observed_found: 0, flag_model_alert: 1, ext_tide_shift: -0.1953,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Atlantic City NJ',  mid: 'M004t', did: 'N022', mdiff: 0, 
+			diff: -2.308, lat: 39.355, lon: -74.418335, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.346, near_flood_level: 0.879, minor_flood_level: 1.031,
+			moderate_flood_level: 1.336, major_flood_level: 1.641, alert_level: 1, 
+			min_dt_model: '2018-01-20  3:35 PM', max_dt_model: '2018-01-22 11:15 PM',
+			min_model: -0.95, max_model: 0.519, 
+			navd88_offset: 0, ngvd29_offset: -0.407, mlw_offset: -0.745, 
+			mtl_offset: -0.133, dtl_offset: -0.0949999999999998, mhw_offset: 0.479, 
+			mhhw_offset: 0.606, mllw_offset: -0.797, msl_offset: -0.122,
+			observed_dt: '2018-01-19  5:48 PM', observed_val: -0.181, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -2.308,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Inside Thorofare  Rte 40 Atlantic City NJ',  mid: 'M086t', did: 'U229', mdiff: 0, 
+			diff: 0, lat: 39.353333, lon: -74.456667, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.2802, near_flood_level: 0.9144, minor_flood_level: 1.0668,
+			moderate_flood_level: 1.3716, major_flood_level: 1.6764, alert_level: 1, 
+			min_dt_model: '2018-01-21  4:45 AM', max_dt_model: '2018-01-22 11:35 AM',
+			min_model: -0.904, max_model: 0.53, 
+			navd88_offset: 0, ngvd29_offset: -0.399, mlw_offset: -0.6888, 
+			mtl_offset: -0.0792, dtl_offset: -0.0457, mhw_offset: 0.5273, 
+			mhhw_offset: 0.6401, mllw_offset: -0.7315, msl_offset: -0.0732,
+			observed_dt: '2018-01-19  4:54 PM', observed_val: -0.6675, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -0.04,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Baltimore MD',  mid: 'S014t', did: 'N037', mdiff: 0, 
+			diff: -1.505, lat: 39.266667, lon: -76.578333, map_visible: 1, map_list: 1 ,
+			blowout_level: -0.803, near_flood_level: 0.508, minor_flood_level: 0.66,
+			moderate_flood_level: 1.27, major_flood_level: 1.575, alert_level: 1, 
+			min_dt_model: '2018-01-21  3:05 PM', max_dt_model: '2018-01-23 10:35 AM',
+			min_model: -0.425, max_model: 0.428, 
+			navd88_offset: 0, ngvd29_offset: -0.243, mlw_offset: -0.187, 
+			mtl_offset: -0.0129999999999999, dtl_offset: -0.00099999999999989, mhw_offset: 0.161, 
+			mhhw_offset: 0.252, mllw_offset: -0.254, msl_offset: -0.00999999999999979,
+			observed_dt: '2018-01-19  5:54 PM', observed_val: 0.179, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -1.505,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'ENS02'
+
+		} ,
+ 
+{ title: 'Peck Bay at Ocean City NJ',  mid: 'M088t', did: 'U231', mdiff: 0, 
+			diff: 0, lat: 39.254167, lon: -74.627222, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.1765, near_flood_level: 0.8352, minor_flood_level: 0.9876,
+			moderate_flood_level: 1.2924, major_flood_level: 1.5972, alert_level: 1, 
+			min_dt_model: '2018-01-21  5:35 PM', max_dt_model: '2018-01-20 10:05 AM',
+			min_model: -0.796, max_model: 0.543, 
+			navd88_offset: 0, ngvd29_offset: -0.39, mlw_offset: -0.5822, 
+			mtl_offset: -0.0579, dtl_offset: -0.0244, mhw_offset: 0.4663, 
+			mhhw_offset: 0.5822, mllw_offset: -0.6279, msl_offset: -0.0549,
+			observed_dt: '1', observed_val: 0, model_alert: 0,
+			observed_found: 0, flag_model_alert: 1, ext_tide_shift: -0.078,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Maurice River at Bivalve NJ',  mid: 'M095t', did: 'U238', mdiff: 0, 
+			diff: 0, lat: 39.231667, lon: -75.033056, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.5972, near_flood_level: 1.1156, minor_flood_level: 1.268,
+			moderate_flood_level: 1.5728, major_flood_level: 1.8776, alert_level: 1, 
+			min_dt_model: '2018-01-21  6:15 AM', max_dt_model: '2018-01-23  1:05 AM',
+			min_model: -1.2, max_model: 0.763, 
+			navd88_offset: 0, ngvd29_offset: -0.3528, mlw_offset: -0.9845, 
+			mtl_offset: -0.1097, dtl_offset: -0.0701, mhw_offset: 0.7681, 
+			mhhw_offset: 0.9053, mllw_offset: -1.0485, msl_offset: -0.0732,
+			observed_dt: '1', observed_val: 0, model_alert: 0,
+			observed_found: 0, flag_model_alert: 1, ext_tide_shift: -0.3103,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Ludlam Thorofare at Sea Isle City NJ',  mid: 'M090t', did: 'U233', mdiff: 0, 
+			diff: 0, lat: 39.1575, lon: -74.697778, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.2649, near_flood_level: 0.8687, minor_flood_level: 1.0211,
+			moderate_flood_level: 1.3259, major_flood_level: 1.6307, alert_level: 1, 
+			min_dt_model: '2018-01-21  4:25 AM', max_dt_model: '2018-01-20  9:45 AM',
+			min_model: -0.934, max_model: 0.456, 
+			navd88_offset: 0, ngvd29_offset: -0.387, mlw_offset: -0.6584, 
+			mtl_offset: -0.0762, dtl_offset: -0.0579, mhw_offset: 0.506, 
+			mhhw_offset: 0.6035, mllw_offset: -0.7163, msl_offset: -0.0732,
+			observed_dt: '2018-01-19  5:36 PM', observed_val: -0.506, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -0.053,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Annapolis MD',  mid: 'S016t', did: 'N038', mdiff: 0, 
+			diff: -1.612, lat: 38.983333, lon: -76.48, map_visible: 1, map_list: 1 ,
+			blowout_level: -0.784, near_flood_level: 0.375, minor_flood_level: 0.497,
+			moderate_flood_level: 0.771, major_flood_level: 1.594, alert_level: 1, 
+			min_dt_model: '2018-01-21  1:45 PM', max_dt_model: '2018-01-23  9:25 AM',
+			min_model: -0.428, max_model: 0.392, 
+			navd88_offset: 0, ngvd29_offset: -0.246, mlw_offset: -0.168, 
+			mtl_offset: -0.02, dtl_offset: -0.016, mhw_offset: 0.129, 
+			mhhw_offset: 0.203, mllw_offset: -0.235, msl_offset: -0.016,
+			observed_dt: '2018-01-19  5:48 PM', observed_val: 0.249, model_alert: 1,
+			observed_found: 1, flag_model_alert: 2, ext_tide_shift: -1.612,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'ENS02'
+
+		} ,
+ 
+{ title: 'Cape May NJ',  mid: 'M005t', did: 'N023', mdiff: 0, 
+			diff: -1.658, lat: 38.968334, lon: -74.959999, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.469, near_flood_level: 1.031, minor_flood_level: 1.122,
+			moderate_flood_level: 1.427, major_flood_level: 1.732, alert_level: 1, 
+			min_dt_model: '2018-01-21  4:35 AM', max_dt_model: '2018-01-20 10:15 AM',
+			min_model: -1.079, max_model: 0.684, 
+			navd88_offset: 0, ngvd29_offset: -0.408, mlw_offset: -0.871, 
+			mtl_offset: -0.132, dtl_offset: -0.0899999999999999, mhw_offset: 0.607, 
+			mhhw_offset: 0.74, mllw_offset: -0.92, msl_offset: -0.137,
+			observed_dt: '2018-01-19  5:48 PM', observed_val: -0.569, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -1.658,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Cape May Harbor at Cape May NJ',  mid: 'M093t', did: 'U236', mdiff: 0, 
+			diff: 0, lat: 38.948611, lon: -74.890556, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.3929, near_flood_level: 0.8931, minor_flood_level: 1.0455,
+			moderate_flood_level: 1.3503, major_flood_level: 1.6551, alert_level: 1, 
+			min_dt_model: '2018-01-21  4:25 AM', max_dt_model: '2018-01-23 12:15 AM',
+			min_model: -1.082, max_model: 0.619, 
+			navd88_offset: 0, ngvd29_offset: -0.399, mlw_offset: -0.7925, 
+			mtl_offset: -0.1097, dtl_offset: -0.0732, mhw_offset: 0.573, 
+			mhhw_offset: 0.701, mllw_offset: -0.8443, msl_offset: -0.0975,
+			observed_dt: '2018-01-19  5:18 PM', observed_val: -0.5456, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: 0,
+			advisory: 1, agency: ' (USGS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Lewes DE',  mid: 'M066t', did: 'N030', mdiff: 0, 
+			diff: -1.649, lat: 38.781666, lon: -75.120003, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.35, near_flood_level: 0.875, minor_flood_level: 1.028,
+			moderate_flood_level: 1.333, major_flood_level: 1.637, alert_level: 1, 
+			min_dt_model: '2018-01-21  4:45 AM', max_dt_model: '2018-01-23 12:25 AM',
+			min_model: -1.013, max_model: 0.551, 
+			navd88_offset: 0, ngvd29_offset: -0.231, mlw_offset: -0.753, 
+			mtl_offset: -0.132, dtl_offset: -0.0920000000000001, mhw_offset: 0.489, 
+			mhhw_offset: 0.617, mllw_offset: -0.801, msl_offset: -0.121,
+			observed_dt: '2018-01-19  5:48 PM', observed_val: -0.563, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -1.649,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Cambridge MD',  mid: 'S017t', did: 'N041', mdiff: 0, 
+			diff: -1.087, lat: 38.573333, lon: -76.068333, map_visible: 1, map_list: 1 ,
+			blowout_level: -0.886, near_flood_level: 0.577, minor_flood_level: 0.73,
+			moderate_flood_level: 0.882, major_flood_level: 1.035, alert_level: 1, 
+			min_dt_model: '2018-01-21  1:05 PM', max_dt_model: '2018-01-23  8:35 AM',
+			min_model: -0.585, max_model: 0.39, 
+			navd88_offset: 0, ngvd29_offset: -0.235, mlw_offset: -0.274, 
+			mtl_offset: -0.026, dtl_offset: -0.026, mhw_offset: 0.221, 
+			mhhw_offset: 0.285, mllw_offset: -0.337, msl_offset: -0.0269999999999999,
+			observed_dt: '2018-01-19  5:42 PM', observed_val: 0.334, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -1.087,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'ENS02'
+
+		} ,
+ 
+{ title: 'Ocean City Inlet MD',  mid: 'M067t', did: 'N031', mdiff: 0, 
+			diff: -2.949, lat: 38.328333, lon: -75.091667, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.04964, near_flood_level: 0.5658, minor_flood_level: 0.7182,
+			moderate_flood_level: 1.023, major_flood_level: 1.3278, alert_level: 1, 
+			min_dt_model: '2018-01-21  4:05 AM', max_dt_model: '2018-01-22 11:45 PM',
+			min_model: -0.682, max_model: 0.207, 
+			navd88_offset: 0, ngvd29_offset: -0.2343, mlw_offset: -0.451, 
+			mtl_offset: -0.13, dtl_offset: -0.125, mhw_offset: 0.191, 
+			mhhw_offset: 0.252, mllw_offset: -0.501, msl_offset: -0.11,
+			observed_dt: '2018-01-19  5:54 PM', observed_val: -0.175, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -2.949,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'OPSE01'
+
+		} ,
+ 
+{ title: 'Lewisetta VA',  mid: 'S018t', did: 'N047', mdiff: 0, 
+			diff: -1.707, lat: 37.995, lon: -76.46333, map_visible: 1, map_list: 1 ,
+			blowout_level: -0.802, near_flood_level: 0.509, minor_flood_level: 0.661,
+			moderate_flood_level: 0.814, major_flood_level: 0.966, alert_level: 1, 
+			min_dt_model: '2018-01-21 10:05 AM', max_dt_model: '2018-01-23  5:35 AM',
+			min_model: -0.454, max_model: 0.26, 
+			navd88_offset: 0, ngvd29_offset: -0.249, mlw_offset: -0.217, 
+			mtl_offset: -0.0270000000000001, dtl_offset: -0.024, mhw_offset: 0.163, 
+			mhhw_offset: 0.206, mllw_offset: -0.253, msl_offset: -0.022,
+			observed_dt: '2018-01-19  5:54 PM', observed_val: 0.0730000000000002, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -1.707,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'ENS02'
+
+		} ,
+ 
+{ title: 'Windmill Point VA',  mid: 'S019t', did: 'N051', mdiff: 0, 
+			diff: -1.023, lat: 37.615, lon: -76.29, map_visible: 1, map_list: 1 ,
+			blowout_level: -0.883, near_flood_level: 0.428, minor_flood_level: 0.58,
+			moderate_flood_level: 0.733, major_flood_level: 0.885, alert_level: 1, 
+			min_dt_model: '2018-01-21  7:55 PM', max_dt_model: '2018-01-23  2:45 PM',
+			min_model: -0.562, max_model: 0.067, 
+			navd88_offset: 0, ngvd29_offset: -0.252, mlw_offset: -0.304, 
+			mtl_offset: -0.127, dtl_offset: -0.122, mhw_offset: 0.05, 
+			mhhw_offset: 0.0900000000000001, mllw_offset: -0.334, msl_offset: -0.12,
+			observed_dt: '2018-01-19  5:48 PM', observed_val: -0.241, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -1.023,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'ENS02'
+
+		} ,
+ 
+{ title: 'Chesapeake Bay Bridge Tunnel VA',  mid: 'S020t', did: 'N058', mdiff: 0, 
+			diff: -8.262, lat: 36.966667, lon: -76.11333, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.107, near_flood_level: 0.814, minor_flood_level: 0.965999999999999,
+			moderate_flood_level: 1.118, major_flood_level: 1.271, alert_level: 1, 
+			min_dt_model: '2018-01-21  4:55 PM', max_dt_model: '2018-01-22 11:55 PM',
+			min_model: -0.745, max_model: 0.15, 
+			navd88_offset: 0, ngvd29_offset: -0.259, mlw_offset: -0.521000000000001, 
+			mtl_offset: -0.133000000000001, dtl_offset: -0.116, mhw_offset: 0.256, 
+			mhhw_offset: 0.325999999999999, mllw_offset: -0.558000000000001, msl_offset: -0.127000000000001,
+			observed_dt: '1', observed_val: 0, model_alert: 0,
+			observed_found: 0, flag_model_alert: 1, ext_tide_shift: -8.262,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'ENS02'
+
+		} ,
+ 
+{ title: 'Duck NC',  mid: 'S021t', did: 'N061', mdiff: 0, 
+			diff: -6.33, lat: 36.18333, lon: -75.746667, map_visible: 1, map_list: 1 ,
+			blowout_level: -1.216, near_flood_level: 0.857, minor_flood_level: 1.009,
+			moderate_flood_level: 1.162, major_flood_level: 1.314, alert_level: 1, 
+			min_dt_model: '2018-01-20  3:35 PM', max_dt_model: '2018-01-20  9:15 AM',
+			min_model: -0.849, max_model: 0.229, 
+			navd88_offset: 0, ngvd29_offset: -0.292, mlw_offset: -0.623, 
+			mtl_offset: -0.132, dtl_offset: -0.105, mhw_offset: 0.36, 
+			mhhw_offset: 0.457, mllw_offset: -0.667, msl_offset: -0.128,
+			observed_dt: '2018-01-19  5:48 PM', observed_val: -0.248, model_alert: 0,
+			observed_found: 1, flag_model_alert: 1, ext_tide_shift: -6.33,
+			advisory: 1, agency: ' (NOS)',
+			image_shape: 'R',station_type: 'T', registration_allowed: 1
+			,sfas_model: 'ENS02'
+
+		}
