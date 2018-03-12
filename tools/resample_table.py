@@ -13,7 +13,8 @@ import pandas as pd
 otm = ['obs','tid','mod']
 for v in otm:
     T = pd.read_csv('series/'+v+'.csv',header=0,index_col=0,parse_dates=True)
-    Th = T.resample('H').mean()[T.resample('H').count()>3]
+    Th = T.resample('H').mean()
+#    Th = T.resample('H').mean()[T.resample('H').count()>3] # 1H stations exist, such as Kearny_Point_at_Kearny_NJ
     Th.to_csv('series/'+v+'_h.csv')
 
 #%%

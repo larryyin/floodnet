@@ -33,7 +33,7 @@ def download_period(station,url,beg,end,log):
     except:
         return 0
 
-def download_station(station,url,Y=2017,M=1,D=1):
+def download_station(station,url,Y=2018,M=7,D=1):
 #    if os.path.exists(station):
 #        shutil.rmtree(station)
     try:

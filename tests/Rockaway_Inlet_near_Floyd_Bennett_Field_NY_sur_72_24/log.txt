@@ -1,0 +1,31 @@
+Station: Rockaway_Inlet_near_Floyd_Bennett_Field_NY
+Feature: sur
+X_train:  (64158, 72)
+Y_train:  (64158, 24)
+X_dev:  (6750, 72)
+Y_dev:  (6750, 24)
+X_test:  (7038, 72)
+Y_test:  (7038, 24)
+n_train =  64158
+n_dev =  6750
+n_test =  7038
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  36
+n_hidder1 =  18
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.041722596 Dev mse: 0.036794618 Best_dev_mse: inf
+10 Train mse: 0.014116372 Dev mse: 0.017125843 Best_dev_mse: 0.036794618
+20 Train mse: 0.0120005375 Dev mse: 0.015755149 Best_dev_mse: 0.017125843
+30 Train mse: 0.01264677 Dev mse: 0.015862104 Best_dev_mse: 0.015755149
+40 Train mse: 0.011893408 Dev mse: 0.015611429 Best_dev_mse: 0.015755149
+50 Train mse: 0.012090188 Dev mse: 0.014970503 Best_dev_mse: 0.015611429
+60 Train mse: 0.013785499 Dev mse: 0.015147482 Best_dev_mse: 0.014970503
+70 Train mse: 0.01224338 Dev mse: 0.015218944 Best_dev_mse: 0.014970503
+Early stopping!
+Training time: 49.778 sec
+Best dev mse: 0.014971
+Test mse: 0.014971
