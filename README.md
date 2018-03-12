@@ -7,5 +7,5 @@ A neural network framework to predict water levels based on regional observation
 
 ![Observation stations map](https://github.com/larryyin/floodnet/blob/master/img/02_map_obs_stations.png "Observation stations map")
 
-![Available and selected observation stations](https://github.com/larryyin/floodnet/blob/master/img/00a_available_selected_obs.png "Available and selected observation stations")
+![Available and selected observation stations](https://github.com/larryyin/floodnet/blob/master/img/00b_available_selected_obs.png "Available and selected observation stations")
 
