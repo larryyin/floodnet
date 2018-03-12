@@ -1,5 +1,5 @@
 # FLOODNET
-A neural network framework to predict water levels based on regional observation data and hydrodynamic models - addressing the spatial-temporal, cyclic characteristics and sparsity.  
+A neural network framework to predict water levels based on regional observation data and hydrodynamic models - dealing with the spatial-temporal, cyclic characteristics and sparsity.  
 ## Update
 2018-01-21: Developed tools to scrape the NYHOPS.  
 2018-02-21: Merged and resampled data.  
