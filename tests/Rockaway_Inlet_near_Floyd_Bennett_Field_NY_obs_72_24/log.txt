@@ -13,21 +13,25 @@ n_input =  72
 n_output =  24
 n_layer =  2
 n_hidder0 =  36
-n_hidder1 =  18
+n_hidder1 =  12
 n_epoch =  1000
 batch_size =  500
 
-0 Train mse: 0.08965531 Dev mse: 0.0994271 Best_dev_mse: inf
-10 Train mse: 0.015181692 Dev mse: 0.020254076 Best_dev_mse: 0.0994271
-20 Train mse: 0.014951659 Dev mse: 0.01881803 Best_dev_mse: 0.020254076
-30 Train mse: 0.017821163 Dev mse: 0.018123545 Best_dev_mse: 0.01881803
-40 Train mse: 0.0138899 Dev mse: 0.01818735 Best_dev_mse: 0.018123545
-50 Train mse: 0.013843476 Dev mse: 0.017727679 Best_dev_mse: 0.018123545
-60 Train mse: 0.0137362825 Dev mse: 0.017550075 Best_dev_mse: 0.017727679
-70 Train mse: 0.015344864 Dev mse: 0.01741521 Best_dev_mse: 0.017550075
-80 Train mse: 0.013119887 Dev mse: 0.017613402 Best_dev_mse: 0.01741521
-90 Train mse: 0.014675771 Dev mse: 0.01762232 Best_dev_mse: 0.01741521
+0 Train mse: 0.12868416 Dev mse: 0.1352269 Best_dev_mse: inf
+10 Train mse: 0.025279863 Dev mse: 0.02248705 Best_dev_mse: 0.1352269
+20 Train mse: 0.020331876 Dev mse: 0.018948423 Best_dev_mse: 0.02248705
+30 Train mse: 0.019851258 Dev mse: 0.018503986 Best_dev_mse: 0.018948423
+40 Train mse: 0.013463065 Dev mse: 0.018431617 Best_dev_mse: 0.018503986
+50 Train mse: 0.013535698 Dev mse: 0.018067049 Best_dev_mse: 0.018431617
+60 Train mse: 0.020460319 Dev mse: 0.01795428 Best_dev_mse: 0.018067049
+70 Train mse: 0.01601682 Dev mse: 0.01803088 Best_dev_mse: 0.01795428
+80 Train mse: 0.013638793 Dev mse: 0.017954003 Best_dev_mse: 0.01795428
+90 Train mse: 0.014221153 Dev mse: 0.017944872 Best_dev_mse: 0.017954003
+100 Train mse: 0.016000269 Dev mse: 0.017954487 Best_dev_mse: 0.017944872
+110 Train mse: 0.014995253 Dev mse: 0.017479504 Best_dev_mse: 0.017944872
+120 Train mse: 0.015010728 Dev mse: 0.017581826 Best_dev_mse: 0.017479504
+130 Train mse: 0.014639782 Dev mse: 0.017648906 Best_dev_mse: 0.017479504
 Early stopping!
-Training time: 64.772 sec
-Best dev mse: 0.017415
-Test mse: 0.017415
+Training time: 77.637 sec
+Best dev mse: 0.017480
+Test mse: 0.017480
