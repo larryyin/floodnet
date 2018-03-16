@@ -1,0 +1,39 @@
+Station: Absecon_Creek__Rte_30_at_Absecon_NJ
+Feature: sur_tidext
+X_train:  (72782, 30)
+Y_train:  (72782, 6)
+X_dev:  (7989, 30)
+Y_dev:  (7989, 6)
+X_test:  (8040, 30)
+Y_test:  (8040, 6)
+
+n_train =  72782
+n_dev =  7989
+n_test =  8040
+
+n_input =  30
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.04335 Dev mse: 0.0370047 Best_dev_mse: inf
+10 Train mse: 0.011349642 Dev mse: 0.010637157 Best_dev_mse: 0.0370047
+20 Train mse: 0.009283957 Dev mse: 0.009413791 Best_dev_mse: 0.010637157
+30 Train mse: 0.00885359 Dev mse: 0.008915579 Best_dev_mse: 0.009413791
+40 Train mse: 0.0062381066 Dev mse: 0.008671942 Best_dev_mse: 0.008915579
+50 Train mse: 0.005800507 Dev mse: 0.008586288 Best_dev_mse: 0.008671942
+60 Train mse: 0.00697633 Dev mse: 0.008609638 Best_dev_mse: 0.008586288
+70 Train mse: 0.009721534 Dev mse: 0.008510839 Best_dev_mse: 0.008586288
+80 Train mse: 0.0072213965 Dev mse: 0.00840796 Best_dev_mse: 0.008510839
+90 Train mse: 0.009003694 Dev mse: 0.008291314 Best_dev_mse: 0.00840796
+100 Train mse: 0.009566163 Dev mse: 0.008224348 Best_dev_mse: 0.008291314
+110 Train mse: 0.0063797715 Dev mse: 0.008375755 Best_dev_mse: 0.008224348
+120 Train mse: 0.011842829 Dev mse: 0.008445207 Best_dev_mse: 0.008224348
+Early stopping!
+Training time: 63.685 sec
+
+Best dev mse = 0.008224, rmse = 0.090688, corr = 0.5812
+Test mse = 0.006840, rmse = 0.082702, corr = 0.5832

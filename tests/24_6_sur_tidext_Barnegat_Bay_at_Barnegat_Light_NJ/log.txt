@@ -1,0 +1,43 @@
+Station: Barnegat_Bay_at_Barnegat_Light_NJ
+Feature: sur_tidext
+X_train:  (70622, 30)
+Y_train:  (70622, 6)
+X_dev:  (7683, 30)
+Y_dev:  (7683, 6)
+X_test:  (7951, 30)
+Y_test:  (7951, 6)
+
+n_train =  70622
+n_dev =  7683
+n_test =  7951
+
+n_input =  30
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.04090993 Dev mse: 0.040712733 Best_dev_mse: inf
+10 Train mse: 0.0044826292 Dev mse: 0.0040530874 Best_dev_mse: 0.040712733
+20 Train mse: 0.0026997977 Dev mse: 0.0032301578 Best_dev_mse: 0.0040530874
+30 Train mse: 0.0020804517 Dev mse: 0.0029748078 Best_dev_mse: 0.0032301578
+40 Train mse: 0.003543506 Dev mse: 0.0027938297 Best_dev_mse: 0.0029748078
+50 Train mse: 0.0038800002 Dev mse: 0.0026988192 Best_dev_mse: 0.0027938297
+60 Train mse: 0.0025681886 Dev mse: 0.002692733 Best_dev_mse: 0.0026988192
+70 Train mse: 0.0023695615 Dev mse: 0.0025876013 Best_dev_mse: 0.002692733
+80 Train mse: 0.002229323 Dev mse: 0.0025338337 Best_dev_mse: 0.0025876013
+90 Train mse: 0.0026367684 Dev mse: 0.0025375136 Best_dev_mse: 0.0025338337
+100 Train mse: 0.0016222242 Dev mse: 0.002515893 Best_dev_mse: 0.0025338337
+110 Train mse: 0.0028923622 Dev mse: 0.0024642718 Best_dev_mse: 0.002515893
+120 Train mse: 0.0027769916 Dev mse: 0.002459237 Best_dev_mse: 0.0024642718
+130 Train mse: 0.0020684297 Dev mse: 0.002502936 Best_dev_mse: 0.002459237
+140 Train mse: 0.002323981 Dev mse: 0.0024353566 Best_dev_mse: 0.002459237
+150 Train mse: 0.0013931892 Dev mse: 0.0025380128 Best_dev_mse: 0.0024353566
+160 Train mse: 0.0041194335 Dev mse: 0.002451854 Best_dev_mse: 0.0024353566
+Early stopping!
+Training time: 81.764 sec
+
+Best dev mse = 0.002435, rmse = 0.049349, corr = 0.9053
+Test mse = 0.003416, rmse = 0.058444, corr = 0.8769

@@ -1,0 +1,44 @@
+Station: Barnegat_Bay_at_Mantoloking_NJ
+Feature: obs
+X_train:  (71441, 24)
+Y_train:  (71441, 6)
+X_dev:  (7839, 24)
+Y_dev:  (7839, 6)
+X_test:  (7630, 24)
+Y_test:  (7630, 6)
+
+n_train =  71441
+n_dev =  7839
+n_test =  7630
+
+n_input =  24
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.041486938 Dev mse: 0.03523025 Best_dev_mse: inf
+10 Train mse: 0.0090677915 Dev mse: 0.0054362696 Best_dev_mse: 0.03523025
+20 Train mse: 0.0038704043 Dev mse: 0.0035062658 Best_dev_mse: 0.0054362696
+30 Train mse: 0.00308134 Dev mse: 0.002958554 Best_dev_mse: 0.0035062658
+40 Train mse: 0.002824994 Dev mse: 0.0027128505 Best_dev_mse: 0.002958554
+50 Train mse: 0.002546017 Dev mse: 0.002544393 Best_dev_mse: 0.0027128505
+60 Train mse: 0.0020890336 Dev mse: 0.0024221127 Best_dev_mse: 0.002544393
+70 Train mse: 0.0026688275 Dev mse: 0.002383956 Best_dev_mse: 0.0024221127
+80 Train mse: 0.0021413723 Dev mse: 0.002293065 Best_dev_mse: 0.002383956
+90 Train mse: 0.0023069552 Dev mse: 0.0022567143 Best_dev_mse: 0.002293065
+100 Train mse: 0.0021152983 Dev mse: 0.0022318095 Best_dev_mse: 0.0022567143
+110 Train mse: 0.002516322 Dev mse: 0.0022218162 Best_dev_mse: 0.0022318095
+120 Train mse: 0.0024267228 Dev mse: 0.0022083377 Best_dev_mse: 0.0022218162
+130 Train mse: 0.0021595191 Dev mse: 0.0021632907 Best_dev_mse: 0.0022083377
+140 Train mse: 0.002492658 Dev mse: 0.0021635315 Best_dev_mse: 0.0021632907
+150 Train mse: 0.0019102297 Dev mse: 0.002103782 Best_dev_mse: 0.0021632907
+160 Train mse: 0.0019744483 Dev mse: 0.0021223803 Best_dev_mse: 0.002103782
+170 Train mse: 0.00208466 Dev mse: 0.0021549466 Best_dev_mse: 0.002103782
+Early stopping!
+Training time: 86.870 sec
+
+Best dev mse = 0.002104, rmse = 0.045867, corr = 0.8717
+Test mse = 0.002984, rmse = 0.054624, corr = 0.8740

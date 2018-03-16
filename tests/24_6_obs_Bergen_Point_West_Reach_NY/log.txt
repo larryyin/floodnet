@@ -1,0 +1,40 @@
+Station: Bergen_Point_West_Reach_NY
+Feature: obs
+X_train:  (64881, 24)
+Y_train:  (64881, 6)
+X_dev:  (7989, 24)
+Y_dev:  (7989, 6)
+X_test:  (8040, 24)
+Y_test:  (8040, 6)
+
+n_train =  64881
+n_dev =  7989
+n_test =  8040
+
+n_input =  24
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.08873987 Dev mse: 0.098940976 Best_dev_mse: inf
+10 Train mse: 0.015378107 Dev mse: 0.016615992 Best_dev_mse: 0.098940976
+20 Train mse: 0.013225134 Dev mse: 0.0141844535 Best_dev_mse: 0.016615992
+30 Train mse: 0.011445622 Dev mse: 0.013290341 Best_dev_mse: 0.0141844535
+40 Train mse: 0.009964044 Dev mse: 0.012869457 Best_dev_mse: 0.013290341
+50 Train mse: 0.012381591 Dev mse: 0.012596912 Best_dev_mse: 0.012869457
+60 Train mse: 0.012473677 Dev mse: 0.012670007 Best_dev_mse: 0.012596912
+70 Train mse: 0.011636169 Dev mse: 0.012244795 Best_dev_mse: 0.012596912
+80 Train mse: 0.011649553 Dev mse: 0.012240934 Best_dev_mse: 0.012244795
+90 Train mse: 0.011574407 Dev mse: 0.012134924 Best_dev_mse: 0.012240934
+100 Train mse: 0.009635745 Dev mse: 0.012205165 Best_dev_mse: 0.012134924
+110 Train mse: 0.009647637 Dev mse: 0.011847679 Best_dev_mse: 0.012134924
+120 Train mse: 0.009099595 Dev mse: 0.012011962 Best_dev_mse: 0.011847679
+130 Train mse: 0.011623174 Dev mse: 0.011850155 Best_dev_mse: 0.011847679
+Early stopping!
+Training time: 59.934 sec
+
+Best dev mse = 0.011848, rmse = 0.108847, corr = 0.9880
+Test mse = 0.011833, rmse = 0.108780, corr = 0.9873

@@ -1,0 +1,40 @@
+Station: New_Haven_CT
+Feature: sur_tidext
+X_train:  (69094, 30)
+Y_train:  (69094, 6)
+X_dev:  (7989, 30)
+Y_dev:  (7989, 6)
+X_test:  (8040, 30)
+Y_test:  (8040, 6)
+
+n_train =  69094
+n_dev =  7989
+n_test =  8040
+
+n_input =  30
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.03500939 Dev mse: 0.039275974 Best_dev_mse: inf
+10 Train mse: 0.008063869 Dev mse: 0.0056537897 Best_dev_mse: 0.039275974
+20 Train mse: 0.0035594183 Dev mse: 0.004104699 Best_dev_mse: 0.0056537897
+30 Train mse: 0.0036727993 Dev mse: 0.003818389 Best_dev_mse: 0.004104699
+40 Train mse: 0.0055222553 Dev mse: 0.0036339047 Best_dev_mse: 0.003818389
+50 Train mse: 0.0044220146 Dev mse: 0.003517587 Best_dev_mse: 0.0036339047
+60 Train mse: 0.002116317 Dev mse: 0.0033595734 Best_dev_mse: 0.003517587
+70 Train mse: 0.00984108 Dev mse: 0.003336939 Best_dev_mse: 0.0033595734
+80 Train mse: 0.0047227186 Dev mse: 0.0033354638 Best_dev_mse: 0.003336939
+90 Train mse: 0.0025974424 Dev mse: 0.0032526671 Best_dev_mse: 0.0033354638
+100 Train mse: 0.0019784016 Dev mse: 0.0033359637 Best_dev_mse: 0.0032526671
+110 Train mse: 0.005149585 Dev mse: 0.0032137178 Best_dev_mse: 0.0032526671
+120 Train mse: 0.0018865428 Dev mse: 0.0033227638 Best_dev_mse: 0.0032137178
+130 Train mse: 0.0029542325 Dev mse: 0.0032425274 Best_dev_mse: 0.0032137178
+Early stopping!
+Training time: 64.526 sec
+
+Best dev mse = 0.003214, rmse = 0.056690, corr = 0.5911
+Test mse = 0.003688, rmse = 0.060732, corr = 0.5649

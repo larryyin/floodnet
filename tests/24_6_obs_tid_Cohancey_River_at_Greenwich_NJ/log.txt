@@ -1,0 +1,35 @@
+Station: Cohancey_River_at_Greenwich_NJ
+Feature: obs_tid
+X_train:  (63442, 48)
+Y_train:  (63442, 6)
+X_dev:  (7740, 48)
+Y_dev:  (7740, 6)
+X_test:  (6618, 48)
+Y_test:  (6618, 6)
+
+n_train =  63442
+n_dev =  7740
+n_test =  6618
+
+n_input =  48
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.07840276 Dev mse: 0.0772918 Best_dev_mse: inf
+10 Train mse: 0.014053883 Dev mse: 0.011340853 Best_dev_mse: 0.0772918
+20 Train mse: 0.010977581 Dev mse: 0.010102085 Best_dev_mse: 0.011340853
+30 Train mse: 0.009200077 Dev mse: 0.009811499 Best_dev_mse: 0.010102085
+40 Train mse: 0.013394414 Dev mse: 0.010020999 Best_dev_mse: 0.009811499
+50 Train mse: 0.009679231 Dev mse: 0.009582487 Best_dev_mse: 0.009811499
+60 Train mse: 0.011453034 Dev mse: 0.009210606 Best_dev_mse: 0.009582487
+70 Train mse: 0.017157342 Dev mse: 0.009296598 Best_dev_mse: 0.009210606
+80 Train mse: 0.009570111 Dev mse: 0.009725607 Best_dev_mse: 0.009210606
+Early stopping!
+Training time: 38.595 sec
+
+Best dev mse = 0.009211, rmse = 0.095972, corr = 0.9900
+Test mse = 0.008723, rmse = 0.093395, corr = 0.9879

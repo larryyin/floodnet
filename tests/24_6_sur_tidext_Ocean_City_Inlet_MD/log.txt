@@ -1,0 +1,47 @@
+Station: Ocean_City_Inlet_MD
+Feature: sur_tidext
+X_train:  (69194, 30)
+Y_train:  (69194, 6)
+X_dev:  (7929, 30)
+Y_dev:  (7929, 6)
+X_test:  (8040, 30)
+Y_test:  (8040, 6)
+
+n_train =  69194
+n_dev =  7929
+n_test =  8040
+
+n_input =  30
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.014366514 Dev mse: 0.016916353 Best_dev_mse: inf
+10 Train mse: 0.0019054417 Dev mse: 0.0025479733 Best_dev_mse: 0.016916353
+20 Train mse: 0.0012770495 Dev mse: 0.0017815813 Best_dev_mse: 0.0025479733
+30 Train mse: 0.001356848 Dev mse: 0.0016049865 Best_dev_mse: 0.0017815813
+40 Train mse: 0.0014823445 Dev mse: 0.0015212066 Best_dev_mse: 0.0016049865
+50 Train mse: 0.0014892501 Dev mse: 0.0015535571 Best_dev_mse: 0.0015212066
+60 Train mse: 0.0011815839 Dev mse: 0.0014831243 Best_dev_mse: 0.0015212066
+70 Train mse: 0.0011715903 Dev mse: 0.0014911295 Best_dev_mse: 0.0014831243
+80 Train mse: 0.0013698464 Dev mse: 0.0014784187 Best_dev_mse: 0.0014831243
+90 Train mse: 0.0010827315 Dev mse: 0.0014258935 Best_dev_mse: 0.0014784187
+100 Train mse: 0.0011404416 Dev mse: 0.0014092026 Best_dev_mse: 0.0014258935
+110 Train mse: 0.0013839112 Dev mse: 0.0014812149 Best_dev_mse: 0.0014092026
+120 Train mse: 0.0010788693 Dev mse: 0.001409045 Best_dev_mse: 0.0014092026
+130 Train mse: 0.0012075421 Dev mse: 0.0014494578 Best_dev_mse: 0.001409045
+140 Train mse: 0.0011022012 Dev mse: 0.001354736 Best_dev_mse: 0.001409045
+150 Train mse: 0.0011465397 Dev mse: 0.0013966252 Best_dev_mse: 0.001354736
+160 Train mse: 0.001106582 Dev mse: 0.0013328223 Best_dev_mse: 0.001354736
+170 Train mse: 0.0010701508 Dev mse: 0.0013980529 Best_dev_mse: 0.0013328223
+180 Train mse: 0.0012443328 Dev mse: 0.0013186606 Best_dev_mse: 0.0013328223
+190 Train mse: 0.0012580578 Dev mse: 0.0014006323 Best_dev_mse: 0.0013186606
+200 Train mse: 0.0012982842 Dev mse: 0.0013408979 Best_dev_mse: 0.0013186606
+Early stopping!
+Training time: 100.149 sec
+
+Best dev mse = 0.001319, rmse = 0.036313, corr = 0.5530
+Test mse = 0.001187, rmse = 0.034460, corr = 0.5578

@@ -1,0 +1,38 @@
+Station: New_Haven_CT
+Feature: obs_tid
+X_train:  (69094, 48)
+Y_train:  (69094, 6)
+X_dev:  (7989, 48)
+Y_dev:  (7989, 6)
+X_test:  (8040, 48)
+Y_test:  (8040, 6)
+
+n_train =  69094
+n_dev =  7989
+n_test =  8040
+
+n_input =  48
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.12370403 Dev mse: 0.15360042 Best_dev_mse: inf
+10 Train mse: 0.013405364 Dev mse: 0.008210079 Best_dev_mse: 0.15360042
+20 Train mse: 0.010167148 Dev mse: 0.0055492665 Best_dev_mse: 0.008210079
+30 Train mse: 0.0062641967 Dev mse: 0.005127153 Best_dev_mse: 0.0055492665
+40 Train mse: 0.006606368 Dev mse: 0.0046543414 Best_dev_mse: 0.005127153
+50 Train mse: 0.0052868426 Dev mse: 0.004528579 Best_dev_mse: 0.0046543414
+60 Train mse: 0.0042128623 Dev mse: 0.004783662 Best_dev_mse: 0.004528579
+70 Train mse: 0.006243806 Dev mse: 0.004433213 Best_dev_mse: 0.004528579
+80 Train mse: 0.003908447 Dev mse: 0.004042603 Best_dev_mse: 0.004433213
+90 Train mse: 0.0050702416 Dev mse: 0.0039371843 Best_dev_mse: 0.004042603
+100 Train mse: 0.006612095 Dev mse: 0.0059042606 Best_dev_mse: 0.0039371843
+110 Train mse: 0.0043468866 Dev mse: 0.0045760325 Best_dev_mse: 0.0039371843
+Early stopping!
+Training time: 57.243 sec
+
+Best dev mse = 0.003937, rmse = 0.062747, corr = 0.9978
+Test mse = 0.004255, rmse = 0.065230, corr = 0.9976

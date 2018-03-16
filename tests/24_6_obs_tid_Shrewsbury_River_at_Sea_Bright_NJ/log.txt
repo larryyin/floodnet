@@ -1,0 +1,33 @@
+Station: Shrewsbury_River_at_Sea_Bright_NJ
+Feature: obs_tid
+X_train:  (60950, 48)
+Y_train:  (60950, 6)
+X_dev:  (7927, 48)
+Y_dev:  (7927, 6)
+X_test:  (8040, 48)
+Y_test:  (8040, 6)
+
+n_train =  60950
+n_dev =  7927
+n_test =  8040
+
+n_input =  48
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.09379107 Dev mse: 0.097531155 Best_dev_mse: inf
+10 Train mse: 0.008430874 Dev mse: 0.0065442882 Best_dev_mse: 0.097531155
+20 Train mse: 0.005687151 Dev mse: 0.0051347525 Best_dev_mse: 0.0065442882
+30 Train mse: 0.005502946 Dev mse: 0.0043488853 Best_dev_mse: 0.0051347525
+40 Train mse: 0.0044100084 Dev mse: 0.0041233827 Best_dev_mse: 0.0043488853
+50 Train mse: 0.0052658105 Dev mse: 0.0041360287 Best_dev_mse: 0.0041233827
+60 Train mse: 0.005081163 Dev mse: 0.00424566 Best_dev_mse: 0.0041233827
+Early stopping!
+Training time: 28.361 sec
+
+Best dev mse = 0.004123, rmse = 0.064214, corr = 0.9909
+Test mse = 0.004328, rmse = 0.065784, corr = 0.9897

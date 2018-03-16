@@ -1,0 +1,35 @@
+Station: New_Haven_CT
+Feature: obs_tidext
+X_train:  (69094, 54)
+Y_train:  (69094, 6)
+X_dev:  (7989, 54)
+Y_dev:  (7989, 6)
+X_test:  (8040, 54)
+Y_test:  (8040, 6)
+
+n_train =  69094
+n_dev =  7989
+n_test =  8040
+
+n_input =  54
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.08692844 Dev mse: 0.09319556 Best_dev_mse: inf
+10 Train mse: 0.010046071 Dev mse: 0.006678291 Best_dev_mse: 0.09319556
+20 Train mse: 0.0052607604 Dev mse: 0.005075205 Best_dev_mse: 0.006678291
+30 Train mse: 0.003960341 Dev mse: 0.004080053 Best_dev_mse: 0.005075205
+40 Train mse: 0.009351879 Dev mse: 0.003931352 Best_dev_mse: 0.004080053
+50 Train mse: 0.0028154426 Dev mse: 0.0038681575 Best_dev_mse: 0.003931352
+60 Train mse: 0.0026336575 Dev mse: 0.0037028536 Best_dev_mse: 0.0038681575
+70 Train mse: 0.0039761327 Dev mse: 0.0041833003 Best_dev_mse: 0.0037028536
+80 Train mse: 0.003374807 Dev mse: 0.0039263656 Best_dev_mse: 0.0037028536
+Early stopping!
+Training time: 42.756 sec
+
+Best dev mse = 0.003703, rmse = 0.060851, corr = 0.9980
+Test mse = 0.004188, rmse = 0.064716, corr = 0.9975

@@ -1,0 +1,39 @@
+Station: Ocean_City_Inlet_MD
+Feature: obs_tid
+X_train:  (69194, 48)
+Y_train:  (69194, 6)
+X_dev:  (7929, 48)
+Y_dev:  (7929, 6)
+X_test:  (8040, 48)
+Y_test:  (8040, 6)
+
+n_train =  69194
+n_dev =  7929
+n_test =  8040
+
+n_input =  48
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.04366597 Dev mse: 0.041233875 Best_dev_mse: inf
+10 Train mse: 0.0028055464 Dev mse: 0.0027812398 Best_dev_mse: 0.041233875
+20 Train mse: 0.0016855729 Dev mse: 0.0017233541 Best_dev_mse: 0.0027812398
+30 Train mse: 0.0012363238 Dev mse: 0.0015689997 Best_dev_mse: 0.0017233541
+40 Train mse: 0.0015877847 Dev mse: 0.001460088 Best_dev_mse: 0.0015689997
+50 Train mse: 0.0014663053 Dev mse: 0.0014995915 Best_dev_mse: 0.001460088
+60 Train mse: 0.0012704475 Dev mse: 0.0014325621 Best_dev_mse: 0.001460088
+70 Train mse: 0.0012598481 Dev mse: 0.0014007941 Best_dev_mse: 0.0014325621
+80 Train mse: 0.0013334239 Dev mse: 0.0013718166 Best_dev_mse: 0.0014007941
+90 Train mse: 0.001349482 Dev mse: 0.0013831813 Best_dev_mse: 0.0013718166
+100 Train mse: 0.0016277644 Dev mse: 0.0013672025 Best_dev_mse: 0.0013718166
+110 Train mse: 0.001178454 Dev mse: 0.0013866032 Best_dev_mse: 0.0013672025
+120 Train mse: 0.0011634653 Dev mse: 0.0013717802 Best_dev_mse: 0.0013672025
+Early stopping!
+Training time: 63.075 sec
+
+Best dev mse = 0.001367, rmse = 0.036976, corr = 0.9914
+Test mse = 0.001260, rmse = 0.035498, corr = 0.9909

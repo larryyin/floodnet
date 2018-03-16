@@ -1,0 +1,32 @@
+Station: New_Haven_CT
+Feature: obs
+X_train:  (69094, 24)
+Y_train:  (69094, 6)
+X_dev:  (7989, 24)
+Y_dev:  (7989, 6)
+X_test:  (8040, 24)
+Y_test:  (8040, 6)
+
+n_train =  69094
+n_dev =  7989
+n_test =  8040
+
+n_input =  24
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.14402464 Dev mse: 0.13868147 Best_dev_mse: inf
+10 Train mse: 0.010763962 Dev mse: 0.009823667 Best_dev_mse: 0.13868147
+20 Train mse: 0.01029672 Dev mse: 0.008220499 Best_dev_mse: 0.009823667
+30 Train mse: 0.0054251733 Dev mse: 0.0074866023 Best_dev_mse: 0.008220499
+40 Train mse: 0.009833528 Dev mse: 0.007737237 Best_dev_mse: 0.0074866023
+50 Train mse: 0.0075127403 Dev mse: 0.007717962 Best_dev_mse: 0.0074866023
+Early stopping!
+Training time: 25.483 sec
+
+Best dev mse = 0.007487, rmse = 0.086525, corr = 0.9959
+Test mse = 0.007773, rmse = 0.088164, corr = 0.9952

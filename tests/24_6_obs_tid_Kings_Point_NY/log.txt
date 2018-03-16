@@ -1,0 +1,35 @@
+Station: Kings_Point_NY
+Feature: obs_tid
+X_train:  (69266, 48)
+Y_train:  (69266, 6)
+X_dev:  (7844, 48)
+Y_dev:  (7844, 6)
+X_test:  (8040, 48)
+Y_test:  (8040, 6)
+
+n_train =  69266
+n_dev =  7844
+n_test =  8040
+
+n_input =  48
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.25664106 Dev mse: 0.23475748 Best_dev_mse: inf
+10 Train mse: 0.0144416075 Dev mse: 0.013816163 Best_dev_mse: 0.23475748
+20 Train mse: 0.01023006 Dev mse: 0.01030233 Best_dev_mse: 0.013816163
+30 Train mse: 0.009624502 Dev mse: 0.0093422895 Best_dev_mse: 0.01030233
+40 Train mse: 0.009794057 Dev mse: 0.008970371 Best_dev_mse: 0.0093422895
+50 Train mse: 0.008566272 Dev mse: 0.008717781 Best_dev_mse: 0.008970371
+60 Train mse: 0.007790812 Dev mse: 0.008422312 Best_dev_mse: 0.008717781
+70 Train mse: 0.008481052 Dev mse: 0.008581294 Best_dev_mse: 0.008422312
+80 Train mse: 0.009467814 Dev mse: 0.008605319 Best_dev_mse: 0.008422312
+Early stopping!
+Training time: 42.935 sec
+
+Best dev mse = 0.008422, rmse = 0.091773, corr = 0.9963
+Test mse = 0.008804, rmse = 0.093829, corr = 0.9955

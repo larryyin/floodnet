@@ -1,0 +1,36 @@
+Station: Bridgeport_CT
+Feature: obs
+X_train:  (68626, 24)
+Y_train:  (68626, 6)
+X_dev:  (7704, 24)
+Y_dev:  (7704, 6)
+X_test:  (8040, 24)
+Y_test:  (8040, 6)
+
+n_train =  68626
+n_dev =  7704
+n_test =  8040
+
+n_input =  24
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.12799174 Dev mse: 0.12922876 Best_dev_mse: inf
+10 Train mse: 0.008636601 Dev mse: 0.011261237 Best_dev_mse: 0.12922876
+20 Train mse: 0.007645917 Dev mse: 0.00937549 Best_dev_mse: 0.011261237
+30 Train mse: 0.008394938 Dev mse: 0.0091740955 Best_dev_mse: 0.00937549
+40 Train mse: 0.008892749 Dev mse: 0.008374965 Best_dev_mse: 0.0091740955
+50 Train mse: 0.0087873535 Dev mse: 0.00842715 Best_dev_mse: 0.008374965
+60 Train mse: 0.006549808 Dev mse: 0.008113946 Best_dev_mse: 0.008374965
+70 Train mse: 0.009149241 Dev mse: 0.008091369 Best_dev_mse: 0.008113946
+80 Train mse: 0.008055772 Dev mse: 0.008097803 Best_dev_mse: 0.008091369
+90 Train mse: 0.0071948245 Dev mse: 0.008210541 Best_dev_mse: 0.008091369
+Early stopping!
+Training time: 44.744 sec
+
+Best dev mse = 0.008091, rmse = 0.089952, corr = 0.9966
+Test mse = 0.007876, rmse = 0.088747, corr = 0.9965

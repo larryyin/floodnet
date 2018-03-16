@@ -1,0 +1,35 @@
+Station: Bergen_Point_West_Reach_NY
+Feature: obs_tid
+X_train:  (64881, 48)
+Y_train:  (64881, 6)
+X_dev:  (7989, 48)
+Y_dev:  (7989, 6)
+X_test:  (8040, 48)
+Y_test:  (8040, 6)
+
+n_train =  64881
+n_dev =  7989
+n_test =  8040
+
+n_input =  48
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.07113655 Dev mse: 0.06947662 Best_dev_mse: inf
+10 Train mse: 0.009255143 Dev mse: 0.010949587 Best_dev_mse: 0.06947662
+20 Train mse: 0.0075075594 Dev mse: 0.008301206 Best_dev_mse: 0.010949587
+30 Train mse: 0.0069698803 Dev mse: 0.007933644 Best_dev_mse: 0.008301206
+40 Train mse: 0.008000783 Dev mse: 0.00765739 Best_dev_mse: 0.007933644
+50 Train mse: 0.0054570315 Dev mse: 0.0071169175 Best_dev_mse: 0.00765739
+60 Train mse: 0.0071089678 Dev mse: 0.006965506 Best_dev_mse: 0.0071169175
+70 Train mse: 0.005580619 Dev mse: 0.007141186 Best_dev_mse: 0.006965506
+80 Train mse: 0.008210314 Dev mse: 0.007324035 Best_dev_mse: 0.006965506
+Early stopping!
+Training time: 39.409 sec
+
+Best dev mse = 0.006966, rmse = 0.083460, corr = 0.9910
+Test mse = 0.007285, rmse = 0.085350, corr = 0.9899

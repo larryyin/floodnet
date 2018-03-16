@@ -1,0 +1,40 @@
+Station: Hudson_Bay_at_Freeport_NY
+Feature: obs_tid
+X_train:  (71626, 48)
+Y_train:  (71626, 6)
+X_dev:  (7910, 48)
+Y_dev:  (7910, 6)
+X_test:  (7942, 48)
+Y_test:  (7942, 6)
+
+n_train =  71626
+n_dev =  7910
+n_test =  7942
+
+n_input =  48
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.08060675 Dev mse: 0.07824065 Best_dev_mse: inf
+10 Train mse: 0.009291374 Dev mse: 0.0057876525 Best_dev_mse: 0.07824065
+20 Train mse: 0.004247717 Dev mse: 0.004682709 Best_dev_mse: 0.0057876525
+30 Train mse: 0.00474711 Dev mse: 0.0045304107 Best_dev_mse: 0.004682709
+40 Train mse: 0.0036444594 Dev mse: 0.0043194713 Best_dev_mse: 0.0045304107
+50 Train mse: 0.003623748 Dev mse: 0.0043894364 Best_dev_mse: 0.0043194713
+60 Train mse: 0.0037571662 Dev mse: 0.004183046 Best_dev_mse: 0.0043194713
+70 Train mse: 0.0038675808 Dev mse: 0.0040569906 Best_dev_mse: 0.004183046
+80 Train mse: 0.002978961 Dev mse: 0.0039849435 Best_dev_mse: 0.0040569906
+90 Train mse: 0.0040139062 Dev mse: 0.0039235903 Best_dev_mse: 0.0039849435
+100 Train mse: 0.004392809 Dev mse: 0.004012521 Best_dev_mse: 0.0039235903
+110 Train mse: 0.0033061272 Dev mse: 0.0038536142 Best_dev_mse: 0.0039235903
+120 Train mse: 0.0033730974 Dev mse: 0.003927507 Best_dev_mse: 0.0038536142
+130 Train mse: 0.0034495345 Dev mse: 0.0038682506 Best_dev_mse: 0.0038536142
+Early stopping!
+Training time: 69.316 sec
+
+Best dev mse = 0.003854, rmse = 0.062077, corr = 0.9932
+Test mse = 0.007622, rmse = 0.087303, corr = 0.9913

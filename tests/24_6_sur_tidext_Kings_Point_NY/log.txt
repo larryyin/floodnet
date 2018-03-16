@@ -1,0 +1,36 @@
+Station: Kings_Point_NY
+Feature: sur_tidext
+X_train:  (69266, 30)
+Y_train:  (69266, 6)
+X_dev:  (7844, 30)
+Y_dev:  (7844, 6)
+X_test:  (8040, 30)
+Y_test:  (8040, 6)
+
+n_train =  69266
+n_dev =  7844
+n_test =  8040
+
+n_input =  30
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.05106217 Dev mse: 0.056752425 Best_dev_mse: inf
+10 Train mse: 0.0113813365 Dev mse: 0.010056584 Best_dev_mse: 0.056752425
+20 Train mse: 0.010083016 Dev mse: 0.008473182 Best_dev_mse: 0.010056584
+30 Train mse: 0.012879295 Dev mse: 0.0076722037 Best_dev_mse: 0.008473182
+40 Train mse: 0.009439834 Dev mse: 0.0074117 Best_dev_mse: 0.0076722037
+50 Train mse: 0.007172734 Dev mse: 0.00732083 Best_dev_mse: 0.0074117
+60 Train mse: 0.0057015037 Dev mse: 0.0070855403 Best_dev_mse: 0.00732083
+70 Train mse: 0.005282478 Dev mse: 0.006865143 Best_dev_mse: 0.0070855403
+80 Train mse: 0.0083976295 Dev mse: 0.006904239 Best_dev_mse: 0.006865143
+90 Train mse: 0.005254825 Dev mse: 0.007123086 Best_dev_mse: 0.006865143
+Early stopping!
+Training time: 46.016 sec
+
+Best dev mse = 0.006865, rmse = 0.082856, corr = 0.7270
+Test mse = 0.007413, rmse = 0.086099, corr = 0.7093

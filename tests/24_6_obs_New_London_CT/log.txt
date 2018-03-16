@@ -1,0 +1,36 @@
+Station: New_London_CT
+Feature: obs
+X_train:  (68893, 24)
+Y_train:  (68893, 6)
+X_dev:  (7893, 24)
+Y_dev:  (7893, 6)
+X_test:  (8040, 24)
+Y_test:  (8040, 6)
+
+n_train =  68893
+n_dev =  7893
+n_test =  8040
+
+n_input =  24
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.030990837 Dev mse: 0.03303488 Best_dev_mse: inf
+10 Train mse: 0.004935471 Dev mse: 0.0056760577 Best_dev_mse: 0.03303488
+20 Train mse: 0.0045412877 Dev mse: 0.004758296 Best_dev_mse: 0.0056760577
+30 Train mse: 0.003798041 Dev mse: 0.004370057 Best_dev_mse: 0.004758296
+40 Train mse: 0.0062824567 Dev mse: 0.004244039 Best_dev_mse: 0.004370057
+50 Train mse: 0.0039087166 Dev mse: 0.004229627 Best_dev_mse: 0.004244039
+60 Train mse: 0.0038558973 Dev mse: 0.004138875 Best_dev_mse: 0.004229627
+70 Train mse: 0.003359879 Dev mse: 0.00400837 Best_dev_mse: 0.004138875
+80 Train mse: 0.0057595787 Dev mse: 0.0041013462 Best_dev_mse: 0.00400837
+90 Train mse: 0.003733218 Dev mse: 0.0040394436 Best_dev_mse: 0.00400837
+Early stopping!
+Training time: 44.520 sec
+
+Best dev mse = 0.004008, rmse = 0.063312, corr = 0.9894
+Test mse = 0.004374, rmse = 0.066133, corr = 0.9858

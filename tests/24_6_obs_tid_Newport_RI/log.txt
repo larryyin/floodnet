@@ -1,0 +1,36 @@
+Station: Newport_RI
+Feature: obs_tid
+X_train:  (69194, 48)
+Y_train:  (69194, 6)
+X_dev:  (7989, 48)
+Y_dev:  (7989, 6)
+X_test:  (8040, 48)
+Y_test:  (8040, 6)
+
+n_train =  69194
+n_dev =  7989
+n_test =  8040
+
+n_input =  48
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.06760232 Dev mse: 0.059967164 Best_dev_mse: inf
+10 Train mse: 0.0056440667 Dev mse: 0.005319912 Best_dev_mse: 0.059967164
+20 Train mse: 0.0052789 Dev mse: 0.0042086644 Best_dev_mse: 0.005319912
+30 Train mse: 0.0033470155 Dev mse: 0.0038522666 Best_dev_mse: 0.0042086644
+40 Train mse: 0.0028440924 Dev mse: 0.0035285198 Best_dev_mse: 0.0038522666
+50 Train mse: 0.0037778923 Dev mse: 0.0035279645 Best_dev_mse: 0.0035285198
+60 Train mse: 0.0033334976 Dev mse: 0.0034046208 Best_dev_mse: 0.0035279645
+70 Train mse: 0.0030360287 Dev mse: 0.0033970214 Best_dev_mse: 0.0034046208
+80 Train mse: 0.003119895 Dev mse: 0.0034072648 Best_dev_mse: 0.0033970214
+90 Train mse: 0.0046353103 Dev mse: 0.0034881101 Best_dev_mse: 0.0033970214
+Early stopping!
+Training time: 47.511 sec
+
+Best dev mse = 0.003397, rmse = 0.058284, corr = 0.9929
+Test mse = 0.003414, rmse = 0.058426, corr = 0.9920

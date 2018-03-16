@@ -1,0 +1,9 @@
+Station: Hudson_River_at_Albany_NY
+Feature: obs
+X_train:  (63188,)
+Y_train:  (63188, 6)
+X_dev:  (7307, 24)
+Y_dev:  (7307, 6)
+X_test:  (7697, 24)
+Y_test:  (7697, 6)
+

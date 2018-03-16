@@ -1,0 +1,46 @@
+Station: Rockaway_Inlet_near_Floyd_Bennett_Field_NY
+Feature: obs
+X_train:  (71384, 24)
+Y_train:  (71384, 6)
+X_dev:  (7959, 24)
+Y_dev:  (7959, 6)
+X_test:  (8035, 24)
+Y_test:  (8035, 6)
+
+n_train =  71384
+n_dev =  7959
+n_test =  8035
+
+n_input =  24
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.09479647 Dev mse: 0.09281224 Best_dev_mse: inf
+10 Train mse: 0.013325445 Dev mse: 0.01589189 Best_dev_mse: 0.09281224
+20 Train mse: 0.009325941 Dev mse: 0.014428166 Best_dev_mse: 0.01589189
+30 Train mse: 0.0114879245 Dev mse: 0.013652698 Best_dev_mse: 0.014428166
+40 Train mse: 0.010662019 Dev mse: 0.013373289 Best_dev_mse: 0.013652698
+50 Train mse: 0.011105422 Dev mse: 0.013308465 Best_dev_mse: 0.013373289
+60 Train mse: 0.011884725 Dev mse: 0.013275346 Best_dev_mse: 0.013308465
+70 Train mse: 0.00988053 Dev mse: 0.013075871 Best_dev_mse: 0.013275346
+80 Train mse: 0.009674407 Dev mse: 0.012935043 Best_dev_mse: 0.013075871
+90 Train mse: 0.010620846 Dev mse: 0.013007768 Best_dev_mse: 0.012935043
+100 Train mse: 0.01055409 Dev mse: 0.012899622 Best_dev_mse: 0.012935043
+110 Train mse: 0.009815295 Dev mse: 0.012755587 Best_dev_mse: 0.012899622
+120 Train mse: 0.0083871065 Dev mse: 0.012781197 Best_dev_mse: 0.012755587
+130 Train mse: 0.010446192 Dev mse: 0.0127231395 Best_dev_mse: 0.012755587
+140 Train mse: 0.010418264 Dev mse: 0.012843523 Best_dev_mse: 0.0127231395
+150 Train mse: 0.010693683 Dev mse: 0.012705823 Best_dev_mse: 0.0127231395
+160 Train mse: 0.008425906 Dev mse: 0.012710765 Best_dev_mse: 0.012705823
+170 Train mse: 0.011648104 Dev mse: 0.012609213 Best_dev_mse: 0.012705823
+180 Train mse: 0.011331644 Dev mse: 0.01269923 Best_dev_mse: 0.012609213
+190 Train mse: 0.011038308 Dev mse: 0.012765232 Best_dev_mse: 0.012609213
+Early stopping!
+Training time: 96.189 sec
+
+Best dev mse = 0.012609, rmse = 0.112291, corr = 0.9883
+Test mse = 0.010300, rmse = 0.101489, corr = 0.9900

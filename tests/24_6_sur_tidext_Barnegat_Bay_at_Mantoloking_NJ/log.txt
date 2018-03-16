@@ -1,0 +1,34 @@
+Station: Barnegat_Bay_at_Mantoloking_NJ
+Feature: sur_tidext
+X_train:  (71441, 30)
+Y_train:  (71441, 6)
+X_dev:  (7839, 30)
+Y_dev:  (7839, 6)
+X_test:  (7630, 30)
+Y_test:  (7630, 6)
+
+n_train =  71441
+n_dev =  7839
+n_test =  7630
+
+n_input =  30
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.013151208 Dev mse: 0.013163054 Best_dev_mse: inf
+10 Train mse: 0.0025405656 Dev mse: 0.0025594556 Best_dev_mse: 0.013163054
+20 Train mse: 0.0016189704 Dev mse: 0.0020976185 Best_dev_mse: 0.0025594556
+30 Train mse: 0.0018674544 Dev mse: 0.0020735282 Best_dev_mse: 0.0020976185
+40 Train mse: 0.0026923963 Dev mse: 0.0018958666 Best_dev_mse: 0.0020735282
+50 Train mse: 0.0016423657 Dev mse: 0.0018853283 Best_dev_mse: 0.0018958666
+60 Train mse: 0.0020842042 Dev mse: 0.001992418 Best_dev_mse: 0.0018853283
+70 Train mse: 0.0017044662 Dev mse: 0.001922564 Best_dev_mse: 0.0018853283
+Early stopping!
+Training time: 37.040 sec
+
+Best dev mse = 0.001885, rmse = 0.043420, corr = 0.1579
+Test mse = 0.002508, rmse = 0.050085, corr = 0.1645

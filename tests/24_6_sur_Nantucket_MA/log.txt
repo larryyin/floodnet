@@ -1,0 +1,37 @@
+Station: Nantucket_MA
+Feature: sur
+X_train:  (69314, 24)
+Y_train:  (69314, 6)
+X_dev:  (7989, 24)
+Y_dev:  (7989, 6)
+X_test:  (8040, 24)
+Y_test:  (8040, 6)
+
+n_train =  69314
+n_dev =  7989
+n_test =  8040
+
+n_input =  24
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.023365945 Dev mse: 0.017627263 Best_dev_mse: inf
+10 Train mse: 0.0026163037 Dev mse: 0.0033426872 Best_dev_mse: 0.017627263
+20 Train mse: 0.0022932691 Dev mse: 0.0024147695 Best_dev_mse: 0.0033426872
+30 Train mse: 0.0018998903 Dev mse: 0.0020959259 Best_dev_mse: 0.0024147695
+40 Train mse: 0.001790291 Dev mse: 0.001971391 Best_dev_mse: 0.0020959259
+50 Train mse: 0.0019987358 Dev mse: 0.00199165 Best_dev_mse: 0.001971391
+60 Train mse: 0.0016484989 Dev mse: 0.0019516756 Best_dev_mse: 0.001971391
+70 Train mse: 0.0016452445 Dev mse: 0.0018886483 Best_dev_mse: 0.0019516756
+80 Train mse: 0.0021562637 Dev mse: 0.0018784455 Best_dev_mse: 0.0018886483
+90 Train mse: 0.0021102366 Dev mse: 0.0019814284 Best_dev_mse: 0.0018784455
+100 Train mse: 0.0019199383 Dev mse: 0.0018885877 Best_dev_mse: 0.0018784455
+Early stopping!
+Training time: 49.839 sec
+
+Best dev mse = 0.001878, rmse = 0.043341, corr = 0.3046
+Test mse = 0.001970, rmse = 0.044387, corr = 0.3186

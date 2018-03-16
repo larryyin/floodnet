@@ -1,0 +1,38 @@
+Station: Rockaway_Inlet_near_Floyd_Bennett_Field_NY
+Feature: sur_tidext
+X_train:  (71384, 30)
+Y_train:  (71384, 6)
+X_dev:  (7959, 30)
+Y_dev:  (7959, 6)
+X_test:  (8035, 30)
+Y_test:  (8035, 6)
+
+n_train =  71384
+n_dev =  7959
+n_test =  8035
+
+n_input =  30
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.046317354 Dev mse: 0.05391224 Best_dev_mse: inf
+10 Train mse: 0.008415151 Dev mse: 0.010574946 Best_dev_mse: 0.05391224
+20 Train mse: 0.00472384 Dev mse: 0.009905442 Best_dev_mse: 0.010574946
+30 Train mse: 0.005927075 Dev mse: 0.008587059 Best_dev_mse: 0.009905442
+40 Train mse: 0.0053123017 Dev mse: 0.007739776 Best_dev_mse: 0.008587059
+50 Train mse: 0.004989474 Dev mse: 0.0076219803 Best_dev_mse: 0.007739776
+60 Train mse: 0.0057597808 Dev mse: 0.007880163 Best_dev_mse: 0.0076219803
+70 Train mse: 0.00597322 Dev mse: 0.007530407 Best_dev_mse: 0.0076219803
+80 Train mse: 0.0048176665 Dev mse: 0.007524743 Best_dev_mse: 0.007530407
+90 Train mse: 0.004192482 Dev mse: 0.007464467 Best_dev_mse: 0.007524743
+100 Train mse: 0.0045974045 Dev mse: 0.007538834 Best_dev_mse: 0.007464467
+110 Train mse: 0.0047050253 Dev mse: 0.0075536487 Best_dev_mse: 0.007464467
+Early stopping!
+Training time: 57.324 sec
+
+Best dev mse = 0.007464, rmse = 0.086397, corr = 0.5466
+Test mse = 0.007818, rmse = 0.088420, corr = 0.5369
