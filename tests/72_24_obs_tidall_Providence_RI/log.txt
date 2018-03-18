@@ -1,0 +1,39 @@
+Station: Providence_RI
+Feature: obs_tidall
+X_train:  (63880, 168)
+Y_train:  (63880, 24)
+X_dev:  (6792, 168)
+Y_dev:  (6792, 24)
+X_test:  (7043, 168)
+Y_test:  (7043, 24)
+
+n_train =  63880
+n_dev =  6792
+n_test =  7043
+
+n_input =  168
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.04406231 Dev mse: 0.039422132 Best_dev_mse: inf
+10 Train mse: 0.011307596 Dev mse: 0.012691538 Best_dev_mse: 0.039422132
+20 Train mse: 0.012366034 Dev mse: 0.011596615 Best_dev_mse: 0.012691538
+30 Train mse: 0.011793645 Dev mse: 0.011167424 Best_dev_mse: 0.011596615
+40 Train mse: 0.011086456 Dev mse: 0.010977184 Best_dev_mse: 0.011167424
+50 Train mse: 0.010820541 Dev mse: 0.011125299 Best_dev_mse: 0.010977184
+60 Train mse: 0.010115508 Dev mse: 0.010726543 Best_dev_mse: 0.010977184
+70 Train mse: 0.010381061 Dev mse: 0.010724656 Best_dev_mse: 0.010726543
+80 Train mse: 0.010551778 Dev mse: 0.010756021 Best_dev_mse: 0.010724656
+90 Train mse: 0.011546303 Dev mse: 0.010572927 Best_dev_mse: 0.010724656
+100 Train mse: 0.011039228 Dev mse: 0.010556538 Best_dev_mse: 0.010572927
+110 Train mse: 0.010081407 Dev mse: 0.010699197 Best_dev_mse: 0.010556538
+120 Train mse: 0.010756592 Dev mse: 0.01076187 Best_dev_mse: 0.010556538
+Early stopping!
+Training time: 102.466 sec
+
+Best dev mse = 0.010557, rmse = 0.102745, corr = 0.9881
+Test mse = 0.012242, rmse = 0.110646, corr = 0.9851

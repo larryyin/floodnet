@@ -1,0 +1,36 @@
+Station: Providence_RI
+Feature: sur_tidall
+X_train:  (63880, 168)
+Y_train:  (63880, 24)
+X_dev:  (6792, 168)
+Y_dev:  (6792, 24)
+X_test:  (7043, 168)
+Y_test:  (7043, 24)
+
+n_train =  63880
+n_dev =  6792
+n_test =  7043
+
+n_input =  168
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.023182318 Dev mse: 0.021438701 Best_dev_mse: inf
+10 Train mse: 0.010957036 Dev mse: 0.011316184 Best_dev_mse: 0.021438701
+20 Train mse: 0.013015188 Dev mse: 0.010823212 Best_dev_mse: 0.011316184
+30 Train mse: 0.011551192 Dev mse: 0.010635322 Best_dev_mse: 0.010823212
+40 Train mse: 0.012793999 Dev mse: 0.010864553 Best_dev_mse: 0.010635322
+50 Train mse: 0.009272594 Dev mse: 0.010504959 Best_dev_mse: 0.010635322
+60 Train mse: 0.00837538 Dev mse: 0.010433688 Best_dev_mse: 0.010504959
+70 Train mse: 0.009776614 Dev mse: 0.010247227 Best_dev_mse: 0.010433688
+80 Train mse: 0.0104984455 Dev mse: 0.010362674 Best_dev_mse: 0.010247227
+90 Train mse: 0.0093209045 Dev mse: 0.010454108 Best_dev_mse: 0.010247227
+Early stopping!
+Training time: 81.218 sec
+
+Best dev mse = 0.010247, rmse = 0.101229, corr = 0.6312
+Test mse = 0.012177, rmse = 0.110351, corr = 0.6172

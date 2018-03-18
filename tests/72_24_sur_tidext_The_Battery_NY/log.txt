@@ -1,0 +1,32 @@
+Station: The_Battery_NY
+Feature: sur_tidext
+X_train:  (64135, 96)
+Y_train:  (64135, 24)
+X_dev:  (6792, 96)
+Y_dev:  (6792, 24)
+X_test:  (7043, 96)
+Y_test:  (7043, 24)
+
+n_train =  64135
+n_dev =  6792
+n_test =  7043
+
+n_input =  96
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.024266278 Dev mse: 0.02941208 Best_dev_mse: inf
+10 Train mse: 0.017629268 Dev mse: 0.013949807 Best_dev_mse: 0.02941208
+20 Train mse: 0.010792041 Dev mse: 0.013660318 Best_dev_mse: 0.013949807
+30 Train mse: 0.011663143 Dev mse: 0.01344878 Best_dev_mse: 0.013660318
+40 Train mse: 0.010791022 Dev mse: 0.013714202 Best_dev_mse: 0.01344878
+50 Train mse: 0.010352865 Dev mse: 0.013871821 Best_dev_mse: 0.01344878
+Early stopping!
+Training time: 40.970 sec
+
+Best dev mse = 0.013449, rmse = 0.115969, corr = 0.2262
+Test mse = 0.015257, rmse = 0.123520, corr = 0.2429

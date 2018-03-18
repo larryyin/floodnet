@@ -1,0 +1,33 @@
+Station: New_London_CT
+Feature: obs_tidall
+X_train:  (63738, 168)
+Y_train:  (63738, 24)
+X_dev:  (6696, 168)
+Y_dev:  (6696, 24)
+X_test:  (7043, 168)
+Y_test:  (7043, 24)
+
+n_train =  63738
+n_dev =  6696
+n_test =  7043
+
+n_input =  168
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.029150248 Dev mse: 0.028912531 Best_dev_mse: inf
+10 Train mse: 0.011095303 Dev mse: 0.00956292 Best_dev_mse: 0.028912531
+20 Train mse: 0.010339787 Dev mse: 0.00916937 Best_dev_mse: 0.00956292
+30 Train mse: 0.0072438666 Dev mse: 0.009299995 Best_dev_mse: 0.00916937
+40 Train mse: 0.00814587 Dev mse: 0.008814771 Best_dev_mse: 0.00916937
+50 Train mse: 0.00945342 Dev mse: 0.009024382 Best_dev_mse: 0.008814771
+60 Train mse: 0.0089539625 Dev mse: 0.0090825 Best_dev_mse: 0.008814771
+Early stopping!
+Training time: 53.871 sec
+
+Best dev mse = 0.008815, rmse = 0.093887, corr = 0.9820
+Test mse = 0.010452, rmse = 0.102236, corr = 0.9771

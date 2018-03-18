@@ -1,0 +1,38 @@
+Station: Shrewsbury_River_at_Sea_Bright_NJ
+Feature: sur_tidall
+X_train:  (60950, 54)
+Y_train:  (60950, 6)
+X_dev:  (7927, 54)
+Y_dev:  (7927, 6)
+X_test:  (8040, 54)
+Y_test:  (8040, 6)
+
+n_train =  60950
+n_dev =  7927
+n_test =  8040
+
+n_input =  54
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.14448592 Dev mse: 0.15101406 Best_dev_mse: inf
+10 Train mse: 0.008455866 Dev mse: 0.008009314 Best_dev_mse: 0.15101406
+20 Train mse: 0.0065280115 Dev mse: 0.005108942 Best_dev_mse: 0.008009314
+30 Train mse: 0.0067391135 Dev mse: 0.004331255 Best_dev_mse: 0.005108942
+40 Train mse: 0.004124816 Dev mse: 0.0040462674 Best_dev_mse: 0.004331255
+50 Train mse: 0.00427685 Dev mse: 0.0037599623 Best_dev_mse: 0.0040462674
+60 Train mse: 0.0040690727 Dev mse: 0.003588629 Best_dev_mse: 0.0037599623
+70 Train mse: 0.0038749627 Dev mse: 0.003642657 Best_dev_mse: 0.003588629
+80 Train mse: 0.005287309 Dev mse: 0.0035458633 Best_dev_mse: 0.003588629
+90 Train mse: 0.0053729773 Dev mse: 0.0034723168 Best_dev_mse: 0.0035458633
+100 Train mse: 0.003837138 Dev mse: 0.0036705604 Best_dev_mse: 0.0034723168
+110 Train mse: 0.0035101192 Dev mse: 0.003526373 Best_dev_mse: 0.0034723168
+Early stopping!
+Training time: 42.438 sec
+
+Best dev mse = 0.003472, rmse = 0.058926, corr = 0.4946
+Test mse = 0.003732, rmse = 0.061090, corr = 0.4992

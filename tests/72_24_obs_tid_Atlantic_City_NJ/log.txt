@@ -1,0 +1,32 @@
+Station: Atlantic_City_NJ
+Feature: obs_tid
+X_train:  (63825, 144)
+Y_train:  (63825, 24)
+X_dev:  (6792, 144)
+Y_dev:  (6792, 24)
+X_test:  (7043, 144)
+Y_test:  (7043, 24)
+
+n_train =  63825
+n_dev =  6792
+n_test =  7043
+
+n_input =  144
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.05292718 Dev mse: 0.05086136 Best_dev_mse: inf
+10 Train mse: 0.015939072 Dev mse: 0.01281757 Best_dev_mse: 0.05086136
+20 Train mse: 0.011789018 Dev mse: 0.011712185 Best_dev_mse: 0.01281757
+30 Train mse: 0.010963452 Dev mse: 0.011383347 Best_dev_mse: 0.011712185
+40 Train mse: 0.010268284 Dev mse: 0.011507665 Best_dev_mse: 0.011383347
+50 Train mse: 0.008400198 Dev mse: 0.011626776 Best_dev_mse: 0.011383347
+Early stopping!
+Training time: 43.398 sec
+
+Best dev mse = 0.011383, rmse = 0.106693, corr = 0.9899
+Test mse = 0.012784, rmse = 0.113065, corr = 0.9867

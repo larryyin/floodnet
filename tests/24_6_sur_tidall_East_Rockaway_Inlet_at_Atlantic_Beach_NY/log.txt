@@ -1,0 +1,38 @@
+Station: East_Rockaway_Inlet_at_Atlantic_Beach_NY
+Feature: sur_tidall
+X_train:  (71339, 54)
+Y_train:  (71339, 6)
+X_dev:  (7959, 54)
+Y_dev:  (7959, 6)
+X_test:  (8040, 54)
+Y_test:  (8040, 6)
+
+n_train =  71339
+n_dev =  7959
+n_test =  8040
+
+n_input =  54
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.033143893 Dev mse: 0.02953496 Best_dev_mse: inf
+10 Train mse: 0.0059676734 Dev mse: 0.0059921923 Best_dev_mse: 0.02953496
+20 Train mse: 0.0054276637 Dev mse: 0.0047737993 Best_dev_mse: 0.0059921923
+30 Train mse: 0.00466846 Dev mse: 0.0045632906 Best_dev_mse: 0.0047737993
+40 Train mse: 0.004353371 Dev mse: 0.004485175 Best_dev_mse: 0.0045632906
+50 Train mse: 0.0037196062 Dev mse: 0.004486259 Best_dev_mse: 0.004485175
+60 Train mse: 0.0035548685 Dev mse: 0.0043758466 Best_dev_mse: 0.004485175
+70 Train mse: 0.003196658 Dev mse: 0.0043789106 Best_dev_mse: 0.0043758466
+80 Train mse: 0.0039184694 Dev mse: 0.004285339 Best_dev_mse: 0.0043758466
+90 Train mse: 0.0036757907 Dev mse: 0.0042426405 Best_dev_mse: 0.004285339
+100 Train mse: 0.0034702427 Dev mse: 0.004382745 Best_dev_mse: 0.0042426405
+110 Train mse: 0.0029741784 Dev mse: 0.0043411013 Best_dev_mse: 0.0042426405
+Early stopping!
+Training time: 49.953 sec
+
+Best dev mse = 0.004243, rmse = 0.065136, corr = 0.4024
+Test mse = 0.006853, rmse = 0.082781, corr = 0.4667

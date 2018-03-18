@@ -1,2 +1,37 @@
 Station: Hudson_River_at_Albany_NY
 Feature: obs_tid
+X_train:  (63187, 48)
+Y_train:  (63187, 6)
+X_dev:  (7307, 48)
+Y_dev:  (7307, 6)
+X_test:  (7697, 48)
+Y_test:  (7697, 6)
+
+n_train =  63187
+n_dev =  7307
+n_test =  7697
+
+n_input =  48
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.14056665 Dev mse: 0.1353763 Best_dev_mse: inf
+10 Train mse: 0.018802527 Dev mse: 0.018002287 Best_dev_mse: 0.1353763
+20 Train mse: 0.013460875 Dev mse: 0.013976504 Best_dev_mse: 0.018002287
+30 Train mse: 0.009659312 Dev mse: 0.013746116 Best_dev_mse: 0.013976504
+40 Train mse: 0.014076819 Dev mse: 0.013499173 Best_dev_mse: 0.013746116
+50 Train mse: 0.010669426 Dev mse: 0.012743474 Best_dev_mse: 0.013499173
+60 Train mse: 0.01550659 Dev mse: 0.011981425 Best_dev_mse: 0.012743474
+70 Train mse: 0.013505029 Dev mse: 0.012317999 Best_dev_mse: 0.011981425
+80 Train mse: 0.0112794 Dev mse: 0.011877573 Best_dev_mse: 0.011981425
+90 Train mse: 0.014446829 Dev mse: 0.012100773 Best_dev_mse: 0.011877573
+100 Train mse: 0.009429608 Dev mse: 0.012271929 Best_dev_mse: 0.011877573
+Early stopping!
+Training time: 39.816 sec
+
+Best dev mse = 0.011878, rmse = 0.108984, corr = 0.9864
+Test mse = 0.010851, rmse = 0.104169, corr = 0.9873

@@ -1,0 +1,33 @@
+Station: Providence_RI
+Feature: obs
+X_train:  (63880, 72)
+Y_train:  (63880, 24)
+X_dev:  (6792, 72)
+Y_dev:  (6792, 24)
+X_test:  (7043, 72)
+Y_test:  (7043, 24)
+
+n_train =  63880
+n_dev =  6792
+n_test =  7043
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.04450667 Dev mse: 0.042577803 Best_dev_mse: inf
+10 Train mse: 0.014811996 Dev mse: 0.014174855 Best_dev_mse: 0.042577803
+20 Train mse: 0.013056885 Dev mse: 0.013451913 Best_dev_mse: 0.014174855
+30 Train mse: 0.0124780955 Dev mse: 0.01294742 Best_dev_mse: 0.013451913
+40 Train mse: 0.012522452 Dev mse: 0.012894637 Best_dev_mse: 0.01294742
+50 Train mse: 0.013381758 Dev mse: 0.013051655 Best_dev_mse: 0.012894637
+60 Train mse: 0.0143647175 Dev mse: 0.012899994 Best_dev_mse: 0.012894637
+Early stopping!
+Training time: 46.515 sec
+
+Best dev mse = 0.012895, rmse = 0.113555, corr = 0.9843
+Test mse = 0.014557, rmse = 0.120653, corr = 0.9806

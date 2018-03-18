@@ -1,0 +1,34 @@
+Station: Barnegat_Bay_at_Mantoloking_NJ
+Feature: obs_tid
+X_train:  (64741, 144)
+Y_train:  (64741, 24)
+X_dev:  (6336, 144)
+Y_dev:  (6336, 24)
+X_test:  (5780, 144)
+Y_test:  (5780, 24)
+
+n_train =  64741
+n_dev =  6336
+n_test =  5780
+
+n_input =  144
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.023881974 Dev mse: 0.022590837 Best_dev_mse: inf
+10 Train mse: 0.011197333 Dev mse: 0.009896505 Best_dev_mse: 0.022590837
+20 Train mse: 0.008786712 Dev mse: 0.009149481 Best_dev_mse: 0.009896505
+30 Train mse: 0.015989061 Dev mse: 0.008625435 Best_dev_mse: 0.009149481
+40 Train mse: 0.0067909467 Dev mse: 0.008457734 Best_dev_mse: 0.008625435
+50 Train mse: 0.008538999 Dev mse: 0.008180348 Best_dev_mse: 0.008457734
+60 Train mse: 0.008995373 Dev mse: 0.008599725 Best_dev_mse: 0.008180348
+70 Train mse: 0.020111153 Dev mse: 0.008402632 Best_dev_mse: 0.008180348
+Early stopping!
+Training time: 58.689 sec
+
+Best dev mse = 0.008180, rmse = 0.090445, corr = 0.8389
+Test mse = 0.008716, rmse = 0.093360, corr = 0.8374

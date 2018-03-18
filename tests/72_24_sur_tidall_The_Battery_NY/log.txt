@@ -1,0 +1,36 @@
+Station: The_Battery_NY
+Feature: sur_tidall
+X_train:  (64135, 168)
+Y_train:  (64135, 24)
+X_dev:  (6792, 168)
+Y_dev:  (6792, 24)
+X_test:  (7043, 168)
+Y_test:  (7043, 24)
+
+n_train =  64135
+n_dev =  6792
+n_test =  7043
+
+n_input =  168
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.026610086 Dev mse: 0.023566645 Best_dev_mse: inf
+10 Train mse: 0.014481445 Dev mse: 0.014159529 Best_dev_mse: 0.023566645
+20 Train mse: 0.010659472 Dev mse: 0.013417812 Best_dev_mse: 0.014159529
+30 Train mse: 0.011514786 Dev mse: 0.013331437 Best_dev_mse: 0.013417812
+40 Train mse: 0.010303594 Dev mse: 0.013360493 Best_dev_mse: 0.013331437
+50 Train mse: 0.013372577 Dev mse: 0.013234798 Best_dev_mse: 0.013331437
+60 Train mse: 0.0145699475 Dev mse: 0.013199931 Best_dev_mse: 0.013234798
+70 Train mse: 0.0129444795 Dev mse: 0.013068031 Best_dev_mse: 0.013199931
+80 Train mse: 0.01804616 Dev mse: 0.013069399 Best_dev_mse: 0.013068031
+90 Train mse: 0.010727121 Dev mse: 0.01314848 Best_dev_mse: 0.013068031
+Early stopping!
+Training time: 80.107 sec
+
+Best dev mse = 0.013068, rmse = 0.114315, corr = 0.4518
+Test mse = 0.014959, rmse = 0.122308, corr = 0.4248

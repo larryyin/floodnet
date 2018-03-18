@@ -1,0 +1,37 @@
+Station: Sandy_Hook_NJ
+Feature: obs_tid
+X_train:  (62471, 144)
+Y_train:  (62471, 24)
+X_dev:  (6792, 144)
+Y_dev:  (6792, 24)
+X_test:  (7043, 144)
+Y_test:  (7043, 24)
+
+n_train =  62471
+n_dev =  6792
+n_test =  7043
+
+n_input =  144
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.05360905 Dev mse: 0.053292796 Best_dev_mse: inf
+10 Train mse: 0.013372637 Dev mse: 0.014464856 Best_dev_mse: 0.053292796
+20 Train mse: 0.01218413 Dev mse: 0.014218882 Best_dev_mse: 0.014464856
+30 Train mse: 0.015179428 Dev mse: 0.01363061 Best_dev_mse: 0.014218882
+40 Train mse: 0.01455592 Dev mse: 0.013559369 Best_dev_mse: 0.01363061
+50 Train mse: 0.011687248 Dev mse: 0.013597895 Best_dev_mse: 0.013559369
+60 Train mse: 0.0134868855 Dev mse: 0.01281374 Best_dev_mse: 0.013559369
+70 Train mse: 0.016356973 Dev mse: 0.01309541 Best_dev_mse: 0.01281374
+80 Train mse: 0.010329407 Dev mse: 0.012394523 Best_dev_mse: 0.01281374
+90 Train mse: 0.011604153 Dev mse: 0.012860116 Best_dev_mse: 0.012394523
+100 Train mse: 0.0109420335 Dev mse: 0.012447294 Best_dev_mse: 0.012394523
+Early stopping!
+Training time: 83.752 sec
+
+Best dev mse = 0.012395, rmse = 0.111331, corr = 0.9914
+Test mse = 0.014255, rmse = 0.119394, corr = 0.9888

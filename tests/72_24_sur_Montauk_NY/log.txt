@@ -1,0 +1,31 @@
+Station: Montauk_NY
+Feature: sur
+X_train:  (59594, 72)
+Y_train:  (59594, 24)
+X_dev:  (6792, 72)
+Y_dev:  (6792, 24)
+X_test:  (6248, 72)
+Y_test:  (6248, 24)
+
+n_train =  59594
+n_dev =  6792
+n_test =  6248
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.019546963 Dev mse: 0.01938116 Best_dev_mse: inf
+10 Train mse: 0.008331966 Dev mse: 0.008938339 Best_dev_mse: 0.01938116
+20 Train mse: 0.0073189023 Dev mse: 0.0078559965 Best_dev_mse: 0.008938339
+30 Train mse: 0.014034111 Dev mse: 0.008057969 Best_dev_mse: 0.0078559965
+40 Train mse: 0.010149748 Dev mse: 0.007945771 Best_dev_mse: 0.0078559965
+Early stopping!
+Training time: 29.696 sec
+
+Best dev mse = 0.007856, rmse = 0.088634, corr = 0.2395
+Test mse = 0.009483, rmse = 0.097382, corr = 0.2533

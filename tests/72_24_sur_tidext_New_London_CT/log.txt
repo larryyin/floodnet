@@ -1,0 +1,32 @@
+Station: New_London_CT
+Feature: sur_tidext
+X_train:  (63738, 96)
+Y_train:  (63738, 24)
+X_dev:  (6696, 96)
+Y_dev:  (6696, 24)
+X_test:  (7043, 96)
+Y_test:  (7043, 24)
+
+n_train =  63738
+n_dev =  6696
+n_test =  7043
+
+n_input =  96
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.022352682 Dev mse: 0.021048723 Best_dev_mse: inf
+10 Train mse: 0.009126556 Dev mse: 0.009257106 Best_dev_mse: 0.021048723
+20 Train mse: 0.009591052 Dev mse: 0.009107074 Best_dev_mse: 0.009257106
+30 Train mse: 0.008226738 Dev mse: 0.008868272 Best_dev_mse: 0.009107074
+40 Train mse: 0.009615793 Dev mse: 0.009053302 Best_dev_mse: 0.008868272
+50 Train mse: 0.009977077 Dev mse: 0.009098106 Best_dev_mse: 0.008868272
+Early stopping!
+Training time: 39.721 sec
+
+Best dev mse = 0.008868, rmse = 0.094172, corr = 0.3684
+Test mse = 0.010169, rmse = 0.100840, corr = 0.3279

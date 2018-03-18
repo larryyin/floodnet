@@ -1,2 +1,0 @@
-Station: Hudson_River_at_Albany_NY
-Feature: obs_tidext

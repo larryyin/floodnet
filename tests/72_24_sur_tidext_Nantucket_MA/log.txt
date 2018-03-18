@@ -1,0 +1,31 @@
+Station: Nantucket_MA
+Feature: sur_tidext
+X_train:  (64018, 96)
+Y_train:  (64018, 24)
+X_dev:  (6792, 96)
+Y_dev:  (6792, 24)
+X_test:  (7043, 96)
+Y_test:  (7043, 24)
+
+n_train =  64018
+n_dev =  6792
+n_test =  7043
+
+n_input =  96
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.015759109 Dev mse: 0.018166242 Best_dev_mse: inf
+10 Train mse: 0.007914311 Dev mse: 0.006726929 Best_dev_mse: 0.018166242
+20 Train mse: 0.0040959157 Dev mse: 0.00607287 Best_dev_mse: 0.006726929
+30 Train mse: 0.039903235 Dev mse: 0.0061343005 Best_dev_mse: 0.00607287
+40 Train mse: 0.0026551443 Dev mse: 0.0060968823 Best_dev_mse: 0.00607287
+Early stopping!
+Training time: 32.306 sec
+
+Best dev mse = 0.006073, rmse = 0.077929, corr = 0.2995
+Test mse = 0.006389, rmse = 0.079929, corr = 0.2763

@@ -19,20 +19,19 @@ n_hidder1 =  10
 n_epoch =  1000
 batch_size =  500
 
-0 Train mse: 0.12499466 Dev mse: 0.12945108 Best_dev_mse: inf
-10 Train mse: 0.011630942 Dev mse: 0.010460624 Best_dev_mse: 0.12945108
-20 Train mse: 0.009493165 Dev mse: 0.009324657 Best_dev_mse: 0.010460624
-30 Train mse: 0.008976604 Dev mse: 0.008343379 Best_dev_mse: 0.009324657
-40 Train mse: 0.009280584 Dev mse: 0.008227592 Best_dev_mse: 0.008343379
-50 Train mse: 0.0070712497 Dev mse: 0.007977985 Best_dev_mse: 0.008227592
-60 Train mse: 0.007529868 Dev mse: 0.007638001 Best_dev_mse: 0.007977985
-70 Train mse: 0.007405556 Dev mse: 0.007911823 Best_dev_mse: 0.007638001
-80 Train mse: 0.008321808 Dev mse: 0.0076191453 Best_dev_mse: 0.007638001
-90 Train mse: 0.006678713 Dev mse: 0.0074145575 Best_dev_mse: 0.0076191453
-100 Train mse: 0.008556608 Dev mse: 0.007617199 Best_dev_mse: 0.0074145575
-110 Train mse: 0.006628943 Dev mse: 0.007640365 Best_dev_mse: 0.0074145575
+0 Train mse: 0.095319405 Dev mse: 0.09092779 Best_dev_mse: inf
+10 Train mse: 0.013181245 Dev mse: 0.0110530015 Best_dev_mse: 0.09092779
+20 Train mse: 0.012301842 Dev mse: 0.0092403535 Best_dev_mse: 0.0110530015
+30 Train mse: 0.0095390575 Dev mse: 0.008381923 Best_dev_mse: 0.0092403535
+40 Train mse: 0.008065868 Dev mse: 0.008014557 Best_dev_mse: 0.008381923
+50 Train mse: 0.008323398 Dev mse: 0.00810302 Best_dev_mse: 0.008014557
+60 Train mse: 0.0068592923 Dev mse: 0.007810315 Best_dev_mse: 0.008014557
+70 Train mse: 0.0073923916 Dev mse: 0.007782364 Best_dev_mse: 0.007810315
+80 Train mse: 0.0076111215 Dev mse: 0.0076001585 Best_dev_mse: 0.007782364
+90 Train mse: 0.0082760155 Dev mse: 0.007886865 Best_dev_mse: 0.0076001585
+100 Train mse: 0.009342163 Dev mse: 0.0076103993 Best_dev_mse: 0.0076001585
 Early stopping!
-Training time: 58.435 sec
+Training time: 51.624 sec
 
-Best dev mse = 0.007415, rmse = 0.086108, corr = 0.9917
-Test mse = 0.011279, rmse = 0.106204, corr = 0.9885
+Best dev mse = 0.007600, rmse = 0.087179, corr = 0.9916
+Test mse = 0.011893, rmse = 0.109057, corr = 0.9880

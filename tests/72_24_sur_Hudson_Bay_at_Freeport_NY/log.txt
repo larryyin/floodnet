@@ -1,0 +1,35 @@
+Station: Hudson_Bay_at_Freeport_NY
+Feature: sur
+X_train:  (64797, 72)
+Y_train:  (64797, 24)
+X_dev:  (6645, 72)
+Y_dev:  (6645, 24)
+X_test:  (6886, 72)
+Y_test:  (6886, 24)
+
+n_train =  64797
+n_dev =  6645
+n_test =  6886
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.040231947 Dev mse: 0.034897104 Best_dev_mse: inf
+10 Train mse: 0.010843663 Dev mse: 0.012371171 Best_dev_mse: 0.034897104
+20 Train mse: 0.010687611 Dev mse: 0.011813846 Best_dev_mse: 0.012371171
+30 Train mse: 0.0102988435 Dev mse: 0.011750052 Best_dev_mse: 0.011813846
+40 Train mse: 0.010905907 Dev mse: 0.011609657 Best_dev_mse: 0.011750052
+50 Train mse: 0.012009303 Dev mse: 0.011916257 Best_dev_mse: 0.011609657
+60 Train mse: 0.011362513 Dev mse: 0.011356994 Best_dev_mse: 0.011609657
+70 Train mse: 0.009129405 Dev mse: 0.011389661 Best_dev_mse: 0.011356994
+80 Train mse: 0.010172924 Dev mse: 0.011427335 Best_dev_mse: 0.011356994
+Early stopping!
+Training time: 62.647 sec
+
+Best dev mse = 0.011357, rmse = 0.106569, corr = 0.9365
+Test mse = 0.018847, rmse = 0.137286, corr = 0.9202

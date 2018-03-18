@@ -1,0 +1,39 @@
+Station: Bridgeport_CT
+Feature: sur_tidext
+X_train:  (63389, 96)
+Y_train:  (63389, 24)
+X_dev:  (6441, 96)
+Y_dev:  (6441, 24)
+X_test:  (7043, 96)
+Y_test:  (7043, 24)
+
+n_train =  63389
+n_dev =  6441
+n_test =  7043
+
+n_input =  96
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.029022403 Dev mse: 0.025261542 Best_dev_mse: inf
+10 Train mse: 0.010980909 Dev mse: 0.0142060965 Best_dev_mse: 0.025261542
+20 Train mse: 0.01342452 Dev mse: 0.013837251 Best_dev_mse: 0.0142060965
+30 Train mse: 0.011245144 Dev mse: 0.013855713 Best_dev_mse: 0.013837251
+40 Train mse: 0.012839698 Dev mse: 0.013565879 Best_dev_mse: 0.013837251
+50 Train mse: 0.012274118 Dev mse: 0.013992903 Best_dev_mse: 0.013565879
+60 Train mse: 0.01146487 Dev mse: 0.013525985 Best_dev_mse: 0.013565879
+70 Train mse: 0.010119828 Dev mse: 0.013429453 Best_dev_mse: 0.013525985
+80 Train mse: 0.013633431 Dev mse: 0.013338325 Best_dev_mse: 0.013429453
+90 Train mse: 0.013497756 Dev mse: 0.013373066 Best_dev_mse: 0.013338325
+100 Train mse: 0.0122885695 Dev mse: 0.013264835 Best_dev_mse: 0.013338325
+110 Train mse: 0.012135185 Dev mse: 0.013748416 Best_dev_mse: 0.013264835
+120 Train mse: 0.012871073 Dev mse: 0.013527836 Best_dev_mse: 0.013264835
+Early stopping!
+Training time: 92.810 sec
+
+Best dev mse = 0.013265, rmse = 0.115173, corr = 0.5304
+Test mse = 0.015496, rmse = 0.124485, corr = 0.4421

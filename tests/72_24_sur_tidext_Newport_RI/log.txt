@@ -1,0 +1,33 @@
+Station: Newport_RI
+Feature: sur_tidext
+X_train:  (63963, 96)
+Y_train:  (63963, 24)
+X_dev:  (6792, 96)
+Y_dev:  (6792, 24)
+X_test:  (7043, 96)
+Y_test:  (7043, 24)
+
+n_train =  63963
+n_dev =  6792
+n_test =  7043
+
+n_input =  96
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.018911112 Dev mse: 0.01798637 Best_dev_mse: inf
+10 Train mse: 0.008049683 Dev mse: 0.00830779 Best_dev_mse: 0.01798637
+20 Train mse: 0.006917849 Dev mse: 0.0076361434 Best_dev_mse: 0.00830779
+30 Train mse: 0.005981459 Dev mse: 0.0075403526 Best_dev_mse: 0.0076361434
+40 Train mse: 0.0067428336 Dev mse: 0.0075348844 Best_dev_mse: 0.0075403526
+50 Train mse: 0.0077693183 Dev mse: 0.007629898 Best_dev_mse: 0.0075348844
+60 Train mse: 0.006452559 Dev mse: 0.0077313003 Best_dev_mse: 0.0075348844
+Early stopping!
+Training time: 47.735 sec
+
+Best dev mse = 0.007535, rmse = 0.086804, corr = 0.2966
+Test mse = 0.008476, rmse = 0.092063, corr = 0.2682

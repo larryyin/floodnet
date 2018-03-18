@@ -1,0 +1,36 @@
+Station: Hudson_River_below_Poughkeepsie_NY
+Feature: sur_tidall
+X_train:  (64044, 54)
+Y_train:  (64044, 6)
+X_dev:  (7234, 54)
+Y_dev:  (7234, 6)
+X_test:  (7719, 54)
+Y_test:  (7719, 6)
+
+n_train =  64044
+n_dev =  7234
+n_test =  7719
+
+n_input =  54
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.03783372 Dev mse: 0.038154703 Best_dev_mse: inf
+10 Train mse: 0.0076159853 Dev mse: 0.008248452 Best_dev_mse: 0.038154703
+20 Train mse: 0.008604539 Dev mse: 0.0060873097 Best_dev_mse: 0.008248452
+30 Train mse: 0.0071964585 Dev mse: 0.0055054314 Best_dev_mse: 0.0060873097
+40 Train mse: 0.0040297825 Dev mse: 0.005071472 Best_dev_mse: 0.0055054314
+50 Train mse: 0.0036505728 Dev mse: 0.004836789 Best_dev_mse: 0.005071472
+60 Train mse: 0.0049452693 Dev mse: 0.0047324463 Best_dev_mse: 0.004836789
+70 Train mse: 0.003480058 Dev mse: 0.004559746 Best_dev_mse: 0.0047324463
+80 Train mse: 0.0028572083 Dev mse: 0.004796729 Best_dev_mse: 0.004559746
+90 Train mse: 0.0030658192 Dev mse: 0.004687371 Best_dev_mse: 0.004559746
+Early stopping!
+Training time: 36.734 sec
+
+Best dev mse = 0.004560, rmse = 0.067526, corr = 0.4288
+Test mse = 0.005076, rmse = 0.071249, corr = 0.4078

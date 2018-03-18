@@ -1,0 +1,34 @@
+Station: Shrewsbury_River_at_Sea_Bright_NJ
+Feature: sur
+X_train:  (47661, 72)
+Y_train:  (47661, 24)
+X_dev:  (6653, 72)
+Y_dev:  (6653, 24)
+X_test:  (7043, 72)
+Y_test:  (7043, 24)
+
+n_train =  47661
+n_dev =  6653
+n_test =  7043
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.024740092 Dev mse: 0.027904127 Best_dev_mse: inf
+10 Train mse: 0.01347776 Dev mse: 0.013082901 Best_dev_mse: 0.027904127
+20 Train mse: 0.013940804 Dev mse: 0.011903105 Best_dev_mse: 0.013082901
+30 Train mse: 0.0094377035 Dev mse: 0.011555989 Best_dev_mse: 0.011903105
+40 Train mse: 0.006752227 Dev mse: 0.011444887 Best_dev_mse: 0.011555989
+50 Train mse: 0.010259658 Dev mse: 0.011187686 Best_dev_mse: 0.011444887
+60 Train mse: 0.0099605955 Dev mse: 0.011617626 Best_dev_mse: 0.011187686
+70 Train mse: 0.012183359 Dev mse: 0.011580687 Best_dev_mse: 0.011187686
+Early stopping!
+Training time: 40.542 sec
+
+Best dev mse = 0.011188, rmse = 0.105772, corr = 0.5258
+Test mse = 0.012547, rmse = 0.112014, corr = 0.5156

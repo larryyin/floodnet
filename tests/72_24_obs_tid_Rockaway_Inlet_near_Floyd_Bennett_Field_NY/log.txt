@@ -1,0 +1,35 @@
+Station: Rockaway_Inlet_near_Floyd_Bennett_Field_NY
+Feature: obs_tid
+X_train:  (64158, 144)
+Y_train:  (64158, 24)
+X_dev:  (6750, 144)
+Y_dev:  (6750, 24)
+X_test:  (7038, 144)
+Y_test:  (7038, 24)
+
+n_train =  64158
+n_dev =  6750
+n_test =  7038
+
+n_input =  144
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.06052332 Dev mse: 0.058262516 Best_dev_mse: inf
+10 Train mse: 0.011246043 Dev mse: 0.016811773 Best_dev_mse: 0.058262516
+20 Train mse: 0.013288338 Dev mse: 0.01567359 Best_dev_mse: 0.016811773
+30 Train mse: 0.014559751 Dev mse: 0.015930487 Best_dev_mse: 0.01567359
+40 Train mse: 0.013440068 Dev mse: 0.015193793 Best_dev_mse: 0.01567359
+50 Train mse: 0.01482402 Dev mse: 0.015423893 Best_dev_mse: 0.015193793
+60 Train mse: 0.013524066 Dev mse: 0.014935517 Best_dev_mse: 0.015193793
+70 Train mse: 0.013013629 Dev mse: 0.015233301 Best_dev_mse: 0.014935517
+80 Train mse: 0.013108706 Dev mse: 0.015229532 Best_dev_mse: 0.014935517
+Early stopping!
+Training time: 66.742 sec
+
+Best dev mse = 0.014936, rmse = 0.122211, corr = 0.9898
+Test mse = 0.016840, rmse = 0.129767, corr = 0.9882

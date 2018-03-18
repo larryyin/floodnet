@@ -1,0 +1,35 @@
+Station: Montauk_NY
+Feature: obs
+X_train:  (59594, 72)
+Y_train:  (59594, 24)
+X_dev:  (6792, 72)
+Y_dev:  (6792, 24)
+X_test:  (6248, 72)
+Y_test:  (6248, 24)
+
+n_train =  59594
+n_dev =  6792
+n_test =  6248
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.034720387 Dev mse: 0.03543963 Best_dev_mse: inf
+10 Train mse: 0.010492372 Dev mse: 0.010114279 Best_dev_mse: 0.03543963
+20 Train mse: 0.014429042 Dev mse: 0.009339207 Best_dev_mse: 0.010114279
+30 Train mse: 0.009237423 Dev mse: 0.0089809 Best_dev_mse: 0.009339207
+40 Train mse: 0.007004529 Dev mse: 0.009063841 Best_dev_mse: 0.0089809
+50 Train mse: 0.0064173653 Dev mse: 0.008848342 Best_dev_mse: 0.0089809
+60 Train mse: 0.011750186 Dev mse: 0.008823382 Best_dev_mse: 0.008848342
+70 Train mse: 0.007851816 Dev mse: 0.008912493 Best_dev_mse: 0.008823382
+80 Train mse: 0.008869022 Dev mse: 0.008909366 Best_dev_mse: 0.008823382
+Early stopping!
+Training time: 57.608 sec
+
+Best dev mse = 0.008823, rmse = 0.093933, corr = 0.9719
+Test mse = 0.010618, rmse = 0.103042, corr = 0.9606

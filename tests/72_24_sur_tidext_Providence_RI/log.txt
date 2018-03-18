@@ -1,0 +1,35 @@
+Station: Providence_RI
+Feature: sur_tidext
+X_train:  (63880, 96)
+Y_train:  (63880, 24)
+X_dev:  (6792, 96)
+Y_dev:  (6792, 24)
+X_test:  (7043, 96)
+Y_test:  (7043, 24)
+
+n_train =  63880
+n_dev =  6792
+n_test =  7043
+
+n_input =  96
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.02012173 Dev mse: 0.020578064 Best_dev_mse: inf
+10 Train mse: 0.013901372 Dev mse: 0.011433958 Best_dev_mse: 0.020578064
+20 Train mse: 0.010736292 Dev mse: 0.010986694 Best_dev_mse: 0.011433958
+30 Train mse: 0.011918409 Dev mse: 0.010909287 Best_dev_mse: 0.010986694
+40 Train mse: 0.011243559 Dev mse: 0.010762209 Best_dev_mse: 0.010909287
+50 Train mse: 0.011322542 Dev mse: 0.010629363 Best_dev_mse: 0.010762209
+60 Train mse: 0.008812316 Dev mse: 0.0105555 Best_dev_mse: 0.010629363
+70 Train mse: 0.009976087 Dev mse: 0.010732468 Best_dev_mse: 0.0105555
+80 Train mse: 0.0099254325 Dev mse: 0.010759737 Best_dev_mse: 0.0105555
+Early stopping!
+Training time: 62.685 sec
+
+Best dev mse = 0.010556, rmse = 0.102740, corr = 0.6163
+Test mse = 0.012300, rmse = 0.110906, corr = 0.5977

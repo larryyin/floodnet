@@ -1,0 +1,49 @@
+Station: Great_South_Bay_at_Lindenhurst_NY
+Feature: sur_tidall
+X_train:  (67993, 54)
+Y_train:  (67993, 6)
+X_dev:  (7989, 54)
+Y_dev:  (7989, 6)
+X_test:  (8040, 54)
+Y_test:  (8040, 6)
+
+n_train =  67993
+n_dev =  7989
+n_test =  8040
+
+n_input =  54
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.017322123 Dev mse: 0.021278525 Best_dev_mse: inf
+10 Train mse: 0.002503438 Dev mse: 0.0035951897 Best_dev_mse: 0.021278525
+20 Train mse: 0.0019327514 Dev mse: 0.0025448361 Best_dev_mse: 0.0035951897
+30 Train mse: 0.0017807642 Dev mse: 0.0023179045 Best_dev_mse: 0.0025448361
+40 Train mse: 0.0022066797 Dev mse: 0.0022564493 Best_dev_mse: 0.0023179045
+50 Train mse: 0.001837487 Dev mse: 0.0022248854 Best_dev_mse: 0.0022564493
+60 Train mse: 0.002431046 Dev mse: 0.0019924548 Best_dev_mse: 0.0022248854
+70 Train mse: 0.0014196176 Dev mse: 0.0019812526 Best_dev_mse: 0.0019924548
+80 Train mse: 0.0021252555 Dev mse: 0.0019655456 Best_dev_mse: 0.0019812526
+90 Train mse: 0.0017207109 Dev mse: 0.0018970445 Best_dev_mse: 0.0019655456
+100 Train mse: 0.0015228795 Dev mse: 0.0018324015 Best_dev_mse: 0.0018970445
+110 Train mse: 0.0018764833 Dev mse: 0.0018136409 Best_dev_mse: 0.0018324015
+120 Train mse: 0.001660344 Dev mse: 0.0018102193 Best_dev_mse: 0.0018136409
+130 Train mse: 0.0014546501 Dev mse: 0.0018271728 Best_dev_mse: 0.0018102193
+140 Train mse: 0.0017592284 Dev mse: 0.0017906463 Best_dev_mse: 0.0018102193
+150 Train mse: 0.0015897364 Dev mse: 0.0017636628 Best_dev_mse: 0.0017906463
+160 Train mse: 0.001589031 Dev mse: 0.0017439668 Best_dev_mse: 0.0017636628
+170 Train mse: 0.001232148 Dev mse: 0.0017490468 Best_dev_mse: 0.0017439668
+180 Train mse: 0.0014502752 Dev mse: 0.0016988871 Best_dev_mse: 0.0017439668
+190 Train mse: 0.0014379917 Dev mse: 0.0016983302 Best_dev_mse: 0.0016988871
+200 Train mse: 0.0013405298 Dev mse: 0.0016501943 Best_dev_mse: 0.0016983302
+210 Train mse: 0.0015745092 Dev mse: 0.0016976518 Best_dev_mse: 0.0016501943
+220 Train mse: 0.0013372761 Dev mse: 0.0016697433 Best_dev_mse: 0.0016501943
+Early stopping!
+Training time: 92.920 sec
+
+Best dev mse = 0.001650, rmse = 0.040623, corr = 0.7269
+Test mse = 0.001988, rmse = 0.044583, corr = 0.7398

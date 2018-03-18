@@ -1,0 +1,38 @@
+Station: The_Battery_NY
+Feature: obs
+X_train:  (64135, 72)
+Y_train:  (64135, 24)
+X_dev:  (6792, 72)
+Y_dev:  (6792, 24)
+X_test:  (7043, 72)
+Y_test:  (7043, 24)
+
+n_train =  64135
+n_dev =  6792
+n_test =  7043
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.057760473 Dev mse: 0.059831172 Best_dev_mse: inf
+10 Train mse: 0.018022664 Dev mse: 0.017842567 Best_dev_mse: 0.059831172
+20 Train mse: 0.019379804 Dev mse: 0.01710744 Best_dev_mse: 0.017842567
+30 Train mse: 0.01425299 Dev mse: 0.017289123 Best_dev_mse: 0.01710744
+40 Train mse: 0.015911104 Dev mse: 0.016471202 Best_dev_mse: 0.01710744
+50 Train mse: 0.015847791 Dev mse: 0.016632825 Best_dev_mse: 0.016471202
+60 Train mse: 0.012543366 Dev mse: 0.01624325 Best_dev_mse: 0.016471202
+70 Train mse: 0.012495867 Dev mse: 0.016195456 Best_dev_mse: 0.01624325
+80 Train mse: 0.018496484 Dev mse: 0.016879788 Best_dev_mse: 0.016195456
+90 Train mse: 0.020451616 Dev mse: 0.0160443 Best_dev_mse: 0.016195456
+100 Train mse: 0.016039038 Dev mse: 0.016383763 Best_dev_mse: 0.0160443
+110 Train mse: 0.014479989 Dev mse: 0.016402524 Best_dev_mse: 0.0160443
+Early stopping!
+Training time: 85.347 sec
+
+Best dev mse = 0.016044, rmse = 0.126666, corr = 0.9880
+Test mse = 0.017491, rmse = 0.132253, corr = 0.9850

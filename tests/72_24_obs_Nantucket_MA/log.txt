@@ -1,0 +1,39 @@
+Station: Nantucket_MA
+Feature: obs
+X_train:  (64018, 72)
+Y_train:  (64018, 24)
+X_dev:  (6792, 72)
+Y_dev:  (6792, 24)
+X_test:  (7043, 72)
+Y_test:  (7043, 24)
+
+n_train =  64018
+n_dev =  6792
+n_test =  7043
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.026652172 Dev mse: 0.030004665 Best_dev_mse: inf
+10 Train mse: 0.012673915 Dev mse: 0.00852406 Best_dev_mse: 0.030004665
+20 Train mse: 0.003409858 Dev mse: 0.008244444 Best_dev_mse: 0.00852406
+30 Train mse: 0.0035073033 Dev mse: 0.008112931 Best_dev_mse: 0.008244444
+40 Train mse: 0.004910763 Dev mse: 0.0076600146 Best_dev_mse: 0.008112931
+50 Train mse: 0.0056697656 Dev mse: 0.0075154128 Best_dev_mse: 0.0076600146
+60 Train mse: 0.0022217615 Dev mse: 0.0074939854 Best_dev_mse: 0.0075154128
+70 Train mse: 0.0031691762 Dev mse: 0.0074681295 Best_dev_mse: 0.0074939854
+80 Train mse: 0.024985993 Dev mse: 0.007788007 Best_dev_mse: 0.0074681295
+90 Train mse: 0.005548028 Dev mse: 0.0073698917 Best_dev_mse: 0.0074681295
+100 Train mse: 0.005274771 Dev mse: 0.0072404803 Best_dev_mse: 0.0073698917
+110 Train mse: 0.0053117685 Dev mse: 0.007456151 Best_dev_mse: 0.0072404803
+120 Train mse: 0.0030027663 Dev mse: 0.007372965 Best_dev_mse: 0.0072404803
+Early stopping!
+Training time: 91.605 sec
+
+Best dev mse = 0.007240, rmse = 0.085091, corr = 0.9883
+Test mse = 0.007661, rmse = 0.087529, corr = 0.9868

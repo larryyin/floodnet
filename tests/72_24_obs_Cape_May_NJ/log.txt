@@ -1,0 +1,35 @@
+Station: Cape_May_NJ
+Feature: obs
+X_train:  (63993, 72)
+Y_train:  (63993, 24)
+X_dev:  (6792, 72)
+Y_dev:  (6792, 24)
+X_test:  (7043, 72)
+Y_test:  (7043, 24)
+
+n_train =  63993
+n_dev =  6792
+n_test =  7043
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.05655822 Dev mse: 0.05677432 Best_dev_mse: inf
+10 Train mse: 0.013372023 Dev mse: 0.013937549 Best_dev_mse: 0.05677432
+20 Train mse: 0.015708867 Dev mse: 0.013289216 Best_dev_mse: 0.013937549
+30 Train mse: 0.011485438 Dev mse: 0.013096831 Best_dev_mse: 0.013289216
+40 Train mse: 0.014520987 Dev mse: 0.013041106 Best_dev_mse: 0.013096831
+50 Train mse: 0.012775472 Dev mse: 0.013160361 Best_dev_mse: 0.013041106
+60 Train mse: 0.011546268 Dev mse: 0.012650859 Best_dev_mse: 0.013041106
+70 Train mse: 0.011718012 Dev mse: 0.0127258515 Best_dev_mse: 0.012650859
+80 Train mse: 0.012252798 Dev mse: 0.0127448 Best_dev_mse: 0.012650859
+Early stopping!
+Training time: 63.203 sec
+
+Best dev mse = 0.012651, rmse = 0.112476, corr = 0.9913
+Test mse = 0.012679, rmse = 0.112602, corr = 0.9905

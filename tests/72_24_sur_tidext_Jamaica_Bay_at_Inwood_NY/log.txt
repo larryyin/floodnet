@@ -1,0 +1,31 @@
+Station: Jamaica_Bay_at_Inwood_NY
+Feature: sur_tidext
+X_train:  (62554, 96)
+Y_train:  (62554, 24)
+X_dev:  (6741, 96)
+Y_dev:  (6741, 24)
+X_test:  (6851, 96)
+Y_test:  (6851, 24)
+
+n_train =  62554
+n_dev =  6741
+n_test =  6851
+
+n_input =  96
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.04017819 Dev mse: 0.030572798 Best_dev_mse: inf
+10 Train mse: 0.0146489935 Dev mse: 0.013962664 Best_dev_mse: 0.030572798
+20 Train mse: 0.008256359 Dev mse: 0.013321488 Best_dev_mse: 0.013962664
+30 Train mse: 0.011762983 Dev mse: 0.013530018 Best_dev_mse: 0.013321488
+40 Train mse: 0.013223171 Dev mse: 0.013408062 Best_dev_mse: 0.013321488
+Early stopping!
+Training time: 31.833 sec
+
+Best dev mse = 0.013321, rmse = 0.115419, corr = 0.8744
+Test mse = 0.026207, rmse = 0.161886, corr = 0.8481

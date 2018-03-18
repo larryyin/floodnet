@@ -1,0 +1,35 @@
+Station: Barnegat_Bay_at_Barnegat_Light_NJ
+Feature: obs_tidall
+X_train:  (62764, 168)
+Y_train:  (62764, 24)
+X_dev:  (6144, 168)
+Y_dev:  (6144, 24)
+X_test:  (6908, 168)
+Y_test:  (6908, 24)
+
+n_train =  62764
+n_dev =  6144
+n_test =  6908
+
+n_input =  168
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.03392509 Dev mse: 0.032976434 Best_dev_mse: inf
+10 Train mse: 0.007915238 Dev mse: 0.008259886 Best_dev_mse: 0.032976434
+20 Train mse: 0.008094269 Dev mse: 0.0082670245 Best_dev_mse: 0.008259886
+30 Train mse: 0.0074346005 Dev mse: 0.0076705045 Best_dev_mse: 0.008259886
+40 Train mse: 0.00799962 Dev mse: 0.007971919 Best_dev_mse: 0.0076705045
+50 Train mse: 0.009641307 Dev mse: 0.007595987 Best_dev_mse: 0.0076705045
+60 Train mse: 0.0066060335 Dev mse: 0.0075317984 Best_dev_mse: 0.007595987
+70 Train mse: 0.005708292 Dev mse: 0.007594429 Best_dev_mse: 0.0075317984
+80 Train mse: 0.007851597 Dev mse: 0.007532863 Best_dev_mse: 0.0075317984
+Early stopping!
+Training time: 67.832 sec
+
+Best dev mse = 0.007532, rmse = 0.086786, corr = 0.9809
+Test mse = 0.007798, rmse = 0.088305, corr = 0.9782

@@ -1,0 +1,42 @@
+Station: Jamaica_Bay_at_Inwood_NY
+Feature: sur_tidall
+X_train:  (69758, 54)
+Y_train:  (69758, 6)
+X_dev:  (7959, 54)
+Y_dev:  (7959, 6)
+X_test:  (7980, 54)
+Y_test:  (7980, 6)
+
+n_train =  69758
+n_dev =  7959
+n_test =  7980
+
+n_input =  54
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.04819444 Dev mse: 0.04272962 Best_dev_mse: inf
+10 Train mse: 0.008265538 Dev mse: 0.008602775 Best_dev_mse: 0.04272962
+20 Train mse: 0.0066132634 Dev mse: 0.0073090326 Best_dev_mse: 0.008602775
+30 Train mse: 0.0061126687 Dev mse: 0.007161658 Best_dev_mse: 0.0073090326
+40 Train mse: 0.008679123 Dev mse: 0.006981145 Best_dev_mse: 0.007161658
+50 Train mse: 0.0047324873 Dev mse: 0.0068651005 Best_dev_mse: 0.006981145
+60 Train mse: 0.0055838763 Dev mse: 0.0066565783 Best_dev_mse: 0.0068651005
+70 Train mse: 0.0068688323 Dev mse: 0.0067799347 Best_dev_mse: 0.0066565783
+80 Train mse: 0.0065956204 Dev mse: 0.0065397653 Best_dev_mse: 0.0066565783
+90 Train mse: 0.0064094625 Dev mse: 0.006669792 Best_dev_mse: 0.0065397653
+100 Train mse: 0.0057147387 Dev mse: 0.0065148957 Best_dev_mse: 0.0065397653
+110 Train mse: 0.006218309 Dev mse: 0.0064113806 Best_dev_mse: 0.0065148957
+120 Train mse: 0.0046466156 Dev mse: 0.0064011174 Best_dev_mse: 0.0064113806
+130 Train mse: 0.0055901427 Dev mse: 0.0062907394 Best_dev_mse: 0.0064011174
+140 Train mse: 0.008950496 Dev mse: 0.0065200874 Best_dev_mse: 0.0062907394
+150 Train mse: 0.0069654128 Dev mse: 0.00629236 Best_dev_mse: 0.0062907394
+Early stopping!
+Training time: 72.303 sec
+
+Best dev mse = 0.006291, rmse = 0.079314, corr = 0.8836
+Test mse = 0.010535, rmse = 0.102639, corr = 0.8805

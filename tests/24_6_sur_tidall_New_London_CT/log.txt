@@ -1,0 +1,35 @@
+Station: New_London_CT
+Feature: sur_tidall
+X_train:  (68893, 54)
+Y_train:  (68893, 6)
+X_dev:  (7893, 54)
+Y_dev:  (7893, 6)
+X_test:  (8040, 54)
+Y_test:  (8040, 6)
+
+n_train =  68893
+n_dev =  7893
+n_test =  8040
+
+n_input =  54
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.02683492 Dev mse: 0.02618599 Best_dev_mse: inf
+10 Train mse: 0.0043905308 Dev mse: 0.0037724196 Best_dev_mse: 0.02618599
+20 Train mse: 0.002487974 Dev mse: 0.002945723 Best_dev_mse: 0.0037724196
+30 Train mse: 0.0025730468 Dev mse: 0.002800959 Best_dev_mse: 0.002945723
+40 Train mse: 0.002861105 Dev mse: 0.0028244818 Best_dev_mse: 0.002800959
+50 Train mse: 0.0025117595 Dev mse: 0.0026070087 Best_dev_mse: 0.002800959
+60 Train mse: 0.002541052 Dev mse: 0.0025365162 Best_dev_mse: 0.0026070087
+70 Train mse: 0.0028076328 Dev mse: 0.0026166786 Best_dev_mse: 0.0025365162
+80 Train mse: 0.002677587 Dev mse: 0.0026129563 Best_dev_mse: 0.0025365162
+Early stopping!
+Training time: 34.819 sec
+
+Best dev mse = 0.002537, rmse = 0.050364, corr = 0.3111
+Test mse = 0.002756, rmse = 0.052495, corr = 0.2806

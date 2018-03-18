@@ -1,0 +1,36 @@
+Station: Hudson_River_below_Poughkeepsie_NY
+Feature: obs
+X_train:  (50965, 72)
+Y_train:  (50965, 24)
+X_dev:  (5695, 72)
+Y_dev:  (5695, 24)
+X_test:  (6401, 72)
+Y_test:  (6401, 24)
+
+n_train =  50965
+n_dev =  5695
+n_test =  6401
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.047884405 Dev mse: 0.046783954 Best_dev_mse: inf
+10 Train mse: 0.017900212 Dev mse: 0.016514651 Best_dev_mse: 0.046783954
+20 Train mse: 0.016863896 Dev mse: 0.015672507 Best_dev_mse: 0.016514651
+30 Train mse: 0.015514663 Dev mse: 0.015203582 Best_dev_mse: 0.015672507
+40 Train mse: 0.018444316 Dev mse: 0.015080546 Best_dev_mse: 0.015203582
+50 Train mse: 0.0145013025 Dev mse: 0.015213992 Best_dev_mse: 0.015080546
+60 Train mse: 0.016266247 Dev mse: 0.014952845 Best_dev_mse: 0.015080546
+70 Train mse: 0.01601838 Dev mse: 0.014911506 Best_dev_mse: 0.014952845
+80 Train mse: 0.016237032 Dev mse: 0.014978301 Best_dev_mse: 0.014911506
+90 Train mse: 0.017460577 Dev mse: 0.0150344325 Best_dev_mse: 0.014911506
+Early stopping!
+Training time: 55.225 sec
+
+Best dev mse = 0.014912, rmse = 0.122113, corr = 0.9778
+Test mse = 0.017102, rmse = 0.130775, corr = 0.9747

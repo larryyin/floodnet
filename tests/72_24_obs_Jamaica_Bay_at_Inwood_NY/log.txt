@@ -1,0 +1,31 @@
+Station: Jamaica_Bay_at_Inwood_NY
+Feature: obs
+X_train:  (62554, 72)
+Y_train:  (62554, 24)
+X_dev:  (6741, 72)
+Y_dev:  (6741, 24)
+X_test:  (6851, 72)
+Y_test:  (6851, 24)
+
+n_train =  62554
+n_dev =  6741
+n_test =  6851
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.084845334 Dev mse: 0.06275072 Best_dev_mse: inf
+10 Train mse: 0.01879019 Dev mse: 0.017357476 Best_dev_mse: 0.06275072
+20 Train mse: 0.014174192 Dev mse: 0.016390573 Best_dev_mse: 0.017357476
+30 Train mse: 0.019429306 Dev mse: 0.016431784 Best_dev_mse: 0.016390573
+40 Train mse: 0.010830057 Dev mse: 0.016437711 Best_dev_mse: 0.016390573
+Early stopping!
+Training time: 31.064 sec
+
+Best dev mse = 0.016391, rmse = 0.128026, corr = 0.9888
+Test mse = 0.018196, rmse = 0.134892, corr = 0.9860

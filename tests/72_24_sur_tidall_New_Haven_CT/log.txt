@@ -1,0 +1,32 @@
+Station: New_Haven_CT
+Feature: sur_tidall
+X_train:  (63873, 168)
+Y_train:  (63873, 24)
+X_dev:  (6792, 168)
+Y_dev:  (6792, 24)
+X_test:  (7043, 168)
+Y_test:  (7043, 24)
+
+n_train =  63873
+n_dev =  6792
+n_test =  7043
+
+n_input =  168
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.025882898 Dev mse: 0.02097526 Best_dev_mse: inf
+10 Train mse: 0.01435153 Dev mse: 0.0129284505 Best_dev_mse: 0.02097526
+20 Train mse: 0.012221775 Dev mse: 0.012658791 Best_dev_mse: 0.0129284505
+30 Train mse: 0.01147157 Dev mse: 0.012088661 Best_dev_mse: 0.012658791
+40 Train mse: 0.015760131 Dev mse: 0.012131197 Best_dev_mse: 0.012088661
+50 Train mse: 0.011824366 Dev mse: 0.012286867 Best_dev_mse: 0.012088661
+Early stopping!
+Training time: 44.382 sec
+
+Best dev mse = 0.012089, rmse = 0.109948, corr = 0.5054
+Test mse = 0.014293, rmse = 0.119551, corr = 0.4492

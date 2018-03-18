@@ -1,0 +1,31 @@
+Station: Bergen_Point_West_Reach_NY
+Feature: sur_tidext
+X_train:  (59657, 96)
+Y_train:  (59657, 24)
+X_dev:  (6792, 96)
+Y_dev:  (6792, 24)
+X_test:  (7043, 96)
+Y_test:  (7043, 24)
+
+n_train =  59657
+n_dev =  6792
+n_test =  7043
+
+n_input =  96
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.039077308 Dev mse: 0.031989932 Best_dev_mse: inf
+10 Train mse: 0.010350192 Dev mse: 0.016560081 Best_dev_mse: 0.031989932
+20 Train mse: 0.019207727 Dev mse: 0.015773457 Best_dev_mse: 0.016560081
+30 Train mse: 0.014495283 Dev mse: 0.015891708 Best_dev_mse: 0.015773457
+40 Train mse: 0.015638188 Dev mse: 0.016087689 Best_dev_mse: 0.015773457
+Early stopping!
+Training time: 30.362 sec
+
+Best dev mse = 0.015773, rmse = 0.125592, corr = 0.5530
+Test mse = 0.017160, rmse = 0.130997, corr = 0.5255

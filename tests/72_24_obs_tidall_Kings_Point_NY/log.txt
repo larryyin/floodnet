@@ -1,0 +1,31 @@
+Station: Kings_Point_NY
+Feature: obs_tidall
+X_train:  (64111, 168)
+Y_train:  (64111, 24)
+X_dev:  (6647, 168)
+Y_dev:  (6647, 24)
+X_test:  (7043, 168)
+Y_test:  (7043, 24)
+
+n_train =  64111
+n_dev =  6647
+n_test =  7043
+
+n_input =  168
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.10015675 Dev mse: 0.0825227 Best_dev_mse: inf
+10 Train mse: 0.0226254 Dev mse: 0.021061217 Best_dev_mse: 0.0825227
+20 Train mse: 0.03674055 Dev mse: 0.01926811 Best_dev_mse: 0.021061217
+30 Train mse: 0.02400824 Dev mse: 0.021310221 Best_dev_mse: 0.01926811
+40 Train mse: 0.02298658 Dev mse: 0.020516647 Best_dev_mse: 0.01926811
+Early stopping!
+Training time: 36.988 sec
+
+Best dev mse = 0.019268, rmse = 0.138810, corr = 0.9951
+Test mse = 0.022331, rmse = 0.149436, corr = 0.9932

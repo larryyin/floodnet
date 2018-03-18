@@ -1,0 +1,40 @@
+Station: Montauk_NY
+Feature: sur_tidall
+X_train:  (65131, 54)
+Y_train:  (65131, 6)
+X_dev:  (7989, 54)
+Y_dev:  (7989, 6)
+X_test:  (7298, 54)
+Y_test:  (7298, 6)
+
+n_train =  65131
+n_dev =  7989
+n_test =  7298
+
+n_input =  54
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.02605694 Dev mse: 0.025522273 Best_dev_mse: inf
+10 Train mse: 0.0032976565 Dev mse: 0.0034937277 Best_dev_mse: 0.025522273
+20 Train mse: 0.0028292409 Dev mse: 0.002571318 Best_dev_mse: 0.0034937277
+30 Train mse: 0.0022489636 Dev mse: 0.0023696884 Best_dev_mse: 0.002571318
+40 Train mse: 0.0027188936 Dev mse: 0.0023474146 Best_dev_mse: 0.0023696884
+50 Train mse: 0.0024819258 Dev mse: 0.0022447763 Best_dev_mse: 0.0023474146
+60 Train mse: 0.0012998044 Dev mse: 0.0022403428 Best_dev_mse: 0.0022447763
+70 Train mse: 0.0024427464 Dev mse: 0.0021832942 Best_dev_mse: 0.0022403428
+80 Train mse: 0.004280443 Dev mse: 0.0022114585 Best_dev_mse: 0.0021832942
+90 Train mse: 0.0027972192 Dev mse: 0.0021662598 Best_dev_mse: 0.0021832942
+100 Train mse: 0.0023083321 Dev mse: 0.0021683022 Best_dev_mse: 0.0021662598
+110 Train mse: 0.0019325188 Dev mse: 0.0021279156 Best_dev_mse: 0.0021662598
+120 Train mse: 0.0018448203 Dev mse: 0.0021790762 Best_dev_mse: 0.0021279156
+130 Train mse: 0.0018504176 Dev mse: 0.0021416543 Best_dev_mse: 0.0021279156
+Early stopping!
+Training time: 53.395 sec
+
+Best dev mse = 0.002128, rmse = 0.046129, corr = 0.4708
+Test mse = 0.002132, rmse = 0.046174, corr = 0.4661

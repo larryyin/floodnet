@@ -1,0 +1,32 @@
+Station: Lewes_DE
+Feature: sur
+X_train:  (64135, 72)
+Y_train:  (64135, 24)
+X_dev:  (6792, 72)
+Y_dev:  (6792, 24)
+X_test:  (7043, 72)
+Y_test:  (7043, 24)
+
+n_train =  64135
+n_dev =  6792
+n_test =  7043
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.026280856 Dev mse: 0.027373942 Best_dev_mse: inf
+10 Train mse: 0.01326514 Dev mse: 0.011629115 Best_dev_mse: 0.027373942
+20 Train mse: 0.013176351 Dev mse: 0.011256471 Best_dev_mse: 0.011629115
+30 Train mse: 0.009339732 Dev mse: 0.01084567 Best_dev_mse: 0.011256471
+40 Train mse: 0.0088521745 Dev mse: 0.011419011 Best_dev_mse: 0.01084567
+50 Train mse: 0.0092897955 Dev mse: 0.01107827 Best_dev_mse: 0.01084567
+Early stopping!
+Training time: 39.337 sec
+
+Best dev mse = 0.010846, rmse = 0.104143, corr = 0.3237
+Test mse = 0.010987, rmse = 0.104821, corr = 0.3321

@@ -1,0 +1,39 @@
+Station: Reynolds_Channel_at_Point_Lookout_NY
+Feature: obs_tidall
+X_train:  (69985, 54)
+Y_train:  (69985, 6)
+X_dev:  (7134, 54)
+Y_dev:  (7134, 6)
+X_test:  (7751, 54)
+Y_test:  (7751, 6)
+
+n_train =  69985
+n_dev =  7134
+n_test =  7751
+
+n_input =  54
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.07077646 Dev mse: 0.077932395 Best_dev_mse: inf
+10 Train mse: 0.006281558 Dev mse: 0.0063652107 Best_dev_mse: 0.077932395
+20 Train mse: 0.0040321318 Dev mse: 0.004868042 Best_dev_mse: 0.0063652107
+30 Train mse: 0.004760986 Dev mse: 0.004159906 Best_dev_mse: 0.004868042
+40 Train mse: 0.004045027 Dev mse: 0.0038772495 Best_dev_mse: 0.004159906
+50 Train mse: 0.003930804 Dev mse: 0.0038088895 Best_dev_mse: 0.0038772495
+60 Train mse: 0.003436252 Dev mse: 0.0035953792 Best_dev_mse: 0.0038088895
+70 Train mse: 0.0038014783 Dev mse: 0.003505268 Best_dev_mse: 0.0035953792
+80 Train mse: 0.004112013 Dev mse: 0.003458177 Best_dev_mse: 0.003505268
+90 Train mse: 0.0032552104 Dev mse: 0.0034498174 Best_dev_mse: 0.003458177
+100 Train mse: 0.0034197501 Dev mse: 0.0033858863 Best_dev_mse: 0.0034498174
+110 Train mse: 0.003305334 Dev mse: 0.0034714951 Best_dev_mse: 0.0033858863
+120 Train mse: 0.0037897762 Dev mse: 0.0034341821 Best_dev_mse: 0.0033858863
+Early stopping!
+Training time: 57.552 sec
+
+Best dev mse = 0.003386, rmse = 0.058188, corr = 0.9945
+Test mse = 0.011076, rmse = 0.105242, corr = 0.9848

@@ -1,0 +1,31 @@
+Station: Cohancey_River_at_Greenwich_NJ
+Feature: sur_tidext
+X_train:  (54635, 96)
+Y_train:  (54635, 24)
+X_dev:  (6259, 96)
+Y_dev:  (6259, 24)
+X_test:  (5313, 96)
+Y_test:  (5313, 24)
+
+n_train =  54635
+n_dev =  6259
+n_test =  5313
+
+n_input =  96
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.06863366 Dev mse: 0.042608798 Best_dev_mse: inf
+10 Train mse: 0.025631126 Dev mse: 0.01959385 Best_dev_mse: 0.042608798
+20 Train mse: 0.033004783 Dev mse: 0.01865581 Best_dev_mse: 0.01959385
+30 Train mse: 0.026788794 Dev mse: 0.018911585 Best_dev_mse: 0.01865581
+40 Train mse: 0.017063295 Dev mse: 0.018759433 Best_dev_mse: 0.01865581
+Early stopping!
+Training time: 27.823 sec
+
+Best dev mse = 0.018656, rmse = 0.136586, corr = 0.6687
+Test mse = 0.021288, rmse = 0.145904, corr = 0.6695

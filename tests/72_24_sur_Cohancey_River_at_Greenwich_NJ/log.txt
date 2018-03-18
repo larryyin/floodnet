@@ -1,0 +1,34 @@
+Station: Cohancey_River_at_Greenwich_NJ
+Feature: sur
+X_train:  (54635, 72)
+Y_train:  (54635, 24)
+X_dev:  (6259, 72)
+Y_dev:  (6259, 24)
+X_test:  (5313, 72)
+Y_test:  (5313, 24)
+
+n_train =  54635
+n_dev =  6259
+n_test =  5313
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.052351557 Dev mse: 0.046413008 Best_dev_mse: inf
+10 Train mse: 0.034369607 Dev mse: 0.020848338 Best_dev_mse: 0.046413008
+20 Train mse: 0.02969068 Dev mse: 0.019074697 Best_dev_mse: 0.020848338
+30 Train mse: 0.028938392 Dev mse: 0.0188559 Best_dev_mse: 0.019074697
+40 Train mse: 0.021389963 Dev mse: 0.018551208 Best_dev_mse: 0.0188559
+50 Train mse: 0.03191604 Dev mse: 0.018473385 Best_dev_mse: 0.018551208
+60 Train mse: 0.026312482 Dev mse: 0.018624296 Best_dev_mse: 0.018473385
+70 Train mse: 0.026272507 Dev mse: 0.019105485 Best_dev_mse: 0.018473385
+Early stopping!
+Training time: 46.303 sec
+
+Best dev mse = 0.018473, rmse = 0.135917, corr = 0.6840
+Test mse = 0.021240, rmse = 0.145738, corr = 0.6914

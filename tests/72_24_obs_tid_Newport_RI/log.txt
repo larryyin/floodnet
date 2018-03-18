@@ -1,0 +1,33 @@
+Station: Newport_RI
+Feature: obs_tid
+X_train:  (63963, 144)
+Y_train:  (63963, 24)
+X_dev:  (6792, 144)
+Y_dev:  (6792, 24)
+X_test:  (7043, 144)
+Y_test:  (7043, 24)
+
+n_train =  63963
+n_dev =  6792
+n_test =  7043
+
+n_input =  144
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.03488704 Dev mse: 0.032914687 Best_dev_mse: inf
+10 Train mse: 0.007871927 Dev mse: 0.009088293 Best_dev_mse: 0.032914687
+20 Train mse: 0.00793325 Dev mse: 0.008095229 Best_dev_mse: 0.009088293
+30 Train mse: 0.007534741 Dev mse: 0.008076688 Best_dev_mse: 0.008095229
+40 Train mse: 0.007618139 Dev mse: 0.0078100963 Best_dev_mse: 0.008076688
+50 Train mse: 0.0074601555 Dev mse: 0.00801897 Best_dev_mse: 0.0078100963
+60 Train mse: 0.006894763 Dev mse: 0.007922355 Best_dev_mse: 0.0078100963
+Early stopping!
+Training time: 50.292 sec
+
+Best dev mse = 0.007810, rmse = 0.088375, corr = 0.9896
+Test mse = 0.008699, rmse = 0.093268, corr = 0.9866

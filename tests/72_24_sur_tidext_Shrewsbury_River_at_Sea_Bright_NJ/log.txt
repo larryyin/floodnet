@@ -1,0 +1,36 @@
+Station: Shrewsbury_River_at_Sea_Bright_NJ
+Feature: sur_tidext
+X_train:  (47661, 96)
+Y_train:  (47661, 24)
+X_dev:  (6653, 96)
+Y_dev:  (6653, 24)
+X_test:  (7043, 96)
+Y_test:  (7043, 24)
+
+n_train =  47661
+n_dev =  6653
+n_test =  7043
+
+n_input =  96
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.03265857 Dev mse: 0.036175612 Best_dev_mse: inf
+10 Train mse: 0.013391504 Dev mse: 0.013344701 Best_dev_mse: 0.036175612
+20 Train mse: 0.011029321 Dev mse: 0.011735258 Best_dev_mse: 0.013344701
+30 Train mse: 0.007306242 Dev mse: 0.011379376 Best_dev_mse: 0.011735258
+40 Train mse: 0.009515783 Dev mse: 0.011086382 Best_dev_mse: 0.011379376
+50 Train mse: 0.00922243 Dev mse: 0.011137977 Best_dev_mse: 0.011086382
+60 Train mse: 0.0076667396 Dev mse: 0.01096 Best_dev_mse: 0.011086382
+70 Train mse: 0.008858438 Dev mse: 0.010862578 Best_dev_mse: 0.01096
+80 Train mse: 0.006992479 Dev mse: 0.011306644 Best_dev_mse: 0.010862578
+90 Train mse: 0.006301893 Dev mse: 0.011461917 Best_dev_mse: 0.010862578
+Early stopping!
+Training time: 53.097 sec
+
+Best dev mse = 0.010863, rmse = 0.104224, corr = 0.5198
+Test mse = 0.012621, rmse = 0.112345, corr = 0.5079

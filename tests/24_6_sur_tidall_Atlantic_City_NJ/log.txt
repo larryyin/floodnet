@@ -1,0 +1,38 @@
+Station: Atlantic_City_NJ
+Feature: sur_tidall
+X_train:  (69121, 54)
+Y_train:  (69121, 6)
+X_dev:  (7989, 54)
+Y_dev:  (7989, 6)
+X_test:  (8040, 54)
+Y_test:  (8040, 6)
+
+n_train =  69121
+n_dev =  7989
+n_test =  8040
+
+n_input =  54
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.042751197 Dev mse: 0.051742315 Best_dev_mse: inf
+10 Train mse: 0.0030093295 Dev mse: 0.004304406 Best_dev_mse: 0.051742315
+20 Train mse: 0.004392044 Dev mse: 0.0034995594 Best_dev_mse: 0.004304406
+30 Train mse: 0.0031647035 Dev mse: 0.0033842565 Best_dev_mse: 0.0034995594
+40 Train mse: 0.0042092972 Dev mse: 0.0034422742 Best_dev_mse: 0.0033842565
+50 Train mse: 0.0026966843 Dev mse: 0.0033291744 Best_dev_mse: 0.0033842565
+60 Train mse: 0.002354871 Dev mse: 0.003189796 Best_dev_mse: 0.0033291744
+70 Train mse: 0.002621611 Dev mse: 0.0032101225 Best_dev_mse: 0.003189796
+80 Train mse: 0.0037995446 Dev mse: 0.0031631743 Best_dev_mse: 0.003189796
+90 Train mse: 0.004481627 Dev mse: 0.0031172785 Best_dev_mse: 0.0031631743
+100 Train mse: 0.0033922857 Dev mse: 0.0032406673 Best_dev_mse: 0.0031172785
+110 Train mse: 0.0023199902 Dev mse: 0.0031374125 Best_dev_mse: 0.0031172785
+Early stopping!
+Training time: 47.830 sec
+
+Best dev mse = 0.003117, rmse = 0.055833, corr = 0.3012
+Test mse = 0.003651, rmse = 0.060420, corr = 0.2967

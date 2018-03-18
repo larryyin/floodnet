@@ -1,0 +1,34 @@
+Station: Maurice_River_at_Bivalve_NJ
+Feature: obs_tidall
+X_train:  (71162, 54)
+Y_train:  (71162, 6)
+X_dev:  (7801, 54)
+Y_dev:  (7801, 6)
+X_test:  (8035, 54)
+Y_test:  (8035, 6)
+
+n_train =  71162
+n_dev =  7801
+n_test =  8035
+
+n_input =  54
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.09345886 Dev mse: 0.08648048 Best_dev_mse: inf
+10 Train mse: 0.019416144 Dev mse: 0.012181372 Best_dev_mse: 0.08648048
+20 Train mse: 0.009730671 Dev mse: 0.010143404 Best_dev_mse: 0.012181372
+30 Train mse: 0.009107957 Dev mse: 0.009597295 Best_dev_mse: 0.010143404
+40 Train mse: 0.017186636 Dev mse: 0.010595111 Best_dev_mse: 0.009597295
+50 Train mse: 0.016925776 Dev mse: 0.009105294 Best_dev_mse: 0.009597295
+60 Train mse: 0.0107815005 Dev mse: 0.009450266 Best_dev_mse: 0.009105294
+70 Train mse: 0.009501492 Dev mse: 0.009144305 Best_dev_mse: 0.009105294
+Early stopping!
+Training time: 31.746 sec
+
+Best dev mse = 0.009105, rmse = 0.095422, corr = nan
+Test mse = 0.009393, rmse = 0.096919, corr = nan

@@ -1,0 +1,36 @@
+Station: Great_South_Bay_at_Lindenhurst_NY
+Feature: obs
+X_train:  (61165, 72)
+Y_train:  (61165, 24)
+X_dev:  (6792, 72)
+Y_dev:  (6792, 24)
+X_test:  (7043, 72)
+Y_test:  (7043, 24)
+
+n_train =  61165
+n_dev =  6792
+n_test =  7043
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.029520374 Dev mse: 0.028141538 Best_dev_mse: inf
+10 Train mse: 0.0068267854 Dev mse: 0.0085452 Best_dev_mse: 0.028141538
+20 Train mse: 0.007930722 Dev mse: 0.0077816364 Best_dev_mse: 0.0085452
+30 Train mse: 0.005605068 Dev mse: 0.0075175087 Best_dev_mse: 0.0077816364
+40 Train mse: 0.0054308767 Dev mse: 0.0073279655 Best_dev_mse: 0.0075175087
+50 Train mse: 0.0051410915 Dev mse: 0.007265368 Best_dev_mse: 0.0073279655
+60 Train mse: 0.0063639325 Dev mse: 0.0072965096 Best_dev_mse: 0.007265368
+70 Train mse: 0.0066157635 Dev mse: 0.0071485504 Best_dev_mse: 0.007265368
+80 Train mse: 0.006769209 Dev mse: 0.007173879 Best_dev_mse: 0.0071485504
+90 Train mse: 0.005162263 Dev mse: 0.007275677 Best_dev_mse: 0.0071485504
+Early stopping!
+Training time: 66.539 sec
+
+Best dev mse = 0.007149, rmse = 0.084549, corr = 0.9483
+Test mse = 0.007126, rmse = 0.084417, corr = 0.9500

@@ -1,0 +1,35 @@
+Station: Sandy_Hook_NJ
+Feature: sur
+X_train:  (62471, 72)
+Y_train:  (62471, 24)
+X_dev:  (6792, 72)
+Y_dev:  (6792, 24)
+X_test:  (7043, 72)
+Y_test:  (7043, 24)
+
+n_train =  62471
+n_dev =  6792
+n_test =  7043
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.033432875 Dev mse: 0.029379295 Best_dev_mse: inf
+10 Train mse: 0.011033145 Dev mse: 0.01341873 Best_dev_mse: 0.029379295
+20 Train mse: 0.01149455 Dev mse: 0.013163816 Best_dev_mse: 0.01341873
+30 Train mse: 0.014101251 Dev mse: 0.012742697 Best_dev_mse: 0.013163816
+40 Train mse: 0.010147125 Dev mse: 0.012975827 Best_dev_mse: 0.012742697
+50 Train mse: 0.011749042 Dev mse: 0.012704275 Best_dev_mse: 0.012742697
+60 Train mse: 0.010590269 Dev mse: 0.01260768 Best_dev_mse: 0.012704275
+70 Train mse: 0.011072352 Dev mse: 0.012730638 Best_dev_mse: 0.01260768
+80 Train mse: 0.012009884 Dev mse: 0.013023745 Best_dev_mse: 0.01260768
+Early stopping!
+Training time: 60.129 sec
+
+Best dev mse = 0.012608, rmse = 0.112284, corr = 0.2740
+Test mse = 0.014870, rmse = 0.121944, corr = 0.2863

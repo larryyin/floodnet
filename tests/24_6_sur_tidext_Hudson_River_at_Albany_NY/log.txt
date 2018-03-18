@@ -1,2 +1,35 @@
 Station: Hudson_River_at_Albany_NY
 Feature: sur_tidext
+X_train:  (63187, 30)
+Y_train:  (63187, 6)
+X_dev:  (7307, 30)
+Y_dev:  (7307, 6)
+X_test:  (7697, 30)
+Y_test:  (7697, 6)
+
+n_train =  63187
+n_dev =  7307
+n_test =  7697
+
+n_input =  30
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.08980028 Dev mse: 0.1144823 Best_dev_mse: inf
+10 Train mse: 0.021038687 Dev mse: 0.01788941 Best_dev_mse: 0.1144823
+20 Train mse: 0.013337064 Dev mse: 0.0151734315 Best_dev_mse: 0.01788941
+30 Train mse: 0.0146632325 Dev mse: 0.014442317 Best_dev_mse: 0.0151734315
+40 Train mse: 0.013299071 Dev mse: 0.013162447 Best_dev_mse: 0.014442317
+50 Train mse: 0.01225621 Dev mse: 0.012682297 Best_dev_mse: 0.013162447
+60 Train mse: 0.010503256 Dev mse: 0.012452992 Best_dev_mse: 0.012682297
+70 Train mse: 0.013446177 Dev mse: 0.014504568 Best_dev_mse: 0.012452992
+80 Train mse: 0.013785562 Dev mse: 0.012789101 Best_dev_mse: 0.012452992
+Early stopping!
+Training time: 30.706 sec
+
+Best dev mse = 0.012453, rmse = 0.111593, corr = 0.6956
+Test mse = 0.012425, rmse = 0.111469, corr = 0.6996

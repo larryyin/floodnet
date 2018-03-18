@@ -1,0 +1,31 @@
+Station: Maurice_River_at_Bivalve_NJ
+Feature: sur_tidext
+X_train:  (63934, 96)
+Y_train:  (63934, 24)
+X_dev:  (6341, 96)
+Y_dev:  (6341, 24)
+X_test:  (7038, 96)
+Y_test:  (7038, 24)
+
+n_train =  63934
+n_dev =  6341
+n_test =  7038
+
+n_input =  96
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.045779187 Dev mse: 0.033530124 Best_dev_mse: inf
+10 Train mse: 0.020596666 Dev mse: 0.017016135 Best_dev_mse: 0.033530124
+20 Train mse: 0.017987372 Dev mse: 0.016127337 Best_dev_mse: 0.017016135
+30 Train mse: 0.020615017 Dev mse: 0.016458958 Best_dev_mse: 0.016127337
+40 Train mse: 0.017624509 Dev mse: 0.016509688 Best_dev_mse: 0.016127337
+Early stopping!
+Training time: 32.496 sec
+
+Best dev mse = 0.016127, rmse = 0.126993, corr = 0.5121
+Test mse = 0.021366, rmse = 0.146173, corr = 0.5059

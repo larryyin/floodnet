@@ -1,0 +1,36 @@
+Station: Bergen_Point_West_Reach_NY
+Feature: sur
+X_train:  (59657, 72)
+Y_train:  (59657, 24)
+X_dev:  (6792, 72)
+Y_dev:  (6792, 24)
+X_test:  (7043, 72)
+Y_test:  (7043, 24)
+
+n_train =  59657
+n_dev =  6792
+n_test =  7043
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.033760026 Dev mse: 0.03174174 Best_dev_mse: inf
+10 Train mse: 0.016028233 Dev mse: 0.017461961 Best_dev_mse: 0.03174174
+20 Train mse: 0.014119409 Dev mse: 0.016668146 Best_dev_mse: 0.017461961
+30 Train mse: 0.013066148 Dev mse: 0.016491145 Best_dev_mse: 0.016668146
+40 Train mse: 0.020571435 Dev mse: 0.016917935 Best_dev_mse: 0.016491145
+50 Train mse: 0.011082082 Dev mse: 0.016411263 Best_dev_mse: 0.016491145
+60 Train mse: 0.014752408 Dev mse: 0.016659217 Best_dev_mse: 0.016411263
+70 Train mse: 0.010250284 Dev mse: 0.016327512 Best_dev_mse: 0.016411263
+80 Train mse: 0.011409413 Dev mse: 0.01730282 Best_dev_mse: 0.016327512
+90 Train mse: 0.011145495 Dev mse: 0.017251728 Best_dev_mse: 0.016327512
+Early stopping!
+Training time: 64.638 sec
+
+Best dev mse = 0.016328, rmse = 0.127779, corr = 0.5247
+Test mse = 0.018687, rmse = 0.136700, corr = 0.5102

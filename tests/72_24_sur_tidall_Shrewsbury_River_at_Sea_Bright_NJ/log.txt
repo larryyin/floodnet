@@ -1,0 +1,32 @@
+Station: Shrewsbury_River_at_Sea_Bright_NJ
+Feature: sur_tidall
+X_train:  (47661, 168)
+Y_train:  (47661, 24)
+X_dev:  (6653, 168)
+Y_dev:  (6653, 24)
+X_test:  (7043, 168)
+Y_test:  (7043, 24)
+
+n_train =  47661
+n_dev =  6653
+n_test =  7043
+
+n_input =  168
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.02407099 Dev mse: 0.027423827 Best_dev_mse: inf
+10 Train mse: 0.015419978 Dev mse: 0.012600624 Best_dev_mse: 0.027423827
+20 Train mse: 0.010090995 Dev mse: 0.011202566 Best_dev_mse: 0.012600624
+30 Train mse: 0.009622215 Dev mse: 0.011023214 Best_dev_mse: 0.011202566
+40 Train mse: 0.011283717 Dev mse: 0.011743669 Best_dev_mse: 0.011023214
+50 Train mse: 0.010831467 Dev mse: 0.011028938 Best_dev_mse: 0.011023214
+Early stopping!
+Training time: 33.043 sec
+
+Best dev mse = 0.011023, rmse = 0.104991, corr = 0.5029
+Test mse = 0.012720, rmse = 0.112782, corr = 0.4933

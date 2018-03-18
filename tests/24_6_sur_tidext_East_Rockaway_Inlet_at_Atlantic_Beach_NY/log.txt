@@ -19,23 +19,21 @@ n_hidder1 =  10
 n_epoch =  1000
 batch_size =  500
 
-0 Train mse: 0.025627652 Dev mse: 0.026622498 Best_dev_mse: inf
-10 Train mse: 0.0073883412 Dev mse: 0.005923626 Best_dev_mse: 0.026622498
-20 Train mse: 0.004346928 Dev mse: 0.0049773613 Best_dev_mse: 0.005923626
-30 Train mse: 0.004428914 Dev mse: 0.0047334395 Best_dev_mse: 0.0049773613
-40 Train mse: 0.004347171 Dev mse: 0.0046229074 Best_dev_mse: 0.0047334395
-50 Train mse: 0.0037191778 Dev mse: 0.004599487 Best_dev_mse: 0.0046229074
-60 Train mse: 0.0035243435 Dev mse: 0.0045507974 Best_dev_mse: 0.004599487
-70 Train mse: 0.005384389 Dev mse: 0.0045152763 Best_dev_mse: 0.0045507974
-80 Train mse: 0.0039238133 Dev mse: 0.0044885636 Best_dev_mse: 0.0045152763
-90 Train mse: 0.0036807193 Dev mse: 0.004475558 Best_dev_mse: 0.0044885636
-100 Train mse: 0.0049629933 Dev mse: 0.004502063 Best_dev_mse: 0.004475558
-110 Train mse: 0.0034966413 Dev mse: 0.0044311974 Best_dev_mse: 0.004475558
-120 Train mse: 0.0034364646 Dev mse: 0.0043038866 Best_dev_mse: 0.0044311974
-130 Train mse: 0.0047573145 Dev mse: 0.004394793 Best_dev_mse: 0.0043038866
-140 Train mse: 0.003189626 Dev mse: 0.004315455 Best_dev_mse: 0.0043038866
+0 Train mse: 0.033264183 Dev mse: 0.02895404 Best_dev_mse: inf
+10 Train mse: 0.0051220227 Dev mse: 0.005664349 Best_dev_mse: 0.02895404
+20 Train mse: 0.004727905 Dev mse: 0.0049824025 Best_dev_mse: 0.005664349
+30 Train mse: 0.0040442958 Dev mse: 0.0046355543 Best_dev_mse: 0.0049824025
+40 Train mse: 0.005479677 Dev mse: 0.0044972794 Best_dev_mse: 0.0046355543
+50 Train mse: 0.0038898573 Dev mse: 0.004460403 Best_dev_mse: 0.0044972794
+60 Train mse: 0.0043776627 Dev mse: 0.004582043 Best_dev_mse: 0.004460403
+70 Train mse: 0.00469245 Dev mse: 0.0044066706 Best_dev_mse: 0.004460403
+80 Train mse: 0.0035767644 Dev mse: 0.004364189 Best_dev_mse: 0.0044066706
+90 Train mse: 0.004066213 Dev mse: 0.0044484106 Best_dev_mse: 0.004364189
+100 Train mse: 0.0037228581 Dev mse: 0.00429123 Best_dev_mse: 0.004364189
+110 Train mse: 0.0042555183 Dev mse: 0.0043606563 Best_dev_mse: 0.00429123
+120 Train mse: 0.0037769787 Dev mse: 0.004353451 Best_dev_mse: 0.00429123
 Early stopping!
-Training time: 72.572 sec
+Training time: 52.690 sec
 
-Best dev mse = 0.004304, rmse = 0.065604, corr = 0.3820
-Test mse = 0.013873, rmse = 0.117784, corr = 0.4271
+Best dev mse = 0.004291, rmse = 0.065507, corr = 0.4180
+Test mse = 0.008981, rmse = 0.094768, corr = 0.4692

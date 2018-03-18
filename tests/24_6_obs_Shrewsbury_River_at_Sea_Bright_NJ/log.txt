@@ -19,23 +19,17 @@ n_hidder1 =  10
 n_epoch =  1000
 batch_size =  500
 
-0 Train mse: 0.07741991 Dev mse: 0.085339226 Best_dev_mse: inf
-10 Train mse: 0.010562178 Dev mse: 0.0105292555 Best_dev_mse: 0.085339226
-20 Train mse: 0.007705355 Dev mse: 0.007765532 Best_dev_mse: 0.0105292555
-30 Train mse: 0.0064707296 Dev mse: 0.0067163715 Best_dev_mse: 0.007765532
-40 Train mse: 0.0069177416 Dev mse: 0.0062236856 Best_dev_mse: 0.0067163715
-50 Train mse: 0.0068959408 Dev mse: 0.0059422893 Best_dev_mse: 0.0062236856
-60 Train mse: 0.006693852 Dev mse: 0.005547039 Best_dev_mse: 0.0059422893
-70 Train mse: 0.007782978 Dev mse: 0.0055570444 Best_dev_mse: 0.005547039
-80 Train mse: 0.005407166 Dev mse: 0.0055140723 Best_dev_mse: 0.005547039
-90 Train mse: 0.006784647 Dev mse: 0.0053380034 Best_dev_mse: 0.0055140723
-100 Train mse: 0.006352482 Dev mse: 0.0053374986 Best_dev_mse: 0.0053380034
-110 Train mse: 0.007865408 Dev mse: 0.005273083 Best_dev_mse: 0.0053374986
-120 Train mse: 0.006447926 Dev mse: 0.0052257385 Best_dev_mse: 0.005273083
-130 Train mse: 0.006172587 Dev mse: 0.0052859136 Best_dev_mse: 0.0052257385
-140 Train mse: 0.0072772685 Dev mse: 0.0052519543 Best_dev_mse: 0.0052257385
+0 Train mse: 0.07381581 Dev mse: 0.0730855 Best_dev_mse: inf
+10 Train mse: 0.008283654 Dev mse: 0.009093447 Best_dev_mse: 0.0730855
+20 Train mse: 0.010867007 Dev mse: 0.006839353 Best_dev_mse: 0.009093447
+30 Train mse: 0.006596733 Dev mse: 0.006163325 Best_dev_mse: 0.006839353
+40 Train mse: 0.004874764 Dev mse: 0.00592422 Best_dev_mse: 0.006163325
+50 Train mse: 0.0066102683 Dev mse: 0.005708573 Best_dev_mse: 0.00592422
+60 Train mse: 0.0062377066 Dev mse: 0.005473783 Best_dev_mse: 0.005708573
+70 Train mse: 0.0062346593 Dev mse: 0.0056417757 Best_dev_mse: 0.005473783
+80 Train mse: 0.008362295 Dev mse: 0.0055703986 Best_dev_mse: 0.005473783
 Early stopping!
-Training time: 61.458 sec
+Training time: 29.439 sec
 
-Best dev mse = 0.005226, rmse = 0.072289, corr = 0.9899
-Test mse = 0.005264, rmse = 0.072551, corr = 0.9883
+Best dev mse = 0.005474, rmse = 0.073985, corr = 0.9892
+Test mse = 0.005492, rmse = 0.074109, corr = 0.9881

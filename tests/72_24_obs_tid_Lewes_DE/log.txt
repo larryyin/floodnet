@@ -1,0 +1,41 @@
+Station: Lewes_DE
+Feature: obs_tid
+X_train:  (64135, 144)
+Y_train:  (64135, 24)
+X_dev:  (6792, 144)
+Y_dev:  (6792, 24)
+X_test:  (7043, 144)
+Y_test:  (7043, 24)
+
+n_train =  64135
+n_dev =  6792
+n_test =  7043
+
+n_input =  144
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.051978193 Dev mse: 0.05069688 Best_dev_mse: inf
+10 Train mse: 0.014806075 Dev mse: 0.01296968 Best_dev_mse: 0.05069688
+20 Train mse: 0.015517387 Dev mse: 0.011627903 Best_dev_mse: 0.01296968
+30 Train mse: 0.0110743465 Dev mse: 0.011528187 Best_dev_mse: 0.011627903
+40 Train mse: 0.012959939 Dev mse: 0.011528155 Best_dev_mse: 0.011528187
+50 Train mse: 0.010230766 Dev mse: 0.011223157 Best_dev_mse: 0.011528155
+60 Train mse: 0.012908705 Dev mse: 0.01116308 Best_dev_mse: 0.011223157
+70 Train mse: 0.009635062 Dev mse: 0.011044509 Best_dev_mse: 0.01116308
+80 Train mse: 0.00878061 Dev mse: 0.011306628 Best_dev_mse: 0.011044509
+90 Train mse: 0.00950144 Dev mse: 0.01077618 Best_dev_mse: 0.011044509
+100 Train mse: 0.012693263 Dev mse: 0.010701668 Best_dev_mse: 0.01077618
+110 Train mse: 0.009450071 Dev mse: 0.0108296005 Best_dev_mse: 0.010701668
+120 Train mse: 0.009694308 Dev mse: 0.010582855 Best_dev_mse: 0.010701668
+130 Train mse: 0.013284047 Dev mse: 0.010762667 Best_dev_mse: 0.010582855
+140 Train mse: 0.009904664 Dev mse: 0.010759063 Best_dev_mse: 0.010582855
+Early stopping!
+Training time: 114.828 sec
+
+Best dev mse = 0.010583, rmse = 0.102873, corr = 0.9913
+Test mse = 0.011178, rmse = 0.105725, corr = 0.9902

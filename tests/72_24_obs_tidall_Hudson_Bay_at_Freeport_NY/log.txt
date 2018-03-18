@@ -1,0 +1,37 @@
+Station: Hudson_Bay_at_Freeport_NY
+Feature: obs_tidall
+X_train:  (64797, 168)
+Y_train:  (64797, 24)
+X_dev:  (6645, 168)
+Y_dev:  (6645, 24)
+X_test:  (6886, 168)
+Y_test:  (6886, 24)
+
+n_train =  64797
+n_dev =  6645
+n_test =  6886
+
+n_input =  168
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.044226922 Dev mse: 0.04357612 Best_dev_mse: inf
+10 Train mse: 0.011747731 Dev mse: 0.011915498 Best_dev_mse: 0.04357612
+20 Train mse: 0.011121521 Dev mse: 0.011205187 Best_dev_mse: 0.011915498
+30 Train mse: 0.009114109 Dev mse: 0.011416248 Best_dev_mse: 0.011205187
+40 Train mse: 0.009658535 Dev mse: 0.010963282 Best_dev_mse: 0.011205187
+50 Train mse: 0.010634768 Dev mse: 0.010940141 Best_dev_mse: 0.010963282
+60 Train mse: 0.007261396 Dev mse: 0.010727339 Best_dev_mse: 0.010940141
+70 Train mse: 0.008852797 Dev mse: 0.01068519 Best_dev_mse: 0.010727339
+80 Train mse: 0.0087549 Dev mse: 0.01066306 Best_dev_mse: 0.01068519
+90 Train mse: 0.012728735 Dev mse: 0.011302395 Best_dev_mse: 0.01066306
+100 Train mse: 0.008298173 Dev mse: 0.011078199 Best_dev_mse: 0.01066306
+Early stopping!
+Training time: 85.601 sec
+
+Best dev mse = 0.010663, rmse = 0.103262, corr = 0.9899
+Test mse = 0.014716, rmse = 0.121309, corr = 0.9851

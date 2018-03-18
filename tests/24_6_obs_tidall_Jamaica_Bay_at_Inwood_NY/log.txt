@@ -1,0 +1,37 @@
+Station: Jamaica_Bay_at_Inwood_NY
+Feature: obs_tidall
+X_train:  (69758, 54)
+Y_train:  (69758, 6)
+X_dev:  (7959, 54)
+Y_dev:  (7959, 6)
+X_test:  (7980, 54)
+Y_test:  (7980, 6)
+
+n_train =  69758
+n_dev =  7959
+n_test =  7980
+
+n_input =  54
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.09429293 Dev mse: 0.09510583 Best_dev_mse: inf
+10 Train mse: 0.012436054 Dev mse: 0.010282038 Best_dev_mse: 0.09510583
+20 Train mse: 0.008252445 Dev mse: 0.008459708 Best_dev_mse: 0.010282038
+30 Train mse: 0.0067634396 Dev mse: 0.0076274243 Best_dev_mse: 0.008459708
+40 Train mse: 0.007068289 Dev mse: 0.0073204082 Best_dev_mse: 0.0076274243
+50 Train mse: 0.008039927 Dev mse: 0.0068634017 Best_dev_mse: 0.0073204082
+60 Train mse: 0.006159283 Dev mse: 0.0069902227 Best_dev_mse: 0.0068634017
+70 Train mse: 0.0074212914 Dev mse: 0.0067468993 Best_dev_mse: 0.0068634017
+80 Train mse: 0.006961273 Dev mse: 0.0066899257 Best_dev_mse: 0.0067468993
+90 Train mse: 0.006572719 Dev mse: 0.0067730783 Best_dev_mse: 0.0066899257
+100 Train mse: 0.007882573 Dev mse: 0.00674106 Best_dev_mse: 0.0066899257
+Early stopping!
+Training time: 46.670 sec
+
+Best dev mse = 0.006690, rmse = 0.081792, corr = 0.9923
+Test mse = 0.012094, rmse = 0.109975, corr = 0.9873

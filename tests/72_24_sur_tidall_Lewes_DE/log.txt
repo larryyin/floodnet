@@ -1,0 +1,33 @@
+Station: Lewes_DE
+Feature: sur_tidall
+X_train:  (64135, 168)
+Y_train:  (64135, 24)
+X_dev:  (6792, 168)
+Y_dev:  (6792, 24)
+X_test:  (7043, 168)
+Y_test:  (7043, 24)
+
+n_train =  64135
+n_dev =  6792
+n_test =  7043
+
+n_input =  168
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.024304409 Dev mse: 0.025144642 Best_dev_mse: inf
+10 Train mse: 0.014280204 Dev mse: 0.011394528 Best_dev_mse: 0.025144642
+20 Train mse: 0.009766456 Dev mse: 0.011296597 Best_dev_mse: 0.011394528
+30 Train mse: 0.009657867 Dev mse: 0.010754827 Best_dev_mse: 0.011296597
+40 Train mse: 0.009792383 Dev mse: 0.010456967 Best_dev_mse: 0.010754827
+50 Train mse: 0.010685597 Dev mse: 0.01045947 Best_dev_mse: 0.010456967
+60 Train mse: 0.0078022815 Dev mse: 0.010666507 Best_dev_mse: 0.010456967
+Early stopping!
+Training time: 54.429 sec
+
+Best dev mse = 0.010457, rmse = 0.102259, corr = 0.4379
+Test mse = 0.010893, rmse = 0.104368, corr = 0.4449

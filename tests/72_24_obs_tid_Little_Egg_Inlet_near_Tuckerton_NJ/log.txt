@@ -1,0 +1,35 @@
+Station: Little_Egg_Inlet_near_Tuckerton_NJ
+Feature: obs_tid
+X_train:  (62724, 144)
+Y_train:  (62724, 24)
+X_dev:  (6542, 144)
+Y_dev:  (6542, 24)
+X_test:  (6274, 144)
+Y_test:  (6274, 24)
+
+n_train =  62724
+n_dev =  6542
+n_test =  6274
+
+n_input =  144
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.043981463 Dev mse: 0.03676451 Best_dev_mse: inf
+10 Train mse: 0.01234073 Dev mse: 0.012856249 Best_dev_mse: 0.03676451
+20 Train mse: 0.013441468 Dev mse: 0.01264116 Best_dev_mse: 0.012856249
+30 Train mse: 0.0120932385 Dev mse: 0.012426827 Best_dev_mse: 0.01264116
+40 Train mse: 0.013032249 Dev mse: 0.011975922 Best_dev_mse: 0.012426827
+50 Train mse: 0.0103804115 Dev mse: 0.013133947 Best_dev_mse: 0.011975922
+60 Train mse: 0.012138182 Dev mse: 0.011872615 Best_dev_mse: 0.011975922
+70 Train mse: 0.011476536 Dev mse: 0.012502853 Best_dev_mse: 0.011872615
+80 Train mse: 0.013594849 Dev mse: 0.012430997 Best_dev_mse: 0.011872615
+Early stopping!
+Training time: 68.072 sec
+
+Best dev mse = 0.011873, rmse = 0.108962, corr = 0.9820
+Test mse = 0.014250, rmse = 0.119373, corr = 0.9738

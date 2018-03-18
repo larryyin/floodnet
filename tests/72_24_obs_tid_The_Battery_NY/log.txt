@@ -1,0 +1,31 @@
+Station: The_Battery_NY
+Feature: obs_tid
+X_train:  (64135, 144)
+Y_train:  (64135, 24)
+X_dev:  (6792, 144)
+Y_dev:  (6792, 24)
+X_test:  (7043, 144)
+Y_test:  (7043, 24)
+
+n_train =  64135
+n_dev =  6792
+n_test =  7043
+
+n_input =  144
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.060165793 Dev mse: 0.051747017 Best_dev_mse: inf
+10 Train mse: 0.018880107 Dev mse: 0.01590898 Best_dev_mse: 0.051747017
+20 Train mse: 0.011046209 Dev mse: 0.0143118575 Best_dev_mse: 0.01590898
+30 Train mse: 0.017789092 Dev mse: 0.0145883905 Best_dev_mse: 0.0143118575
+40 Train mse: 0.016246838 Dev mse: 0.014377126 Best_dev_mse: 0.0143118575
+Early stopping!
+Training time: 35.948 sec
+
+Best dev mse = 0.014312, rmse = 0.119632, corr = 0.9893
+Test mse = 0.015598, rmse = 0.124890, corr = 0.9867

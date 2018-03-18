@@ -1,0 +1,33 @@
+Station: East_Rockaway_Inlet_at_Atlantic_Beach_NY
+Feature: sur_tidall
+X_train:  (64726, 168)
+Y_train:  (64726, 24)
+X_dev:  (6696, 168)
+Y_dev:  (6696, 24)
+X_test:  (7043, 168)
+Y_test:  (7043, 24)
+
+n_train =  64726
+n_dev =  6696
+n_test =  7043
+
+n_input =  168
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.020976914 Dev mse: 0.021898618 Best_dev_mse: inf
+10 Train mse: 0.010739128 Dev mse: 0.012312513 Best_dev_mse: 0.021898618
+20 Train mse: 0.010863608 Dev mse: 0.0118986005 Best_dev_mse: 0.012312513
+30 Train mse: 0.012109264 Dev mse: 0.011390177 Best_dev_mse: 0.0118986005
+40 Train mse: 0.012323751 Dev mse: 0.011321762 Best_dev_mse: 0.011390177
+50 Train mse: 0.011007614 Dev mse: 0.01145302 Best_dev_mse: 0.011321762
+60 Train mse: 0.013890007 Dev mse: 0.011326955 Best_dev_mse: 0.011321762
+Early stopping!
+Training time: 52.502 sec
+
+Best dev mse = 0.011322, rmse = 0.106404, corr = 0.4356
+Test mse = 0.018006, rmse = 0.134186, corr = 0.4467

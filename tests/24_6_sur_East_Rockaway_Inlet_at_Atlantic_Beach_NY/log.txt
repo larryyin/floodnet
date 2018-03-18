@@ -19,26 +19,41 @@ n_hidder1 =  10
 n_epoch =  1000
 batch_size =  500
 
-0 Train mse: 0.021852432 Dev mse: 0.02038788 Best_dev_mse: inf
-10 Train mse: 0.007923841 Dev mse: 0.0061814263 Best_dev_mse: 0.02038788
-20 Train mse: 0.0072008385 Dev mse: 0.0049756225 Best_dev_mse: 0.0061814263
-30 Train mse: 0.006101094 Dev mse: 0.004773393 Best_dev_mse: 0.0049756225
-40 Train mse: 0.0036415926 Dev mse: 0.0046750084 Best_dev_mse: 0.004773393
-50 Train mse: 0.005195398 Dev mse: 0.00460857 Best_dev_mse: 0.0046750084
-60 Train mse: 0.0058689625 Dev mse: 0.0045474344 Best_dev_mse: 0.00460857
-70 Train mse: 0.00409288 Dev mse: 0.0044931434 Best_dev_mse: 0.0045474344
-80 Train mse: 0.0052395514 Dev mse: 0.00441871 Best_dev_mse: 0.0044931434
-90 Train mse: 0.003781871 Dev mse: 0.0044118115 Best_dev_mse: 0.00441871
-100 Train mse: 0.0040751435 Dev mse: 0.004312327 Best_dev_mse: 0.0044118115
-110 Train mse: 0.0038136025 Dev mse: 0.004349193 Best_dev_mse: 0.004312327
-120 Train mse: 0.0033953784 Dev mse: 0.0042868704 Best_dev_mse: 0.004312327
-130 Train mse: 0.0031805139 Dev mse: 0.00427619 Best_dev_mse: 0.0042868704
-140 Train mse: 0.004665308 Dev mse: 0.0042884112 Best_dev_mse: 0.00427619
-150 Train mse: 0.0057758274 Dev mse: 0.004229357 Best_dev_mse: 0.00427619
-160 Train mse: 0.004466667 Dev mse: 0.004290547 Best_dev_mse: 0.004229357
-170 Train mse: 0.0047969683 Dev mse: 0.004253141 Best_dev_mse: 0.004229357
+0 Train mse: 0.031377047 Dev mse: 0.030525692 Best_dev_mse: inf
+10 Train mse: 0.0059034117 Dev mse: 0.0069188746 Best_dev_mse: 0.030525692
+20 Train mse: 0.0056071663 Dev mse: 0.0054802527 Best_dev_mse: 0.0069188746
+30 Train mse: 0.005005074 Dev mse: 0.0051015774 Best_dev_mse: 0.0054802527
+40 Train mse: 0.006299373 Dev mse: 0.004863634 Best_dev_mse: 0.0051015774
+50 Train mse: 0.003769503 Dev mse: 0.0047341897 Best_dev_mse: 0.004863634
+60 Train mse: 0.0044685234 Dev mse: 0.0046849037 Best_dev_mse: 0.0047341897
+70 Train mse: 0.003540188 Dev mse: 0.0046592606 Best_dev_mse: 0.0046849037
+80 Train mse: 0.0041503017 Dev mse: 0.0046181553 Best_dev_mse: 0.0046592606
+90 Train mse: 0.0035971599 Dev mse: 0.004606436 Best_dev_mse: 0.0046181553
+100 Train mse: 0.0034817872 Dev mse: 0.004642628 Best_dev_mse: 0.004606436
+110 Train mse: 0.0040631113 Dev mse: 0.004551089 Best_dev_mse: 0.004606436
+120 Train mse: 0.0035354325 Dev mse: 0.0045321593 Best_dev_mse: 0.004551089
+130 Train mse: 0.003419612 Dev mse: 0.004522664 Best_dev_mse: 0.0045321593
+140 Train mse: 0.005354717 Dev mse: 0.0045046476 Best_dev_mse: 0.004522664
+150 Train mse: 0.004488974 Dev mse: 0.004483237 Best_dev_mse: 0.0045046476
+160 Train mse: 0.003783383 Dev mse: 0.0044300854 Best_dev_mse: 0.004483237
+170 Train mse: 0.0042269924 Dev mse: 0.0044574775 Best_dev_mse: 0.0044300854
+180 Train mse: 0.0039704395 Dev mse: 0.0044295257 Best_dev_mse: 0.0044300854
+190 Train mse: 0.004410197 Dev mse: 0.0043917154 Best_dev_mse: 0.0044295257
+200 Train mse: 0.0041526984 Dev mse: 0.004391411 Best_dev_mse: 0.0043917154
+210 Train mse: 0.002959297 Dev mse: 0.0044413693 Best_dev_mse: 0.004391411
+220 Train mse: 0.00387725 Dev mse: 0.004338005 Best_dev_mse: 0.004391411
+230 Train mse: 0.0037503978 Dev mse: 0.004378557 Best_dev_mse: 0.004338005
+240 Train mse: 0.0030753457 Dev mse: 0.0043276795 Best_dev_mse: 0.004338005
+250 Train mse: 0.004188028 Dev mse: 0.0044536386 Best_dev_mse: 0.0043276795
+260 Train mse: 0.0044476045 Dev mse: 0.004298495 Best_dev_mse: 0.0043276795
+270 Train mse: 0.003551245 Dev mse: 0.004326787 Best_dev_mse: 0.004298495
+280 Train mse: 0.004207883 Dev mse: 0.0042734155 Best_dev_mse: 0.004298495
+290 Train mse: 0.003429064 Dev mse: 0.0043174117 Best_dev_mse: 0.0042734155
+300 Train mse: 0.0042771245 Dev mse: 0.0042385147 Best_dev_mse: 0.0042734155
+310 Train mse: 0.0035073461 Dev mse: 0.0042469515 Best_dev_mse: 0.0042385147
+320 Train mse: 0.0040949653 Dev mse: 0.004245476 Best_dev_mse: 0.0042385147
 Early stopping!
-Training time: 86.065 sec
+Training time: 135.853 sec
 
-Best dev mse = 0.004229, rmse = 0.065034, corr = 0.4566
-Test mse = 0.010279, rmse = 0.101385, corr = 0.4816
+Best dev mse = 0.004239, rmse = 0.065104, corr = 0.5009
+Test mse = 0.009416, rmse = 0.097036, corr = 0.5297

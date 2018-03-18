@@ -1,0 +1,35 @@
+Station: New_Haven_CT
+Feature: sur
+X_train:  (63873, 72)
+Y_train:  (63873, 24)
+X_dev:  (6792, 72)
+Y_dev:  (6792, 24)
+X_test:  (7043, 72)
+Y_test:  (7043, 24)
+
+n_train =  63873
+n_dev =  6792
+n_test =  7043
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.027347142 Dev mse: 0.023253584 Best_dev_mse: inf
+10 Train mse: 0.013440581 Dev mse: 0.013208019 Best_dev_mse: 0.023253584
+20 Train mse: 0.013513008 Dev mse: 0.01249995 Best_dev_mse: 0.013208019
+30 Train mse: 0.011476729 Dev mse: 0.012367828 Best_dev_mse: 0.01249995
+40 Train mse: 0.011793861 Dev mse: 0.012382872 Best_dev_mse: 0.012367828
+50 Train mse: 0.013300549 Dev mse: 0.012235754 Best_dev_mse: 0.012367828
+60 Train mse: 0.010086176 Dev mse: 0.012226725 Best_dev_mse: 0.012235754
+70 Train mse: 0.009587657 Dev mse: 0.012347015 Best_dev_mse: 0.012226725
+80 Train mse: 0.011290364 Dev mse: 0.012275386 Best_dev_mse: 0.012226725
+Early stopping!
+Training time: 61.865 sec
+
+Best dev mse = 0.012227, rmse = 0.110575, corr = 0.5422
+Test mse = 0.015156, rmse = 0.123110, corr = 0.4901

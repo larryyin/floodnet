@@ -1,0 +1,31 @@
+Station: Hudson_River_at_Albany_NY
+Feature: obs
+X_train:  (50572, 72)
+Y_train:  (50572, 24)
+X_dev:  (5826, 72)
+Y_dev:  (5826, 24)
+X_test:  (6322, 72)
+Y_test:  (6322, 24)
+
+n_train =  50572
+n_dev =  5826
+n_test =  6322
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.1252286 Dev mse: 0.115634106 Best_dev_mse: inf
+10 Train mse: 0.05168545 Dev mse: 0.0325876 Best_dev_mse: 0.115634106
+20 Train mse: 0.039971408 Dev mse: 0.029733509 Best_dev_mse: 0.0325876
+30 Train mse: 0.037943214 Dev mse: 0.029989503 Best_dev_mse: 0.029733509
+40 Train mse: 0.025556684 Dev mse: 0.03236513 Best_dev_mse: 0.029733509
+Early stopping!
+Training time: 25.201 sec
+
+Best dev mse = 0.029734, rmse = 0.172434, corr = 0.9804
+Test mse = 0.030863, rmse = 0.175680, corr = 0.9752

@@ -1,0 +1,32 @@
+Station: Barnegat_Bay_at_Barnegat_Light_NJ
+Feature: sur_tidext
+X_train:  (62764, 96)
+Y_train:  (62764, 24)
+X_dev:  (6144, 96)
+Y_dev:  (6144, 24)
+X_test:  (6908, 96)
+Y_test:  (6908, 24)
+
+n_train =  62764
+n_dev =  6144
+n_test =  6908
+
+n_input =  96
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.022547495 Dev mse: 0.023729438 Best_dev_mse: inf
+10 Train mse: 0.008564171 Dev mse: 0.0082803285 Best_dev_mse: 0.023729438
+20 Train mse: 0.008457937 Dev mse: 0.0074658226 Best_dev_mse: 0.0082803285
+30 Train mse: 0.008308167 Dev mse: 0.007279407 Best_dev_mse: 0.0074658226
+40 Train mse: 0.0068481592 Dev mse: 0.0074387705 Best_dev_mse: 0.007279407
+50 Train mse: 0.006453668 Dev mse: 0.0073776376 Best_dev_mse: 0.007279407
+Early stopping!
+Training time: 39.664 sec
+
+Best dev mse = 0.007279, rmse = 0.085319, corr = 0.8391
+Test mse = 0.007833, rmse = 0.088503, corr = 0.8147

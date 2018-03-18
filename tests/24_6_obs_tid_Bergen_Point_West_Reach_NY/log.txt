@@ -19,17 +19,16 @@ n_hidder1 =  10
 n_epoch =  1000
 batch_size =  500
 
-0 Train mse: 0.07113655 Dev mse: 0.06947662 Best_dev_mse: inf
-10 Train mse: 0.009255143 Dev mse: 0.010949587 Best_dev_mse: 0.06947662
-20 Train mse: 0.0075075594 Dev mse: 0.008301206 Best_dev_mse: 0.010949587
-30 Train mse: 0.0069698803 Dev mse: 0.007933644 Best_dev_mse: 0.008301206
-40 Train mse: 0.008000783 Dev mse: 0.00765739 Best_dev_mse: 0.007933644
-50 Train mse: 0.0054570315 Dev mse: 0.0071169175 Best_dev_mse: 0.00765739
-60 Train mse: 0.0071089678 Dev mse: 0.006965506 Best_dev_mse: 0.0071169175
-70 Train mse: 0.005580619 Dev mse: 0.007141186 Best_dev_mse: 0.006965506
-80 Train mse: 0.008210314 Dev mse: 0.007324035 Best_dev_mse: 0.006965506
+0 Train mse: 0.15992679 Dev mse: 0.17231734 Best_dev_mse: inf
+10 Train mse: 0.01040078 Dev mse: 0.0113414405 Best_dev_mse: 0.17231734
+20 Train mse: 0.00808117 Dev mse: 0.0090192035 Best_dev_mse: 0.0113414405
+30 Train mse: 0.0071313456 Dev mse: 0.007813952 Best_dev_mse: 0.0090192035
+40 Train mse: 0.009971554 Dev mse: 0.007903831 Best_dev_mse: 0.007813952
+50 Train mse: 0.008136783 Dev mse: 0.007360861 Best_dev_mse: 0.007813952
+60 Train mse: 0.007417628 Dev mse: 0.00787489 Best_dev_mse: 0.007360861
+70 Train mse: 0.0071924347 Dev mse: 0.0074408813 Best_dev_mse: 0.007360861
 Early stopping!
-Training time: 39.409 sec
+Training time: 28.586 sec
 
-Best dev mse = 0.006966, rmse = 0.083460, corr = 0.9910
-Test mse = 0.007285, rmse = 0.085350, corr = 0.9899
+Best dev mse = 0.007361, rmse = 0.085795, corr = 0.9906
+Test mse = 0.007567, rmse = 0.086989, corr = 0.9896

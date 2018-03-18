@@ -1,0 +1,33 @@
+Station: Ocean_City_Inlet_MD
+Feature: sur_tidall
+X_train:  (69194, 54)
+Y_train:  (69194, 6)
+X_dev:  (7929, 54)
+Y_dev:  (7929, 6)
+X_test:  (8040, 54)
+Y_test:  (8040, 6)
+
+n_train =  69194
+n_dev =  7929
+n_test =  8040
+
+n_input =  54
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.018504122 Dev mse: 0.024732647 Best_dev_mse: inf
+10 Train mse: 0.002303763 Dev mse: 0.0025935418 Best_dev_mse: 0.024732647
+20 Train mse: 0.0013697896 Dev mse: 0.0017801579 Best_dev_mse: 0.0025935418
+30 Train mse: 0.0013267384 Dev mse: 0.001604478 Best_dev_mse: 0.0017801579
+40 Train mse: 0.0012593722 Dev mse: 0.0014993199 Best_dev_mse: 0.001604478
+50 Train mse: 0.0011362552 Dev mse: 0.0015019993 Best_dev_mse: 0.0014993199
+60 Train mse: 0.0010038886 Dev mse: 0.0016273009 Best_dev_mse: 0.0014993199
+Early stopping!
+Training time: 26.896 sec
+
+Best dev mse = 0.001499, rmse = 0.038721, corr = 0.4408
+Test mse = 0.001311, rmse = 0.036208, corr = 0.4714

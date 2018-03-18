@@ -1,0 +1,32 @@
+Station: New_London_CT
+Feature: sur
+X_train:  (63738, 72)
+Y_train:  (63738, 24)
+X_dev:  (6696, 72)
+Y_dev:  (6696, 24)
+X_test:  (7043, 72)
+Y_test:  (7043, 24)
+
+n_train =  63738
+n_dev =  6696
+n_test =  7043
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.019727755 Dev mse: 0.020397468 Best_dev_mse: inf
+10 Train mse: 0.01111627 Dev mse: 0.009466947 Best_dev_mse: 0.020397468
+20 Train mse: 0.00958754 Dev mse: 0.009126063 Best_dev_mse: 0.009466947
+30 Train mse: 0.009230856 Dev mse: 0.008729554 Best_dev_mse: 0.009126063
+40 Train mse: 0.010545664 Dev mse: 0.008795079 Best_dev_mse: 0.008729554
+50 Train mse: 0.009782353 Dev mse: 0.0089133475 Best_dev_mse: 0.008729554
+Early stopping!
+Training time: 39.059 sec
+
+Best dev mse = 0.008730, rmse = 0.093432, corr = 0.2489
+Test mse = 0.010534, rmse = 0.102634, corr = 0.2467

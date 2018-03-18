@@ -1,0 +1,35 @@
+Station: Bergen_Point_West_Reach_NY
+Feature: sur_tidall
+X_train:  (64881, 54)
+Y_train:  (64881, 6)
+X_dev:  (7989, 54)
+Y_dev:  (7989, 6)
+X_test:  (8040, 54)
+Y_test:  (8040, 6)
+
+n_train =  64881
+n_dev =  7989
+n_test =  8040
+
+n_input =  54
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.03222252 Dev mse: 0.034836818 Best_dev_mse: inf
+10 Train mse: 0.00841528 Dev mse: 0.007761254 Best_dev_mse: 0.034836818
+20 Train mse: 0.005836103 Dev mse: 0.006872395 Best_dev_mse: 0.007761254
+30 Train mse: 0.0049238335 Dev mse: 0.0065127276 Best_dev_mse: 0.006872395
+40 Train mse: 0.0066485624 Dev mse: 0.006382432 Best_dev_mse: 0.0065127276
+50 Train mse: 0.0058237077 Dev mse: 0.0062903855 Best_dev_mse: 0.006382432
+60 Train mse: 0.004914221 Dev mse: 0.006154765 Best_dev_mse: 0.0062903855
+70 Train mse: 0.006835404 Dev mse: 0.006258411 Best_dev_mse: 0.006154765
+80 Train mse: 0.004973093 Dev mse: 0.00625297 Best_dev_mse: 0.006154765
+Early stopping!
+Training time: 33.086 sec
+
+Best dev mse = 0.006155, rmse = 0.078452, corr = 0.5614
+Test mse = 0.006482, rmse = 0.080510, corr = 0.5427

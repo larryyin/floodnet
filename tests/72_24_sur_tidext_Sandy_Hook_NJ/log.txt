@@ -1,0 +1,31 @@
+Station: Sandy_Hook_NJ
+Feature: sur_tidext
+X_train:  (62471, 96)
+Y_train:  (62471, 24)
+X_dev:  (6792, 96)
+Y_dev:  (6792, 24)
+X_test:  (7043, 96)
+Y_test:  (7043, 24)
+
+n_train =  62471
+n_dev =  6792
+n_test =  7043
+
+n_input =  96
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.025250267 Dev mse: 0.025765538 Best_dev_mse: inf
+10 Train mse: 0.012291655 Dev mse: 0.013014166 Best_dev_mse: 0.025765538
+20 Train mse: 0.011865102 Dev mse: 0.012661881 Best_dev_mse: 0.013014166
+30 Train mse: 0.014358007 Dev mse: 0.0127245765 Best_dev_mse: 0.012661881
+40 Train mse: 0.011383359 Dev mse: 0.012756761 Best_dev_mse: 0.012661881
+Early stopping!
+Training time: 31.657 sec
+
+Best dev mse = 0.012662, rmse = 0.112525, corr = 0.2983
+Test mse = 0.014333, rmse = 0.119723, corr = 0.2966

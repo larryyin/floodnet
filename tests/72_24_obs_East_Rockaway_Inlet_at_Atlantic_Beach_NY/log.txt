@@ -1,0 +1,33 @@
+Station: East_Rockaway_Inlet_at_Atlantic_Beach_NY
+Feature: obs
+X_train:  (64726, 72)
+Y_train:  (64726, 24)
+X_dev:  (6696, 72)
+Y_dev:  (6696, 24)
+X_test:  (7043, 72)
+Y_test:  (7043, 24)
+
+n_train =  64726
+n_dev =  6696
+n_test =  7043
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.060470425 Dev mse: 0.051231418 Best_dev_mse: inf
+10 Train mse: 0.01593005 Dev mse: 0.015139075 Best_dev_mse: 0.051231418
+20 Train mse: 0.013502457 Dev mse: 0.0143587515 Best_dev_mse: 0.015139075
+30 Train mse: 0.014749541 Dev mse: 0.01411553 Best_dev_mse: 0.0143587515
+40 Train mse: 0.015867222 Dev mse: 0.013924453 Best_dev_mse: 0.01411553
+50 Train mse: 0.012685872 Dev mse: 0.014000308 Best_dev_mse: 0.013924453
+60 Train mse: 0.015372278 Dev mse: 0.013980979 Best_dev_mse: 0.013924453
+Early stopping!
+Training time: 47.218 sec
+
+Best dev mse = 0.013924, rmse = 0.118002, corr = 0.9882
+Test mse = 0.014383, rmse = 0.119929, corr = 0.9866

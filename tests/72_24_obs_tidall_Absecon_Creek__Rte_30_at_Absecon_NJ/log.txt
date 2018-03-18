@@ -1,0 +1,31 @@
+Station: Absecon_Creek__Rte_30_at_Absecon_NJ
+Feature: obs_tidall
+X_train:  (67249, 168)
+Y_train:  (67249, 24)
+X_dev:  (6792, 168)
+Y_dev:  (6792, 24)
+X_test:  (7043, 168)
+Y_test:  (7043, 24)
+
+n_train =  67249
+n_dev =  6792
+n_test =  7043
+
+n_input =  168
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.06615473 Dev mse: 0.046040818 Best_dev_mse: inf
+10 Train mse: 0.021680053 Dev mse: 0.018485721 Best_dev_mse: 0.046040818
+20 Train mse: 0.017388877 Dev mse: 0.017563248 Best_dev_mse: 0.018485721
+30 Train mse: 0.01607815 Dev mse: 0.017586526 Best_dev_mse: 0.017563248
+40 Train mse: 0.020936826 Dev mse: 0.017633457 Best_dev_mse: 0.017563248
+Early stopping!
+Training time: 37.865 sec
+
+Best dev mse = 0.017563, rmse = 0.132526, corr = 0.9813
+Test mse = 0.019765, rmse = 0.140590, corr = 0.9784

@@ -1,0 +1,33 @@
+Station: Sandy_Hook_NJ
+Feature: obs
+X_train:  (62471, 72)
+Y_train:  (62471, 24)
+X_dev:  (6792, 72)
+Y_dev:  (6792, 24)
+X_test:  (7043, 72)
+Y_test:  (7043, 24)
+
+n_train =  62471
+n_dev =  6792
+n_test =  7043
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.05854793 Dev mse: 0.05979173 Best_dev_mse: inf
+10 Train mse: 0.015668456 Dev mse: 0.01716425 Best_dev_mse: 0.05979173
+20 Train mse: 0.017624218 Dev mse: 0.016372768 Best_dev_mse: 0.01716425
+30 Train mse: 0.016068479 Dev mse: 0.016069913 Best_dev_mse: 0.016372768
+40 Train mse: 0.0161009 Dev mse: 0.015467441 Best_dev_mse: 0.016069913
+50 Train mse: 0.014074883 Dev mse: 0.015647888 Best_dev_mse: 0.015467441
+60 Train mse: 0.017220262 Dev mse: 0.015487222 Best_dev_mse: 0.015467441
+Early stopping!
+Training time: 45.430 sec
+
+Best dev mse = 0.015467, rmse = 0.124368, corr = 0.9885
+Test mse = 0.017362, rmse = 0.131765, corr = 0.9859

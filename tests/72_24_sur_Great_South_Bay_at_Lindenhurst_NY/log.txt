@@ -1,0 +1,33 @@
+Station: Great_South_Bay_at_Lindenhurst_NY
+Feature: sur
+X_train:  (61165, 72)
+Y_train:  (61165, 24)
+X_dev:  (6792, 72)
+Y_dev:  (6792, 24)
+X_test:  (7043, 72)
+Y_test:  (7043, 24)
+
+n_train =  61165
+n_dev =  6792
+n_test =  7043
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.022249669 Dev mse: 0.023043483 Best_dev_mse: inf
+10 Train mse: 0.00845981 Dev mse: 0.008381813 Best_dev_mse: 0.023043483
+20 Train mse: 0.0061475122 Dev mse: 0.00760452 Best_dev_mse: 0.008381813
+30 Train mse: 0.008098088 Dev mse: 0.0072348076 Best_dev_mse: 0.00760452
+40 Train mse: 0.004830354 Dev mse: 0.0068658665 Best_dev_mse: 0.0072348076
+50 Train mse: 0.0058698067 Dev mse: 0.0070754313 Best_dev_mse: 0.0068658665
+60 Train mse: 0.005337325 Dev mse: 0.0070077814 Best_dev_mse: 0.0068658665
+Early stopping!
+Training time: 45.536 sec
+
+Best dev mse = 0.006866, rmse = 0.082861, corr = 0.6025
+Test mse = 0.007984, rmse = 0.089352, corr = 0.6152

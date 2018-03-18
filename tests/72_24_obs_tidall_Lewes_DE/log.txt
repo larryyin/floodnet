@@ -1,0 +1,33 @@
+Station: Lewes_DE
+Feature: obs_tidall
+X_train:  (64135, 168)
+Y_train:  (64135, 24)
+X_dev:  (6792, 168)
+Y_dev:  (6792, 24)
+X_test:  (7043, 168)
+Y_test:  (7043, 24)
+
+n_train =  64135
+n_dev =  6792
+n_test =  7043
+
+n_input =  168
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.04444679 Dev mse: 0.047483463 Best_dev_mse: inf
+10 Train mse: 0.01243508 Dev mse: 0.0122602405 Best_dev_mse: 0.047483463
+20 Train mse: 0.01071714 Dev mse: 0.0118621895 Best_dev_mse: 0.0122602405
+30 Train mse: 0.017104954 Dev mse: 0.011179855 Best_dev_mse: 0.0118621895
+40 Train mse: 0.010182555 Dev mse: 0.01098566 Best_dev_mse: 0.011179855
+50 Train mse: 0.007953993 Dev mse: 0.012063508 Best_dev_mse: 0.01098566
+60 Train mse: 0.0083678095 Dev mse: 0.011418706 Best_dev_mse: 0.01098566
+Early stopping!
+Training time: 54.509 sec
+
+Best dev mse = 0.010986, rmse = 0.104813, corr = 0.9910
+Test mse = 0.011425, rmse = 0.106887, corr = 0.9899

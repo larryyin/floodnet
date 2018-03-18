@@ -1,0 +1,39 @@
+Station: Cape_May_NJ
+Feature: sur_tidall
+X_train:  (69214, 54)
+Y_train:  (69214, 6)
+X_dev:  (7989, 54)
+Y_dev:  (7989, 6)
+X_test:  (8040, 54)
+Y_test:  (8040, 6)
+
+n_train =  69214
+n_dev =  7989
+n_test =  8040
+
+n_input =  54
+n_output =  6
+n_layer =  2
+n_hidder0 =  20
+n_hidder1 =  10
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.043186996 Dev mse: 0.048131615 Best_dev_mse: inf
+10 Train mse: 0.0044504944 Dev mse: 0.0047816574 Best_dev_mse: 0.048131615
+20 Train mse: 0.0035804037 Dev mse: 0.003980162 Best_dev_mse: 0.0047816574
+30 Train mse: 0.003488321 Dev mse: 0.003736902 Best_dev_mse: 0.003980162
+40 Train mse: 0.0027987745 Dev mse: 0.003707031 Best_dev_mse: 0.003736902
+50 Train mse: 0.0028106207 Dev mse: 0.0035421245 Best_dev_mse: 0.003707031
+60 Train mse: 0.002423981 Dev mse: 0.0035108887 Best_dev_mse: 0.0035421245
+70 Train mse: 0.0031784237 Dev mse: 0.0035335696 Best_dev_mse: 0.0035108887
+80 Train mse: 0.0030022443 Dev mse: 0.003462573 Best_dev_mse: 0.0035108887
+90 Train mse: 0.0036640961 Dev mse: 0.0035017326 Best_dev_mse: 0.003462573
+100 Train mse: 0.0034290676 Dev mse: 0.0034132123 Best_dev_mse: 0.003462573
+110 Train mse: 0.003481537 Dev mse: 0.0035189756 Best_dev_mse: 0.0034132123
+120 Train mse: 0.0031640974 Dev mse: 0.0034281404 Best_dev_mse: 0.0034132123
+Early stopping!
+Training time: 52.258 sec
+
+Best dev mse = 0.003413, rmse = 0.058423, corr = 0.4315
+Test mse = 0.003150, rmse = 0.056124, corr = 0.4074

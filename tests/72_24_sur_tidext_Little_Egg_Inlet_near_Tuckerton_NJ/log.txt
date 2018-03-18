@@ -1,0 +1,32 @@
+Station: Little_Egg_Inlet_near_Tuckerton_NJ
+Feature: sur_tidext
+X_train:  (62724, 96)
+Y_train:  (62724, 24)
+X_dev:  (6542, 96)
+Y_dev:  (6542, 24)
+X_test:  (6274, 96)
+Y_test:  (6274, 24)
+
+n_train =  62724
+n_dev =  6542
+n_test =  6274
+
+n_input =  96
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.038249463 Dev mse: 0.029909845 Best_dev_mse: inf
+10 Train mse: 0.014596497 Dev mse: 0.013032163 Best_dev_mse: 0.029909845
+20 Train mse: 0.0120697515 Dev mse: 0.012604967 Best_dev_mse: 0.013032163
+30 Train mse: 0.010865961 Dev mse: 0.012343765 Best_dev_mse: 0.012604967
+40 Train mse: 0.013141091 Dev mse: 0.012542942 Best_dev_mse: 0.012343765
+50 Train mse: 0.0099233 Dev mse: 0.012787538 Best_dev_mse: 0.012343765
+Early stopping!
+Training time: 40.041 sec
+
+Best dev mse = 0.012344, rmse = 0.111102, corr = 0.4802
+Test mse = 0.014258, rmse = 0.119407, corr = 0.4300

@@ -1,0 +1,32 @@
+Station: Reynolds_Channel_at_Point_Lookout_NY
+Feature: sur
+X_train:  (61667, 72)
+Y_train:  (61667, 24)
+X_dev:  (5170, 72)
+Y_dev:  (5170, 24)
+X_test:  (6465, 72)
+Y_test:  (6465, 24)
+
+n_train =  61667
+n_dev =  5170
+n_test =  6465
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.02761804 Dev mse: 0.03081994 Best_dev_mse: inf
+10 Train mse: 0.013457431 Dev mse: 0.012707576 Best_dev_mse: 0.03081994
+20 Train mse: 0.008350036 Dev mse: 0.012011937 Best_dev_mse: 0.012707576
+30 Train mse: 0.011264403 Dev mse: 0.0111486735 Best_dev_mse: 0.012011937
+40 Train mse: 0.010176486 Dev mse: 0.011495436 Best_dev_mse: 0.0111486735
+50 Train mse: 0.009752007 Dev mse: 0.011403034 Best_dev_mse: 0.0111486735
+Early stopping!
+Training time: 40.195 sec
+
+Best dev mse = 0.011149, rmse = 0.105587, corr = 0.8143
+Test mse = 0.026907, rmse = 0.164034, corr = 0.7876

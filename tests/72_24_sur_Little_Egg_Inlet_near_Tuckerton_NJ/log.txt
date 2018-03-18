@@ -1,0 +1,36 @@
+Station: Little_Egg_Inlet_near_Tuckerton_NJ
+Feature: sur
+X_train:  (62724, 72)
+Y_train:  (62724, 24)
+X_dev:  (6542, 72)
+Y_dev:  (6542, 24)
+X_test:  (6274, 72)
+Y_test:  (6274, 24)
+
+n_train =  62724
+n_dev =  6542
+n_test =  6274
+
+n_input =  72
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.03369026 Dev mse: 0.034264404 Best_dev_mse: inf
+10 Train mse: 0.013911039 Dev mse: 0.013100628 Best_dev_mse: 0.034264404
+20 Train mse: 0.009858402 Dev mse: 0.012711609 Best_dev_mse: 0.013100628
+30 Train mse: 0.015368413 Dev mse: 0.012765402 Best_dev_mse: 0.012711609
+40 Train mse: 0.010681092 Dev mse: 0.012629468 Best_dev_mse: 0.012711609
+50 Train mse: 0.013573928 Dev mse: 0.012560302 Best_dev_mse: 0.012629468
+60 Train mse: 0.010005091 Dev mse: 0.0130582955 Best_dev_mse: 0.012560302
+70 Train mse: 0.011655545 Dev mse: 0.012521118 Best_dev_mse: 0.012560302
+80 Train mse: 0.012091013 Dev mse: 0.01366155 Best_dev_mse: 0.012521118
+90 Train mse: 0.011678301 Dev mse: 0.012664072 Best_dev_mse: 0.012521118
+Early stopping!
+Training time: 68.273 sec
+
+Best dev mse = 0.012521, rmse = 0.111898, corr = 0.5308
+Test mse = 0.014044, rmse = 0.118506, corr = 0.4662

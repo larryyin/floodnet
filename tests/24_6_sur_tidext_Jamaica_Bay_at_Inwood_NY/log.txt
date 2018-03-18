@@ -19,18 +19,21 @@ n_hidder1 =  10
 n_epoch =  1000
 batch_size =  500
 
-0 Train mse: 0.074229866 Dev mse: 0.06267462 Best_dev_mse: inf
-10 Train mse: 0.007939584 Dev mse: 0.008911586 Best_dev_mse: 0.06267462
-20 Train mse: 0.0069681606 Dev mse: 0.0076672984 Best_dev_mse: 0.008911586
-30 Train mse: 0.0075588915 Dev mse: 0.007300162 Best_dev_mse: 0.0076672984
-40 Train mse: 0.0066256626 Dev mse: 0.007097172 Best_dev_mse: 0.007300162
-50 Train mse: 0.008263588 Dev mse: 0.006861398 Best_dev_mse: 0.007097172
-60 Train mse: 0.00869012 Dev mse: 0.0068310406 Best_dev_mse: 0.006861398
-70 Train mse: 0.0050351964 Dev mse: 0.0066860686 Best_dev_mse: 0.0068310406
-80 Train mse: 0.006666458 Dev mse: 0.0067960545 Best_dev_mse: 0.0066860686
-90 Train mse: 0.00664632 Dev mse: 0.006791392 Best_dev_mse: 0.0066860686
+0 Train mse: 0.04073764 Dev mse: 0.034352012 Best_dev_mse: inf
+10 Train mse: 0.010725029 Dev mse: 0.009461049 Best_dev_mse: 0.034352012
+20 Train mse: 0.00878411 Dev mse: 0.007765088 Best_dev_mse: 0.009461049
+30 Train mse: 0.008537026 Dev mse: 0.007378842 Best_dev_mse: 0.007765088
+40 Train mse: 0.007292906 Dev mse: 0.007237289 Best_dev_mse: 0.007378842
+50 Train mse: 0.0063838945 Dev mse: 0.0069370065 Best_dev_mse: 0.007237289
+60 Train mse: 0.0065787463 Dev mse: 0.0069233975 Best_dev_mse: 0.0069370065
+70 Train mse: 0.0054048533 Dev mse: 0.0067405286 Best_dev_mse: 0.0069233975
+80 Train mse: 0.0072089513 Dev mse: 0.0067000953 Best_dev_mse: 0.0067405286
+90 Train mse: 0.00674004 Dev mse: 0.00671916 Best_dev_mse: 0.0067000953
+100 Train mse: 0.0063947127 Dev mse: 0.006665868 Best_dev_mse: 0.0067000953
+110 Train mse: 0.005617702 Dev mse: 0.0066940743 Best_dev_mse: 0.006665868
+120 Train mse: 0.0087658195 Dev mse: 0.006730236 Best_dev_mse: 0.006665868
 Early stopping!
-Training time: 46.091 sec
+Training time: 57.989 sec
 
-Best dev mse = 0.006686, rmse = 0.081768, corr = 0.8779
-Test mse = 0.012428, rmse = 0.111479, corr = 0.8734
+Best dev mse = 0.006666, rmse = 0.081645, corr = 0.8817
+Test mse = 0.012721, rmse = 0.112789, corr = 0.8759

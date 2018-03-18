@@ -1,0 +1,33 @@
+Station: Newport_RI
+Feature: sur_tidall
+X_train:  (63963, 168)
+Y_train:  (63963, 24)
+X_dev:  (6792, 168)
+Y_dev:  (6792, 24)
+X_test:  (7043, 168)
+Y_test:  (7043, 24)
+
+n_train =  63963
+n_dev =  6792
+n_test =  7043
+
+n_input =  168
+n_output =  24
+n_layer =  2
+n_hidder0 =  64
+n_hidder1 =  32
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.01786981 Dev mse: 0.016475169 Best_dev_mse: inf
+10 Train mse: 0.008073636 Dev mse: 0.008027314 Best_dev_mse: 0.016475169
+20 Train mse: 0.0077080764 Dev mse: 0.0075666476 Best_dev_mse: 0.008027314
+30 Train mse: 0.0070735035 Dev mse: 0.0074704173 Best_dev_mse: 0.0075666476
+40 Train mse: 0.007089959 Dev mse: 0.007400631 Best_dev_mse: 0.0074704173
+50 Train mse: 0.0087928 Dev mse: 0.007423744 Best_dev_mse: 0.007400631
+60 Train mse: 0.0070383553 Dev mse: 0.0074493564 Best_dev_mse: 0.007400631
+Early stopping!
+Training time: 54.832 sec
+
+Best dev mse = 0.007401, rmse = 0.086027, corr = 0.3409
+Test mse = 0.008483, rmse = 0.092106, corr = 0.2941
