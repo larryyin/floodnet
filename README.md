@@ -8,7 +8,8 @@ A neural network framework to predict water levels based on regional observation
 
 ## Single station predictability preliminary results
 Prediction random examples:
-![Single station](https://github.com/larryyin/floodnet/blob/master/tests/24_6_obs_The_Battery_NY/check.png "Single station")
+![Single station](https://github.com/larryyin/floodnet/blob/master/tests/24_6_obs_The_Battery_NY/check.png "Single station")  
+
 ![Single station](https://github.com/larryyin/floodnet/blob/master/tests/72_24_sur_tidall_Bergen_Point_West_Reach_NY/check.png "Single station")
 
 Compare the predictibility of different feature combinations:
@@ -29,7 +30,7 @@ Compare the predictibility of different look-back periods:
 
 ![Single station](https://github.com/larryyin/floodnet/blob/master/img/rmse_compare_feature_y_XLEN/rmse_compare_24_allx_allstations.png "Single station")
 
-Compare the predictibility of different output lengths:
+Compare the accuracy of different output lengths:
 ![Single station](https://github.com/larryyin/floodnet/blob/master/img/rmse_compare_feature_x_YLEN/rmse_compare_24_ally_allstations.png "Single station")
 
 ![Single station](https://github.com/larryyin/floodnet/blob/master/img/rmse_compare_feature_x_YLEN/rmse_compare_48_ally_allstations.png "Single station")
