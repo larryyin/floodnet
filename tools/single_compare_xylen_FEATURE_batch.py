@@ -39,6 +39,7 @@ def selectDIR(path='tests/',xylen=None,feature=None,station=None):
 STATION = np.load('stations_selected.npy')
 dir0 = 'img/'
 dir1 = 'tests/'
+dir2 = 'rmse_compare_xylen_FEATURE/'
 FEATURE = ['obs','sur','obs_tid','obs_tidall','sur_tidext','sur_tidall']
 
 #xylen = '72_24'
@@ -46,8 +47,10 @@ FEATURE = ['obs','sur','obs_tid','obs_tidall','sur_tidext','sur_tidall']
 #         '48_6','48_12','48_18','48_24',
 #         '72_6','72_12','72_18','72_24',
 #         '96_6','96_12','96_18','96_24']
-XYLEN = ['72_12','72_18','72_24',
-         '96_6','96_12','96_18','96_24']
+#XYLEN = ['72_12','72_18','72_24',
+#         '96_6','96_12','96_18','96_24']
+XYLEN = ['72_6']
+
 for xylen in XYLEN:
     print('Processing',xylen)
     #testname = '24_6_{:s}*'.format(FEATURE[0])
@@ -86,7 +89,7 @@ for xylen in XYLEN:
     ax.set_title('X:{:d}h   Y:{:d}h   All stations'.format(x_len,y_len),weight='bold')
     fig.tight_layout()
     plotname = 'rmse_compare_{:d}_{:d}_allstations.png'.format(x_len,y_len)
-    fig.savefig(dir0+plotname, format='png', dpi=300)
+    fig.savefig(dir0+dir2+plotname, format='png', dpi=300)
     plt.close(fig)
 #%%
 print('{:.4f}s'.format(time.time()-time_beg))

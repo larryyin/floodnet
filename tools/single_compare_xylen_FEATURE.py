@@ -39,6 +39,8 @@ def selectDIR(path='tests/',xylen=None,feature=None,station=None):
 STATION = np.load('stations_selected.npy')
 dir0 = 'img/'
 dir1 = 'tests/'
+dir2 = 'rmse_compare_xylen_FEATURE/'
+
 FEATURE = ['obs','sur','obs_tid','obs_tidall','sur_tidext','sur_tidall']
 
 xylen = '72_6'
@@ -78,7 +80,7 @@ ax.set_xlabel('timestep')
 ax.set_title('X:{:d}h   Y:{:d}h   All stations'.format(x_len,y_len),weight='bold')
 fig.tight_layout()
 plotname = 'rmse_compare_{:d}_{:d}_allstations.png'.format(x_len,y_len)
-fig.savefig(dir0+plotname, format='png', dpi=300)
+fig.savefig(dir0+dir2+plotname, format='png', dpi=300)
 plt.close(fig)
 #%%
 print('{:.4f}s'.format(time.time()-time_beg))
