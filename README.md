@@ -3,7 +3,6 @@ A deep neural network modeling framework to predict water levels based on region
 
 ## Data
 Scraped NYHOPS with these [scripts](https://github.com/larryyin/floodnet/raw/master/tools/scrapeNYHOPS.tar.gz "NYHOPS scraping toolkit")  
-  
 Resampled hourly [data](https://github.com/larryyin/floodnet/tree/master/data "NYHOPS hourly data")  
 
 ![Observation stations map](https://github.com/larryyin/floodnet/blob/master/img/02_map_obs_stations.png "Observation stations map")
