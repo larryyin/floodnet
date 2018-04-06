@@ -1,0 +1,44 @@
+Station: Kings_Point_NY
+Feature: sur_tidall
+station: Kings_Point_NYfeature: sur_tidallX_train:  (69753, 5040)
+R_train:  (69753, 5040)
+D_train:  (69753,)
+Y_train:  (69753, 24)
+X_dev:  (7976, 5040)
+R_dev:  (7976, 5040)
+D_dev:  (7976,)
+Y_dev:  (7976, 24)
+X_test:  (8148, 5040)
+R_test:  (8148, 5040)
+D_test:  (8148,)
+Y_test:  (8148, 24)
+
+X_train:  (69753, 5040)
+Y_train:  (69753, 24)
+X_dev:  (7976, 5040)
+Y_dev:  (7976, 24)
+X_test:  (8148, 5040)
+Y_test:  (8148, 24)
+
+n_train =  69753
+n_dev =  7976
+n_test =  8148
+
+n_input =  5040
+n_output =  24
+n_layer =  2
+n_hidder0 =  1024
+n_hidder1 =  256
+n_epoch =  1000
+batch_size =  500
+
+0 Train mse: 0.014245707 Dev mse: 0.020619314 Best_dev_mse: inf
+10 Train mse: 0.006787067 Dev mse: 0.016029939 Best_dev_mse: 0.020619314
+20 Train mse: 0.003761627 Dev mse: 0.016548287 Best_dev_mse: 0.016029939
+30 Train mse: 0.0028396796 Dev mse: 0.016597888 Best_dev_mse: 0.016029939
+Early stopping!
+Training time: 665.905 sec
+
+Best dev mse = 0.016030, rmse = 0.126609, corr = 0.6575
+Test mse = 0.020411, rmse = 0.142868, corr = 0.6251
+Total time: 726.541 sec
