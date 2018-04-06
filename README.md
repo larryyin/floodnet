@@ -11,6 +11,8 @@ In specific, Floodnet assimilates the predictive values from
 4) hindcast and forecast water level computed by hydrodynamic models at the observation stations and residues from the observations , and  
 5) hindcast and forecast water level surfaces computed by hydrodynamic models.
 
+## Designated Inverse Dropout (DID) method
+A technique that handles missing data in neural network input.  
 
 ## Data
 NYHOPS scraping [toolkit](https://github.com/larryyin/floodnet/raw/master/tools/scrapeNYHOPS.tar.gz "NYHOPS scraping toolkit")  
@@ -52,3 +54,15 @@ Compare the accuracy of different output lengths:
 ![Single station](https://github.com/larryyin/floodnet/blob/master/img/rmse_compare_feature_x_YLEN/rmse_compare_72_ally_allstations.png "Single station")
 
 ![Single station](https://github.com/larryyin/floodnet/blob/master/img/rmse_compare_feature_x_YLEN/rmse_compare_96_ally_allstations.png "Single station")
+
+## Multi-station predictability preliminary results
+Prediction random examples:  
+![Multi-station](https://github.com/larryyin/floodnet/blob/master/tests/multi/24_6_sur_tidall_Kings_Point_NY/check.png "Multi-station")  
+
+![Multi-station](https://github.com/larryyin/floodnet/blob/master/tests/multi/72_24_sur_tidall_Kings_Point_NY/check.png "Multi-station")  
+
+Compare the single and multi-station predictions averaged over the 30 stations:  
+![Multi-station](https://github.com/larryyin/floodnet/blob/master/img/sm_compare/rmse_compare_24_6_allstations.png "Multi-station")  
+
+![Multi-station](https://github.com/larryyin/floodnet/blob/master/img/sm_compare/rmse_compare_72_24_allstations.png "Multi-station")  
+
