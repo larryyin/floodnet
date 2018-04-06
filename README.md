@@ -1,9 +1,20 @@
-# FLOODNET
+# Floodnet
 A deep neural network modeling framework to predict water levels based on regional observation data and hydrodynamic models - dealing with the spatial-temporal, cyclic characteristics and sparsity.  
 
+## Introduction
+Floodnet is a deep neural network architecture that captures all the available predictive potentials within a region to make the best water level prediction. Such predictive potentials for a typical inhabited coastal area are the harmonic tide and the past water levels recorded by one or multiple observation stations. For some areas where operational forecasting physical ocean models exist, the model results are also taken as predictive potentials. Non-water level types of data - wind, air pressure, temperature and salinity for examples – are not explored in this study due to their various levels of availability in different regions; we assume that their predictive values are at least partially embedded in the water levels provided by recent observations and hydrodynamic models.   
+
+In specific, Floodnet assimilates the predictive values from 
+1) harmonic tide,  
+2) historical water level and surge at a single observation station,  
+3) historical water level and surge at multiple observation stations and their spatial relationships,  
+4) hindcast and forecast water level computed by hydrodynamic models at the observation stations and residues from the observations , and  
+5) hindcast and forecast water level surfaces computed by hydrodynamic models.
+
+
 ## Data
-Scraped NYHOPS with these [scripts](https://github.com/larryyin/floodnet/raw/master/tools/scrapeNYHOPS.tar.gz "NYHOPS scraping toolkit")  
-Resampled hourly [data](https://github.com/larryyin/floodnet/tree/master/data "NYHOPS hourly data")  
+NYHOPS scraping [toolkit](https://github.com/larryyin/floodnet/raw/master/tools/scrapeNYHOPS.tar.gz "NYHOPS scraping toolkit")  
+Resampled [hourly data](https://github.com/larryyin/floodnet/tree/master/data "NYHOPS hourly data")  
 
 ![Observation stations map](https://github.com/larryyin/floodnet/blob/master/img/02_map_obs_stations.png "Observation stations map")
 
