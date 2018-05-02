@@ -66,3 +66,77 @@ Resampled [hourly data](https://github.com/larryyin/floodnet/tree/master/data "N
 
 ![Multi-station](https://github.com/larryyin/floodnet/blob/master/img/sm_compare/rmse_compare_72_24_allstations.png "Multi-station")  
 
+# Spatial interpolation
+
+### Least Distance Maps
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/station_rank.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/leastdistmaps.png "Spatial interpolation")
+
+### Interpolation comparison
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/all_all.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/all_m0.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/all_m0p.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_00.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_01.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_02.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_03.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_04.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_05.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_06.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_07.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_08.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_09.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_10.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_11.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_12.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_13.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_14.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_15.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_16.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_17.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_18.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_19.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_20.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_21.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_22.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_23.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_24.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_25.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_26.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_27.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_28.png "Spatial interpolation")
+
+![Spatial interpolation](https://github.com/larryyin/floodnet/blob/master/img/interp/sin_29.png "Spatial interpolation")
+
