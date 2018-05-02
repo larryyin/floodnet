@@ -57,10 +57,9 @@ Resampled [hourly data](https://github.com/larryyin/floodnet/tree/master/data "N
 
 # Multi-station predictability preliminary results
 ### Prediction random examples:  
-![Multi-station](https://github.com/larryyin/floodnet/blob/master/tests/multi/24_6_sur_tidall_Kings_Point_NY/check.png "Multi-station")  
+![Multi-station](https://github.com/larryyin/floodnet/blob/master/tests/multi/24_6_sur_tidall_Kings_Point_NY/check.png "Multi-station") 
 
 ![Multi-station](https://github.com/larryyin/floodnet/blob/master/tests/multi/72_24_sur_tidall_Kings_Point_NY/check.png "Multi-station")  
-
 ### Compare the single and multi-station predictions averaged over the 30 stations:  
 ![Multi-station](https://github.com/larryyin/floodnet/blob/master/img/sm_compare/rmse_compare_24_6_allstations.png "Multi-station")  
 
